@@ -12,13 +12,14 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write
+  contents: write   # commit page snapshots to state/
+  actions: write    # /stop disables this workflow and cancels queued runs
 
 env:
-  # Public repo: loop inside each run, checking every POLL_SECONDS (near-realtime, free).
-  # Private repo: one check per run, because private repos have only 2000 free minutes/month.
+  # Public repo: loop inside each run, checking every POLL_SECONDS (free, near-realtime).
+  # Private repo: one check per run, because private repos are billed per minute.
   LOOP_SECONDS: ${{ github.event.repository.private && '0' || '570' }}
-  POLL_SECONDS: "40"
+  POLL_SECONDS: "30"
 
 jobs:
   watch:
@@ -27,23 +28,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Restore subscriber list
+      - name: Restore subscriber list and runtime
         uses: actions/cache/restore@v4
         with:
-          path: state/chats.json
-          key: chats-${{ github.run_id }}
-          restore-keys: chats-
+          path: |
+            state/chats.json
+            state/runtime.json
+          key: watch-${{ github.run_id }}
+          restore-keys: |
+            watch-
+            chats-
 
       - name: Watch
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_WORKFLOW_FILE: watch.yml
         run: |
           git config user.name "chesstrack-bot"
           git config user.email "chesstrack-bot@users.noreply.github.com"
           start=$SECONDS
           while :; do
-            python3 watcher/watch.py || echo "::warning::check failed"
+            rc=0
+            python3 watcher/watch.py || rc=$?
             git add state
             if ! git diff --cached --quiet; then
               git commit -q -m "state: $(date -u +'%Y-%m-%d %H:%M UTC')"
@@ -52,14 +60,21 @@ jobs:
                 git pull -q --rebase && sleep 2
               done
             fi
+            if [ "$rc" -eq 3 ]; then
+              echo "::notice::stopped via /stop"
+              break
+            fi
+            [ "$rc" -ne 0 ] && echo "::warning::check exited with $rc"
             elapsed=$((SECONDS - start))
             [ "$elapsed" -ge "$LOOP_SECONDS" ] && break
             sleep "$POLL_SECONDS"
           done
 
-      - name: Save subscriber list
+      - name: Save subscriber list and runtime
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: state/chats.json
-          key: chats-${{ github.run_id }}
+          path: |
+            state/chats.json
+            state/runtime.json
+          key: watch-${{ github.run_id }}
