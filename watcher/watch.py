@@ -167,6 +167,11 @@ def tg(method, **params):
 def discover_chats(known: dict) -> dict:
     """Any chat that has sent the bot a message gets subscribed."""
     try:
+        me = tg("getMe").get("result", {})
+        log(f"bot: @{me.get('username')} (id {me.get('id')})")
+    except Exception as e:  # noqa: BLE001
+        log("getMe failed:", e)
+    try:
         res = tg("getUpdates", timeout=0, allowed_updates=json.dumps(["message", "channel_post"]))
     except Exception as e:  # noqa: BLE001
         log("getUpdates failed:", e)
@@ -261,17 +266,47 @@ def check_page(page, prev):
     return cur, "\n".join(msg)
 
 
+TR_MONTHS = {m: i + 1 for i, m in enumerate(
+    ["ocak", "şubat", "mart", "nisan", "mayıs", "haziran", "temmuz", "ağustos",
+     "eylül", "ekim", "kasım", "aralık"])}
+DATE_RX = re.compile(r"(\d{1,2})\s+([A-Za-zÇçĞğİıÖöŞşÜü]+)\s+(20\d{2})")
+
+
+def event_finished(text, grace_days=7):
+    """True when the last date mentioned in text is clearly in the past."""
+    dates = []
+    for d, m, y in DATE_RX.findall(text):
+        mi = TR_MONTHS.get(m.casefold())
+        if mi:
+            try:
+                dates.append(datetime(int(y), mi, int(d), tzinfo=timezone.utc))
+            except ValueError:
+                pass
+    if not dates:
+        return False
+    return (datetime.now(timezone.utc) - max(dates)).days > grace_days
+
+
 def discover(pages_state, known_urls):
     """Add any link under a discover_prefix seen on a watched page."""
-    prefixes = tuple(CONFIG.get("discover_prefixes", []))
-    if not prefixes:
+    rules = [(p, None) for p in CONFIG.get("discover_prefixes", [])]
+    y = datetime.now(timezone.utc).year
+    rules += [(r["prefix"], re.compile(r["text_regex"].replace("{Y}", str(y)).replace("{Y1}", str(y + 1))))
+              for r in CONFIG.get("discover_rules", [])]
+    if not rules:
         return []
     found = {}
     for st in pages_state.values():
         for u, t in st.get("links", {}).items():
             u = u.split("?")[0].rstrip("/") or u
-            if u.startswith(prefixes) and u not in known_urls and u not in found:
-                found[u] = t
+            if u in known_urls or u in found:
+                continue
+            for prefix, rx in rules:
+                if u.startswith(prefix) and (rx is None or rx.search(t)):
+                    if rx is not None and event_finished(t):
+                        break
+                    found[u] = t[:80]
+                    break
     return [{"name": t, "url": u} for u, t in found.items()]
 
 
