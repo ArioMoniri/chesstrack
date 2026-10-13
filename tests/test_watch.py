@@ -186,3 +186,11 @@ def test_event_finished_parsing(harness):
     assert ef("Turnuva 1 Ocak 2020 – 5 Ocak 2020")
     assert not ef("Yer belirtilmemiş")
     assert not ef("Şampiyona 1 Ocak 2099")
+
+
+def test_listen_mode_answers_commands(harness, monkeypatch):
+    harness.run("/start")
+    harness.sent.clear()
+    monkeypatch.setattr(harness.mod.sys, "argv", ["watch.py", "--listen", "2"])
+    harness.run("/status")  # pending command is picked up by the long-poll loop
+    assert any("ChessTrack status" in m for m in harness.sent)

@@ -236,13 +236,13 @@ def normalize(raw_html, base):
 
 
 # ----------------------------------------------------------------- telegram
-def tg(method, **params):
+def tg(method, _timeout=30, **params):
     if not TOKEN:
         raise RuntimeError("TELEGRAM_BOT_TOKEN is not set")
     url = f"https://api.telegram.org/bot{TOKEN}/{method}"
     data = urllib.parse.urlencode(params).encode()
     try:
-        body, _ = http(url, data=data)
+        body, _ = http(url, data=data, timeout=_timeout)
         return json.loads(body)
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", "replace")
@@ -433,15 +433,19 @@ def cmd_search(pages, pages_state, query):
     return f"<b>Matches for “{esc(query)}”</b>\n" + "\n".join(hits)
 
 
-def handle_updates(chats_state, meta, rt, pages, pages_state, changes):
-    """Register new chats and answer commands. Returns True when /stop was requested."""
+def handle_updates(chats_state, meta, rt, pages, pages_state, changes, long_poll=0):
+    """Register new chats and answer commands. Returns True when /stop was requested.
+
+    With long_poll > 0, getUpdates blocks up to that many seconds and returns as
+    soon as a message arrives, so command replies are near-instant."""
     chats = chats_state["chats"]
     stop = False
     try:
         res = tg(
             "getUpdates",
+            _timeout=long_poll + 20,
             offset=chats_state.get("offset", 0),
-            timeout=0,
+            timeout=long_poll,
             allowed_updates=json.dumps(["message", "channel_post"]),
         )
     except Exception as e:  # noqa: BLE001
@@ -628,7 +632,8 @@ def check_page(page, prev):
     return cur, ("\n".join(msg), record)
 
 
-def main():
+def load_all():
+    """Load every state file and build the page list (config + discovered)."""
     pages_state = load("pages.json", {})
     meta = load("meta.json", {})
     meta.pop("failures", None)
@@ -649,13 +654,6 @@ def main():
     chats = chats_state["chats"]
     if CHAT_ID_OVERRIDE:
         chats.setdefault(CHAT_ID_OVERRIDE, "override")
-
-    try:
-        me = tg("getMe").get("result", {})
-        log(f"bot: @{me.get('username')} (id {me.get('id')})")
-    except Exception as e:  # noqa: BLE001
-        log("getMe failed:", e)
-    register_commands()
 
     # page list: config + discovered (minus finished events)
     pages = list(CONFIG["pages"])
@@ -682,23 +680,59 @@ def main():
         log("pruning stale state for", stale)
         pages_state.pop(stale, None)
 
-    stop = handle_updates(chats_state, meta, rt, pages, pages_state, changes)
-    if stop:
-        save("meta.json", meta)
+    return pages_state, meta, rt, changes, chats_state, pages, watched
+
+
+def do_stop(meta, chats_state):
+    chats = chats_state["chats"]
+    save("meta.json", meta)
+    save("chats.json", chats_state)
+    try:
+        n = stop_workflow()
+        log(f"workflow disabled, {n} queued run(s) cancelled")
+        send_all(chats, "✅ Workflow disabled. ChessTrack is stopped.")
+    except Exception as e:  # noqa: BLE001
+        log("stop_workflow failed:", e)
+        send_all(
+            chats,
+            "⚠️ Could not disable the workflow automatically: "
+            + esc(str(e))
+            + "\nDisable it on GitHub → Actions → Watch tsf.org.tr → ⋯ → Disable workflow.",
+        )
+    sys.exit(EXIT_STOP)
+
+
+def listen(seconds):
+    """Answer commands with long polling for `seconds`, without checking pages."""
+    pages_state, meta, rt, changes, chats_state, pages, _ = load_all()
+    deadline = time.monotonic() + seconds
+    while True:
+        remaining = deadline - time.monotonic()
+        if remaining <= 1:
+            break
+        stop = handle_updates(
+            chats_state, meta, rt, pages, pages_state, changes, long_poll=int(min(25, remaining))
+        )
         save("chats.json", chats_state)
-        try:
-            n = stop_workflow()
-            log(f"workflow disabled, {n} queued run(s) cancelled")
-            send_all(chats, "✅ Workflow disabled. ChessTrack is stopped.")
-        except Exception as e:  # noqa: BLE001
-            log("stop_workflow failed:", e)
-            send_all(
-                chats,
-                "⚠️ Could not disable the workflow automatically: "
-                + esc(str(e))
-                + "\nDisable it on GitHub → Actions → Watch tsf.org.tr → ⋯ → Disable workflow.",
-            )
-        sys.exit(EXIT_STOP)
+        save("meta.json", meta)
+        if stop:
+            do_stop(meta, chats_state)
+
+
+def main():
+    if len(sys.argv) >= 3 and sys.argv[1] == "--listen":
+        listen(int(sys.argv[2]))
+        return
+    try:
+        me = tg("getMe").get("result", {})
+        log(f"bot: @{me.get('username')} (id {me.get('id')})")
+    except Exception as e:  # noqa: BLE001
+        log("getMe failed:", e)
+    register_commands()
+    pages_state, meta, rt, changes, chats_state, pages, watched = load_all()
+    chats = chats_state["chats"]
+    if handle_updates(chats_state, meta, rt, pages, pages_state, changes):
+        do_stop(meta, chats_state)
 
     first_run = not pages_state
     messages, errors = [], []
