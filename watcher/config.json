@@ -84,7 +84,7 @@
     "(?i)copyright|©|t[üu]m haklar"
   ],
   "min_link_text_len": 6,
-  "max_diff_chars": 1800,
+  "max_diff_chars": 3200,
   "failure_alert_after": 6,
   "highlight_keywords": [
     "otel",
