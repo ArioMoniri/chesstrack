@@ -13,8 +13,10 @@ lives in the Actions cache):
 
 Exit codes: 0 ok, 1 every page failed, 3 /stop was requested.
 """
+
 from __future__ import annotations
 
+import contextlib
 import difflib
 import hashlib
 import html
@@ -27,15 +29,19 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from html.parser import HTMLParser
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import ai_summary  # noqa: E402
+
 try:
     from zoneinfo import ZoneInfo
+
     TZ = ZoneInfo("Europe/Istanbul")
 except Exception:  # noqa: BLE001
-    TZ = timezone.utc
+    TZ = UTC
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "state"
@@ -50,8 +56,10 @@ GH_RUN_ID = os.environ.get("GITHUB_RUN_ID", "")
 LOOP_SECONDS = int(os.environ.get("LOOP_SECONDS", "0") or 0)
 POLL_SECONDS = int(os.environ.get("POLL_SECONDS", "0") or 0)
 TEST_HOST = os.environ.get("WATCH_TEST_HOST", "tsf.org.tr")
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)
 EXIT_STOP = 3
 
 COMMANDS = [
@@ -72,7 +80,7 @@ def log(*a):
 
 
 def now_utc():
-    return datetime.now(timezone.utc)
+    return datetime.now(UTC)
 
 
 def fmt_time(iso: str | None) -> str:
@@ -96,13 +104,17 @@ def load(name, default):
 
 def save(name, data):
     STATE.mkdir(parents=True, exist_ok=True)
-    (STATE / name).write_text(json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True),
-                              encoding="utf-8")
+    (STATE / name).write_text(
+        json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8"
+    )
 
 
 def http(url, data=None, headers=None, timeout=30, method=None):
-    h = {"User-Agent": UA, "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.5",
-         "Accept": "text/html,application/json;q=0.9,*/*;q=0.8"}
+    h = {
+        "User-Agent": UA,
+        "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.5",
+        "Accept": "text/html,application/json;q=0.9,*/*;q=0.8",
+    }
     h.update(headers or {})
     req = urllib.request.Request(url, data=data, headers=h, method=method)
     with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -136,8 +148,29 @@ def esc(s: str) -> str:
 # ----------------------------------------------------------------- parsing
 class Extractor(HTMLParser):
     SKIP = {"script", "style", "noscript", "template", "svg", "head"}
-    BLOCK = {"p", "div", "li", "tr", "td", "th", "h1", "h2", "h3", "h4", "h5", "h6",
-             "br", "section", "article", "header", "footer", "ul", "ol", "table", "nav"}
+    BLOCK = {
+        "p",
+        "div",
+        "li",
+        "tr",
+        "td",
+        "th",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "br",
+        "section",
+        "article",
+        "header",
+        "footer",
+        "ul",
+        "ol",
+        "table",
+        "nav",
+    }
 
     def __init__(self, base):
         super().__init__(convert_charrefs=True)
@@ -172,8 +205,12 @@ class Extractor(HTMLParser):
         if tag == "a" and self._a_href is not None:
             text = " ".join("".join(self._a_text).split())
             href = self._a_href
-            if (text and len(text) >= CONFIG["min_link_text_len"]
-                    and href.startswith("http") and TEST_HOST in href):
+            if (
+                text
+                and len(text) >= CONFIG["min_link_text_len"]
+                and href.startswith("http")
+                and TEST_HOST in href
+            ):
                 self.links.setdefault(href.split("#")[0], text)
             self._a_href = None
             self._a_text = []
@@ -223,8 +260,13 @@ def send(chat_id, text):
         chunks.append(text[:cut])
         text = text[cut:].lstrip("\n")
     for chunk in chunks:
-        tg("sendMessage", chat_id=chat_id, text=chunk, parse_mode="HTML",
-           disable_web_page_preview="true")
+        tg(
+            "sendMessage",
+            chat_id=chat_id,
+            text=chunk,
+            parse_mode="HTML",
+            disable_web_page_preview="true",
+        )
 
 
 def send_all(chats: dict, text: str):
@@ -242,8 +284,10 @@ def send_all(chats: dict, text: str):
 
 def register_commands():
     try:
-        tg("setMyCommands", commands=json.dumps(
-            [{"command": c, "description": d} for c, d in COMMANDS]))
+        tg(
+            "setMyCommands",
+            commands=json.dumps([{"command": c, "description": d} for c, d in COMMANDS]),
+        )
     except Exception as e:  # noqa: BLE001
         log("setMyCommands failed:", e)
 
@@ -253,15 +297,24 @@ def gh(method, path, body=None):
     if not (GH_TOKEN and GH_REPO):
         raise RuntimeError("GITHUB_TOKEN / GITHUB_REPOSITORY not available")
     data = json.dumps(body).encode() if body is not None else None
-    headers = {"Authorization": f"Bearer {GH_TOKEN}", "Accept": "application/vnd.github+json",
-               "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json"}
+    headers = {
+        "Authorization": f"Bearer {GH_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json",
+    }
     try:
-        text, _ = http(f"https://api.github.com/repos/{GH_REPO}{path}", data=data,
-                       headers=headers, method=method)
+        text, _ = http(
+            f"https://api.github.com/repos/{GH_REPO}{path}",
+            data=data,
+            headers=headers,
+            method=method,
+        )
         return json.loads(text) if text.strip() else {}
     except urllib.error.HTTPError as e:
-        raise RuntimeError(f"github {method} {path} -> {e.code}: "
-                           f"{e.read().decode('utf-8', 'replace')[:200]}") from None
+        raise RuntimeError(
+            f"github {method} {path} -> {e.code}: {e.read().decode('utf-8', 'replace')[:200]}"
+        ) from None
 
 
 def stop_workflow():
@@ -321,6 +374,7 @@ def cmd_status(meta, rt, pages, chats):
     ]
     if actions_url():
         rows.append(f'<a href="{actions_url()}">GitHub Actions runs</a>')
+    rows.append(f"AI summaries: {'on' if ai_summary.available() else 'off (no ANTHROPIC_API_KEY)'}")
     rows.append("Site note: tsf.org.tr caches pages for ~5 min, so that is the floor.")
     return "\n".join(rows)
 
@@ -335,10 +389,14 @@ def cmd_last(changes, arg):
     out = [f"<b>Last {min(n, len(changes))} change(s)</b>"]
     for ch in list(reversed(changes))[:n]:
         hot = " 🏨" if ch.get("hot") else ""
-        out.append(f"\n🕒 {esc(fmt_time(ch['time']))}{hot}\n"
-                   f"📄 <a href=\"{esc(ch['url'])}\">{esc(ch['page'])}</a>")
+        out.append(
+            f"\n🕒 {esc(fmt_time(ch['time']))}{hot}\n"
+            f'📄 <a href="{esc(ch["url"])}">{esc(ch["page"])}</a>'
+        )
+        if ch.get("ai"):
+            out.append(f"🤖 {esc(ch['ai'])}")
         for u, t in ch.get("new_links", [])[:5]:
-            out.append(f"  • <a href=\"{esc(u)}\">{esc(t)}</a>")
+            out.append(f'  • <a href="{esc(u)}">{esc(t)}</a>')
         snip = ch.get("snippet", "")
         if snip:
             out.append(esc(snip[:400]) + ("…" if len(snip) > 400 else ""))
@@ -350,7 +408,7 @@ def cmd_pages(pages, rt):
     for p in pages:
         chk = rt.get("checked", {}).get(p["url"])
         chk = fmt_time(chk) if chk else "pending"
-        out.append(f"• <a href=\"{esc(p['url'])}\">{esc(p['name'][:60])}</a> – {esc(chk)}")
+        out.append(f'• <a href="{esc(p["url"])}">{esc(p["name"][:60])}</a> – {esc(chk)}')
     return "\n".join(out)
 
 
@@ -363,8 +421,9 @@ def cmd_search(pages, pages_state, query):
     for url, st in pages_state.items():
         for line in st.get("lines", []):
             if q in line.casefold():
-                hits.append(f"• <a href=\"{esc(url)}\">{esc(names.get(url, url)[:40])}</a>: "
-                            f"{esc(line[:160])}")
+                hits.append(
+                    f'• <a href="{esc(url)}">{esc(names.get(url, url)[:40])}</a>: {esc(line[:160])}'
+                )
                 if len(hits) >= 25:
                     break
         if len(hits) >= 25:
@@ -379,8 +438,12 @@ def handle_updates(chats_state, meta, rt, pages, pages_state, changes):
     chats = chats_state["chats"]
     stop = False
     try:
-        res = tg("getUpdates", offset=chats_state.get("offset", 0), timeout=0,
-                 allowed_updates=json.dumps(["message", "channel_post"]))
+        res = tg(
+            "getUpdates",
+            offset=chats_state.get("offset", 0),
+            timeout=0,
+            allowed_updates=json.dumps(["message", "channel_post"]),
+        )
     except Exception as e:  # noqa: BLE001
         log("getUpdates failed:", e)
         return False
@@ -392,8 +455,12 @@ def handle_updates(chats_state, meta, rt, pages, pages_state, changes):
         if cid is None:
             continue
         cid = str(cid)
-        title = chat.get("title") or " ".join(
-            x for x in [chat.get("first_name"), chat.get("last_name")] if x) or chat.get("username") or ""
+        title = (
+            chat.get("title")
+            or " ".join(x for x in [chat.get("first_name"), chat.get("last_name")] if x)
+            or chat.get("username")
+            or ""
+        )
         new = cid not in chats
         if new:
             chats[cid] = title
@@ -423,10 +490,12 @@ def handle_updates(chats_state, meta, rt, pages, pages_state, changes):
                 reply = "▶️ Alerts resumed."
             elif cmd == "stop":
                 stop = True
-                reply = ("🛑 Stopping. The GitHub workflow is being disabled, so no more runs "
-                         "and no more minutes are spent.\nTo start again: GitHub → Actions → "
-                         "“Watch tsf.org.tr” → Enable workflow → Run workflow."
-                         + (f"\n{actions_url()}" if actions_url() else ""))
+                reply = (
+                    "🛑 Stopping. The GitHub workflow is being disabled, so no more runs "
+                    "and no more minutes are spent.\nTo start again: GitHub → Actions → "
+                    "“Watch tsf.org.tr” → Enable workflow → Run workflow."
+                    + (f"\n{actions_url()}" if actions_url() else "")
+                )
             else:
                 reply = "Unknown command.\n" + cmd_help()
         if reply:
@@ -438,9 +507,25 @@ def handle_updates(chats_state, meta, rt, pages, pages_state, changes):
 
 
 # ----------------------------------------------------------------- discovery
-TR_MONTHS = {m: i + 1 for i, m in enumerate(
-    ["ocak", "şubat", "mart", "nisan", "mayıs", "haziran", "temmuz", "ağustos",
-     "eylül", "ekim", "kasım", "aralık"])}
+TR_MONTHS = {
+    m: i + 1
+    for i, m in enumerate(
+        [
+            "ocak",
+            "şubat",
+            "mart",
+            "nisan",
+            "mayıs",
+            "haziran",
+            "temmuz",
+            "ağustos",
+            "eylül",
+            "ekim",
+            "kasım",
+            "aralık",
+        ]
+    )
+}
 DATE_RX = re.compile(r"(\d{1,2})\s+([A-Za-zÇçĞğİıÖöŞşÜü]+)\s+(20\d{2})")
 
 
@@ -450,10 +535,8 @@ def event_finished(text, grace_days=7):
     for d, m, y in DATE_RX.findall(text):
         mi = TR_MONTHS.get(m.casefold())
         if mi:
-            try:
-                dates.append(datetime(int(y), mi, int(d), tzinfo=timezone.utc))
-            except ValueError:
-                pass
+            with contextlib.suppress(ValueError):
+                dates.append(datetime(int(y), mi, int(d), tzinfo=UTC))
     return bool(dates) and (now_utc() - max(dates)).days > grace_days
 
 
@@ -461,10 +544,14 @@ def discover(pages_state, known_urls):
     """Add links under discover_prefixes / discover_rules seen on watched pages."""
     y = now_utc().year
     rules = [(p, None, None) for p in CONFIG.get("discover_prefixes", [])]
-    rules += [(r["prefix"],
-               re.compile(r["text_regex"].replace("{Y}", str(y)).replace("{Y1}", str(y + 1))),
-               re.compile(r["exclude_regex"]) if r.get("exclude_regex") else None)
-              for r in CONFIG.get("discover_rules", [])]
+    rules += [
+        (
+            r["prefix"],
+            re.compile(r["text_regex"].replace("{Y}", str(y)).replace("{Y1}", str(y + 1))),
+            re.compile(r["exclude_regex"]) if r.get("exclude_regex") else None,
+        )
+        for r in CONFIG.get("discover_rules", [])
+    ]
     found = {}
     for st in pages_state.values():
         for u, t in st.get("links", {}).items():
@@ -508,20 +595,36 @@ def check_page(page, prev):
     snippet = diff_snippet(prev.get("lines", []), lines, CONFIG["max_diff_chars"])
     probe = (snippet + " " + " ".join(t for _, t in new_links)).casefold()
     hot = [k for k in CONFIG.get("highlight_keywords", []) if k.casefold() in probe]
+    ai = ai_summary.summarize(page["name"], page["url"], snippet, new_links)
+    if ai and (ai.get("importance") == "high" or ai.get("venue_or_hotel")):
+        hot = hot or ["ai"]
     head = "🏨🚨 <b>IMPORTANT</b> (" + esc(", ".join(hot)) + ")\n" if hot else ""
-    msg = [f"{head}🔔 <b>{esc(page['name'])}</b> changed\n"
-           f"<a href=\"{esc(page['url'])}\">{esc(page['url'])}</a>\n"
-           f"🕒 {esc(fmt_time(checked))}"]
+    if ai:
+        head += f"🤖 {esc(ai['summary'])}\n" + (
+            f"👉 {esc(ai['action'])}\n" if ai.get("action", "nothing") != "nothing" else ""
+        )
+    msg = [
+        f"{head}🔔 <b>{esc(page['name'])}</b> changed\n"
+        f'<a href="{esc(page["url"])}">{esc(page["url"])}</a>\n'
+        f"🕒 {esc(fmt_time(checked))}"
+    ]
     if new_links:
         msg.append("\n<b>New links:</b>")
         for u, t in new_links[:15]:
-            msg.append(f"• <a href=\"{esc(u)}\">{esc(t)}</a>")
+            msg.append(f'• <a href="{esc(u)}">{esc(t)}</a>')
         if len(new_links) > 15:
             msg.append(f"… and {len(new_links) - 15} more")
     if snippet:
         msg.append("\n<b>Text diff:</b>\n" + esc(snippet))
-    record = {"time": checked, "page": page["name"], "url": page["url"],
-              "new_links": new_links[:15], "snippet": snippet, "hot": hot}
+    record = {
+        "time": checked,
+        "page": page["name"],
+        "url": page["url"],
+        "new_links": new_links[:15],
+        "snippet": snippet,
+        "hot": hot,
+        "ai": ai.get("summary") if ai else None,
+    }
     return cur, ("\n".join(msg), record)
 
 
@@ -539,8 +642,10 @@ def main():
     changes = load("changes.json", [])
     chats_state = load("chats.json", {})
     if "chats" not in chats_state:  # migrate the old flat {id: name} layout
-        chats_state = {"chats": {k: v for k, v in chats_state.items() if k != "offset"},
-                       "offset": 0}
+        chats_state = {
+            "chats": {k: v for k, v in chats_state.items() if k != "offset"},
+            "offset": 0,
+        }
     chats = chats_state["chats"]
     if CHAT_ID_OVERRIDE:
         chats.setdefault(CHAT_ID_OVERRIDE, "override")
@@ -587,8 +692,12 @@ def main():
             send_all(chats, "✅ Workflow disabled. ChessTrack is stopped.")
         except Exception as e:  # noqa: BLE001
             log("stop_workflow failed:", e)
-            send_all(chats, "⚠️ Could not disable the workflow automatically: " + esc(str(e))
-                     + "\nDisable it on GitHub → Actions → Watch tsf.org.tr → ⋯ → Disable workflow.")
+            send_all(
+                chats,
+                "⚠️ Could not disable the workflow automatically: "
+                + esc(str(e))
+                + "\nDisable it on GitHub → Actions → Watch tsf.org.tr → ⋯ → Disable workflow.",
+            )
         sys.exit(EXIT_STOP)
 
     first_run = not pages_state
@@ -623,14 +732,20 @@ def main():
     del changes[:-100]
 
     if first_run and not errors:
-        send_all(chats, "🟢 <b>ChessTrack</b> started watching.\n" +
-                 "\n".join(f"• {esc(p['name'])}" for p in pages))
+        send_all(
+            chats,
+            "🟢 <b>ChessTrack</b> started watching.\n"
+            + "\n".join(f"• {esc(p['name'])}" for p in pages),
+        )
 
     if errors:
         rt["failures"] += 1
         if rt["failures"] == CONFIG["failure_alert_after"]:
-            send_all(chats, f"⚠️ <b>ChessTrack</b> could not reach the site on "
-                     f"{rt['failures']} consecutive checks:\n" + esc("\n".join(errors)))
+            send_all(
+                chats,
+                f"⚠️ <b>ChessTrack</b> could not reach the site on "
+                f"{rt['failures']} consecutive checks:\n" + esc("\n".join(errors)),
+            )
     else:
         if rt["failures"] >= CONFIG["failure_alert_after"]:
             send_all(chats, "✅ <b>ChessTrack</b> can reach the site again.")
@@ -644,8 +759,10 @@ def main():
     save("chats.json", chats_state)
     save("runtime.json", rt)
     save("meta.json", meta)
-    log(f"done: {len(pages)} page(s), {len(messages)} change(s), {len(errors)} error(s), "
-        f"{len(chats)} chat(s)")
+    log(
+        f"done: {len(pages)} page(s), {len(messages)} change(s), {len(errors)} error(s), "
+        f"{len(chats)} chat(s)"
+    )
     if errors and len(errors) == len(pages):
         sys.exit(1)
 
