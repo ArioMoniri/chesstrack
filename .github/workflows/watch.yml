@@ -29,7 +29,7 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Restore subscriber list and runtime
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: |
             state/chats.json
@@ -83,7 +83,7 @@ jobs:
 
       - name: Save subscriber list and runtime
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: |
             state/chats.json
