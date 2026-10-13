@@ -7,6 +7,9 @@ on:
 
 # Only one watcher at a time. A newly scheduled run waits for the running one
 # to finish, so with a ~9.5 minute loop per run coverage is continuous.
+# Each run also re-dispatches itself when it ends, so coverage does not depend
+# on GitHub's cron, which can lag or take a while to start; /stop disables the
+# workflow, which makes the re-dispatch a no-op.
 concurrency:
   group: tsf-watch
   cancel-in-progress: false
@@ -80,6 +83,14 @@ jobs:
             [ "$elapsed" -ge "$LOOP_SECONDS" ] && break
             sleep "$POLL_SECONDS"
           done
+          if [ "$rc" -ne 3 ]; then
+            echo "re-dispatching the next run"
+            curl -sS -o /dev/null -w "dispatch: %{http_code}\n" -X POST \
+              -H "Authorization: Bearer $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/watch.yml/dispatches" \
+              -d "{\"ref\":\"$GITHUB_REF_NAME\"}" || true
+          fi
 
       - name: Save subscriber list and runtime
         if: always()
