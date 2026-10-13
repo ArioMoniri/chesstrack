@@ -1,0 +1,93 @@
+{
+  "pages": [
+    {
+      "name": "Ana Sayfa",
+      "url": "https://www.tsf.org.tr/"
+    },
+    {
+      "name": "Duyurular",
+      "url": "https://www.tsf.org.tr/duyurular"
+    },
+    {
+      "name": "Ek Duyurular",
+      "url": "https://www.tsf.org.tr/ek-duyurular"
+    },
+    {
+      "name": "Güncel Haberler",
+      "url": "https://www.tsf.org.tr/guncel-haberler"
+    },
+    {
+      "name": "Tüm İl Haberleri",
+      "url": "https://www.tsf.org.tr/tum-il-haberleri"
+    },
+    {
+      "name": "Etkinlik Takvimi",
+      "url": "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi"
+    },
+    {
+      "name": "Türkiye Şampiyonası",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-sampiyonasi"
+    },
+    {
+      "name": "Türkiye Kupası",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kupasi"
+    },
+    {
+      "name": "Türkiye Yıldızlar Şampiyonası",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-yildizlar-satranc-sampiyonasi"
+    },
+    {
+      "name": "Türkiye Küçükler Şampiyonası",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kucukler-satranc-sampiyonasi"
+    },
+    {
+      "name": "Türkiye Gençler Şampiyonası",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-gencler-sampiyonasi"
+    },
+    {
+      "name": "Türkiye Emektarlar Şampiyonası",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-emektarlar-satranc-sampiyonasi"
+    },
+    {
+      "name": "Türkiye Kulüpler Şampiyonası",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kulupler-satranc-sampiyonasi"
+    },
+    {
+      "name": "Türkiye Birinci Ligi",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-satranc-birinci-ligi"
+    },
+    {
+      "name": "Açık Turnuvalar",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/acik-turnuvalar"
+    },
+    {
+      "name": "Diğer Turnuvalar",
+      "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/diger-turnuvalar"
+    }
+  ],
+  "ignore_line_patterns": [
+    "^\\s*\\d+\\s*$",
+    "(?i)ziyaret[çc]i",
+    "(?i)online",
+    "(?i)son g[üu]ncelleme",
+    "(?i)copyright|©|t[üu]m haklar"
+  ],
+  "min_link_text_len": 6,
+  "max_diff_chars": 1800,
+  "failure_alert_after": 6,
+  "highlight_keywords": [
+    "otel",
+    "hotel",
+    "konaklama",
+    "yer:",
+    "yeri",
+    "salon",
+    "belek",
+    "ilan edildi",
+    "yönerge",
+    "yonerge",
+    "kayıt",
+    "kayit",
+    "tarih"
+  ]
+}

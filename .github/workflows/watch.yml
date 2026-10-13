@@ -1,0 +1,41 @@
+name: Watch tsf.org.tr
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # GitHub's minimum; actual runs may lag a few minutes
+  workflow_dispatch:
+
+concurrency:
+  group: tsf-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for changes
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 watcher/watch.py
+
+      - name: Save state
+        run: |
+          git config user.name "chesstrack-bot"
+          git config user.email "chesstrack-bot@users.noreply.github.com"
+          git add state
+          if git diff --cached --quiet; then
+            echo "state unchanged"
+            exit 0
+          fi
+          git commit -m "state: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase && sleep 2
+          done
