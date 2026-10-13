@@ -1,46 +1,68 @@
 # chesstrack
 
-Watches pages on [tsf.org.tr](https://www.tsf.org.tr) (Türkiye Satranç Federasyonu) and reports
-changes to a Telegram bot. Runs on GitHub Actions, no server needed. On a **public** repo it checks roughly every 40 seconds
-(continuous loop inside 5-minute scheduled runs). On a private repo it checks once per scheduled
-run, about every 5 to 10 minutes, because private repos get only 2000 free Actions minutes a month.
+Watches [tsf.org.tr](https://www.tsf.org.tr) (Türkiye Satranç Federasyonu) and reports every change
+to a Telegram bot, so venue and hotel announcements for championships are seen in time.
+Runs on GitHub Actions, no server needed.
 
 ## Setup (works from a phone)
 
-1. In Telegram open **@BotFather**, send `/newbot`, follow the prompts, copy the token.
-2. On GitHub open this repo → **Settings → Secrets and variables → Actions → New repository secret**.
-   Name: `TELEGRAM_BOT_TOKEN`, value: the token. Save.
-3. In Telegram open your new bot and send it any message (for example `/start`).
-   Groups work too: add the bot to the group and send a message there.
-4. On GitHub open **Actions → Watch tsf.org.tr → Run workflow** (or just wait up to 5 minutes).
+1. In Telegram open **@BotFather**, send `/newbot`, copy the token.
+2. On GitHub: repo → **Settings → Secrets and variables → Actions → New repository secret**,
+   name `TELEGRAM_BOT_TOKEN`, value: the token.
+3. Send your bot any message. Groups work too: add the bot and send a message there.
+4. **Actions → Watch tsf.org.tr → Run workflow**, or wait for the schedule.
 
-The first run sends "ChessTrack izlemeye başladı" and stores a baseline. After that you get a
-message whenever a watched page changes, with new links and a text diff.
+## Bot commands
 
-Optional: set a `TELEGRAM_CHAT_ID` secret to force a specific chat instead of auto-discovery.
+Type `/` in the chat to see them with autocomplete.
+
+| Command | What it does |
+|---|---|
+| `/status` | mode, last check time, pages watched, changes counted, failures, link to Actions |
+| `/last [n]` | the last n changes: time, page, link, new links, text diff |
+| `/pages` | every watched page with its last check time |
+| `/search <text>` | search the current page snapshots, e.g. `/search otel` |
+| `/pause` / `/resume` | mute or unmute alerts; checks keep running |
+| `/stop` | disables the GitHub workflow and cancels queued runs: no more runs, no more minutes |
+| `/help` | list commands |
+
+After `/stop`, start again on GitHub: Actions → Watch tsf.org.tr → Enable workflow → Run workflow.
 
 ## What is watched
 
-The pages in `watcher/config.json`: home, announcements, news, event calendar and every national
-championship page. Any link found under `/kaynaklar/sampiyonalar/` on a watched page is added
-automatically, so new championship pages are picked up without config changes.
+The pages in `watcher/config.json` (home, announcements, news, calendar, tournament hub, every
+championship page) plus pages discovered automatically: league hubs under `/organizasyon/`,
+championship pages under `/kaynaklar/sampiyonalar/`, and event detail pages under `/etkinlik/`
+for the current and next season. Finished events drop off by themselves. About 60 pages in total.
 
-Changes that mention hotels, accommodation, venue, dates, registration or regulations are flagged
-`ÖNEMLİ` at the top of the message.
+Every change is reported. Changes mentioning hotels, accommodation, venue ("Yer açıklanacak"),
+dates, registration or Antalya-area resorts get an `IMPORTANT` header.
 
-Edit the config to add or remove pages, keywords, or regexes for lines to ignore.
+## How close to realtime
+
+* tsf.org.tr is a Next.js site cached for 5 minutes server-side (`x-nextjs-stale-time: 300`),
+  so no watcher can see a change sooner than about 5 minutes after it is published.
+* Public repo: each 5-minute scheduled run loops for ~9.5 minutes checking every 30 s, using
+  ETag conditional requests (cheap 304 responses when nothing changed). Effective delay:
+  the site's cache plus up to ~40 s.
+* Private repo: one check per scheduled run, roughly every 5–10 minutes.
 
 ## Cost
 
-Public repo: free, unlimited Actions minutes. Private repo: 2000 free minutes a month, which a
-5-minute schedule uses up in about a week; GitHub's default spending limit is $0, so it stops
-rather than charging, but the watcher stops too. Make the repo public to keep it running.
+GitHub-hosted runners are free without limit on **public** repos. On a **private** repo they are
+billed per minute once the plan's free minutes are used (Linux: about $0.008/min):
+
+| Mode | Minutes / month | Cost / month (private) |
+|---|---|---|
+| one check per 5-minute run | ~8,600 | ~$70 |
+| continuous loop | ~43,000 | ~$345 |
+| any mode, public repo | — | $0 |
+
+The workflow only enables the continuous loop when the repo is public.
 
 ## Notes
 
-* GitHub's scheduler can lag during busy periods; the loop covers most of that. For guaranteed
-  sub-minute alerts, run `watcher/watch.py` from any always-on host with `TELEGRAM_BOT_TOKEN` set.
-* Page snapshots are committed to `state/` by the workflow, so the history of what changed is in
-  git. The subscriber list (`state/chats.json`) is kept in the Actions cache, not in git.
-* GitHub disables scheduled workflows after 60 days without repo activity; the daily state
-  heartbeat commit keeps it alive.
+* Page snapshots are committed to `state/` only when a page actually changes. The subscriber
+  list and per-check timestamps live in the Actions cache, not in git.
+* GitHub disables scheduled workflows after 60 days without repo activity; the daily heartbeat
+  commit keeps it alive.
