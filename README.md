@@ -30,6 +30,12 @@ Changes that mention hotels, accommodation, venue, dates, registration or regula
 
 Edit the config to add or remove pages, keywords, or regexes for lines to ignore.
 
+## Cost
+
+Public repo: free, unlimited Actions minutes. Private repo: 2000 free minutes a month, which a
+5-minute schedule uses up in about a week; GitHub's default spending limit is $0, so it stops
+rather than charging, but the watcher stops too. Make the repo public to keep it running.
+
 ## Notes
 
 * GitHub's scheduler can lag during busy periods; the loop covers most of that. For guaranteed
