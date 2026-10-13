@@ -59,6 +59,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_WORKFLOW_FILE: watch.yml
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           git config user.name "chesstrack-bot"
           git config user.email "chesstrack-bot@users.noreply.github.com"
@@ -94,7 +95,7 @@ jobs:
               -H "Authorization: Bearer $GITHUB_TOKEN" \
               -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/watch.yml/dispatches" \
-              -d "{\"ref\":\"$GITHUB_REF_NAME\"}" || true
+              -d "{\"ref\":\"$DEFAULT_BRANCH\"}" || true
           fi
 
       - name: Save subscriber list and runtime
