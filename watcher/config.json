@@ -63,6 +63,10 @@
     {
       "name": "Diğer Turnuvalar",
       "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/diger-turnuvalar"
+    },
+    {
+      "name": "Federasyon Duyuruları",
+      "url": "https://www.tsf.org.tr/federasyon/duyurular"
     }
   ],
   "ignore_line_patterns": [
@@ -89,5 +93,11 @@
     "kayıt",
     "kayit",
     "tarih"
-  ]
+  ],
+  "discover_prefixes": [
+    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/",
+    "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi"
+  ],
+  "discover_max": 40,
+  "workers": 6
 }

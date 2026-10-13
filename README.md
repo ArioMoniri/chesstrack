@@ -1,7 +1,9 @@
 # chesstrack
 
 Watches pages on [tsf.org.tr](https://www.tsf.org.tr) (Türkiye Satranç Federasyonu) and reports
-changes to a Telegram bot. Runs on GitHub Actions every 5 minutes, no server needed.
+changes to a Telegram bot. Runs on GitHub Actions, no server needed. On a **public** repo it checks roughly every 40 seconds
+(continuous loop inside 5-minute scheduled runs). On a private repo it checks once per scheduled
+run, about every 5 to 10 minutes, because private repos get only 2000 free Actions minutes a month.
 
 ## Setup (works from a phone)
 
@@ -19,14 +21,20 @@ Optional: set a `TELEGRAM_CHAT_ID` secret to force a specific chat instead of au
 
 ## What is watched
 
-Edit `watcher/config.json` to add or remove pages, or to add regexes for lines that should be
-ignored (counters, dates, etc.).
+The pages in `watcher/config.json`: home, announcements, news, event calendar and every national
+championship page. Any link found under `/kaynaklar/sampiyonalar/` on a watched page is added
+automatically, so new championship pages are picked up without config changes.
+
+Changes that mention hotels, accommodation, venue, dates, registration or regulations are flagged
+`ÖNEMLİ` at the top of the message.
+
+Edit the config to add or remove pages, keywords, or regexes for lines to ignore.
 
 ## Notes
 
-* GitHub's cron minimum is 5 minutes and runs can lag during busy periods. If you ever need
-  sub-minute alerts, the same `watcher/watch.py` can be run from any always-on host with
-  `TELEGRAM_BOT_TOKEN` in the environment.
-* State is committed to `state/` by the workflow, so history of what changed is in git.
+* GitHub's scheduler can lag during busy periods; the loop covers most of that. For guaranteed
+  sub-minute alerts, run `watcher/watch.py` from any always-on host with `TELEGRAM_BOT_TOKEN` set.
+* Page snapshots are committed to `state/` by the workflow, so the history of what changed is in
+  git. The subscriber list (`state/chats.json`) is kept in the Actions cache, not in git.
 * GitHub disables scheduled workflows after 60 days without repo activity; the daily state
   heartbeat commit keeps it alive.

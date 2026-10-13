@@ -11,6 +11,7 @@ State lives in ./state (committed back to the repo by the workflow):
 from __future__ import annotations
 
 import difflib
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import html
 import json
@@ -260,34 +261,69 @@ def check_page(page, prev):
     return cur, "\n".join(msg)
 
 
+def discover(pages_state, known_urls):
+    """Add any link under a discover_prefix seen on a watched page."""
+    prefixes = tuple(CONFIG.get("discover_prefixes", []))
+    if not prefixes:
+        return []
+    found = {}
+    for st in pages_state.values():
+        for u, t in st.get("links", {}).items():
+            u = u.split("?")[0].rstrip("/") or u
+            if u.startswith(prefixes) and u not in known_urls and u not in found:
+                found[u] = t
+    return [{"name": t, "url": u} for u, t in found.items()]
+
+
 def main():
     pages_state = load("pages.json", {})
     chats = load("chats.json", {})
-    meta = load("meta.json", {"failures": 0, "heartbeat": ""})
+    meta = load("meta.json", {"failures": 0, "heartbeat": "", "discovered": []})
 
     if CHAT_ID_OVERRIDE:
         chats.setdefault(CHAT_ID_OVERRIDE, "override")
     chats = discover_chats(chats)
 
+    pages = list(CONFIG["pages"])
+    known = {p["url"].rstrip("/") or p["url"] for p in pages}
+    for d in meta.get("discovered", []):
+        if d["url"] not in known:
+            pages.append(d)
+            known.add(d["url"])
+    for d in discover(pages_state, known):
+        if len(pages) >= CONFIG.get("discover_max", 40):
+            break
+        log("discovered page:", d["url"], "-", d["name"])
+        pages.append(d)
+        known.add(d["url"])
+        meta.setdefault("discovered", []).append(d)
+
     first_run = not pages_state
     messages, errors = [], []
-    for page in CONFIG["pages"]:
-        key = page["url"]
+
+    def work(page):
         try:
-            cur, msg = check_page(page, pages_state.get(key))
-            pages_state[key] = cur
+            return page, check_page(page, pages_state.get(page["url"])), None
+        except Exception as e:  # noqa: BLE001
+            return page, None, e
+
+    with ThreadPoolExecutor(max_workers=CONFIG.get("workers", 4)) as ex:
+        for page, result, err in ex.map(work, pages):
+            if err is not None:
+                errors.append(f"{page['name']}: {err}")
+                log("ERROR", page["name"], err)
+                continue
+            cur, msg = result
+            pages_state[page["url"]] = cur
             if msg:
                 messages.append(msg)
-        except Exception as e:  # noqa: BLE001
-            errors.append(f"{page['name']}: {e}")
-            log("ERROR", page["name"], e)
 
     for m in messages:
         send_all(chats, m)
 
     if first_run and not errors:
         send_all(chats, "🟢 <b>ChessTrack</b> izlemeye başladı.\nİzlenen sayfalar:\n" +
-                 "\n".join(f"• {esc(p['name'])}" for p in CONFIG["pages"]))
+                 "\n".join(f"• {esc(p['name'])}" for p in pages))
 
     if errors:
         meta["failures"] = meta.get("failures", 0) + 1
@@ -303,8 +339,8 @@ def main():
     save("pages.json", pages_state)
     save("chats.json", chats)
     save("meta.json", meta)
-    log(f"done: {len(messages)} change(s), {len(errors)} error(s), {len(chats)} chat(s)")
-    if errors and len(errors) == len(CONFIG["pages"]):
+    log(f"done: {len(pages)} page(s), {len(messages)} change(s), {len(errors)} error(s), {len(chats)} chat(s)")
+    if errors and len(errors) == len(pages):
         sys.exit(1)
 
 
