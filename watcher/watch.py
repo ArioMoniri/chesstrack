@@ -289,9 +289,10 @@ def event_finished(text, grace_days=7):
 
 def discover(pages_state, known_urls):
     """Add any link under a discover_prefix seen on a watched page."""
-    rules = [(p, None) for p in CONFIG.get("discover_prefixes", [])]
+    rules = [(p, None, None) for p in CONFIG.get("discover_prefixes", [])]
     y = datetime.now(timezone.utc).year
-    rules += [(r["prefix"], re.compile(r["text_regex"].replace("{Y}", str(y)).replace("{Y1}", str(y + 1))))
+    rules += [(r["prefix"], re.compile(r["text_regex"].replace("{Y}", str(y)).replace("{Y1}", str(y + 1))),
+               re.compile(r["exclude_regex"]) if r.get("exclude_regex") else None)
               for r in CONFIG.get("discover_rules", [])]
     if not rules:
         return []
@@ -301,9 +302,9 @@ def discover(pages_state, known_urls):
             u = u.split("?")[0].rstrip("/") or u
             if u in known_urls or u in found:
                 continue
-            for prefix, rx in rules:
+            for prefix, rx, ex in rules:
                 if u.startswith(prefix) and (rx is None or rx.search(t)):
-                    if rx is not None and event_finished(t):
+                    if rx is not None and (event_finished(t) or (ex and ex.search(t))):
                         break
                     found[u] = t[:80]
                     break
@@ -321,10 +322,16 @@ def main():
 
     pages = list(CONFIG["pages"])
     known = {p["url"].rstrip("/") or p["url"] for p in pages}
+    keep = []
     for d in meta.get("discovered", []):
+        if event_finished(d["name"], grace_days=14):
+            log("dropping finished event:", d["url"], "-", d["name"][:60])
+            continue
+        keep.append(d)
         if d["url"] not in known:
             pages.append(d)
             known.add(d["url"])
+    meta["discovered"] = keep
     for d in discover(pages_state, known):
         if len(pages) >= CONFIG.get("discover_max", 40):
             break
@@ -333,6 +340,10 @@ def main():
         known.add(d["url"])
         meta.setdefault("discovered", []).append(d)
 
+    watched = {p["url"] for p in pages}
+    for stale in [u for u in pages_state if u not in watched]:
+        log("pruning stale state for", stale)
+        pages_state.pop(stale, None)
     first_run = not pages_state
     messages, errors = [], []
 
