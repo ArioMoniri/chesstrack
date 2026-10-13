@@ -9,10 +9,6 @@
       "url": "https://www.tsf.org.tr/duyurular"
     },
     {
-      "name": "Ek Duyurular",
-      "url": "https://www.tsf.org.tr/ek-duyurular"
-    },
-    {
       "name": "Güncel Haberler",
       "url": "https://www.tsf.org.tr/guncel-haberler"
     },
@@ -27,6 +23,22 @@
     {
       "name": "Türkiye Şampiyonası",
       "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-sampiyonasi"
+    },
+    {
+      "name": "Belge Merkezi",
+      "url": "https://www.tsf.org.tr/belgeler"
+    },
+    {
+      "name": "Haber Arşivi",
+      "url": "https://www.tsf.org.tr/haberler/arsiv"
+    },
+    {
+      "name": "Takvim",
+      "url": "https://www.tsf.org.tr/takvim"
+    },
+    {
+      "name": "Turnuvalar ve Ligler",
+      "url": "https://www.tsf.org.tr/turnuvalar"
     },
     {
       "name": "Türkiye Kupası",
@@ -63,16 +75,11 @@
     {
       "name": "Diğer Turnuvalar",
       "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/diger-turnuvalar"
-    },
-    {
-      "name": "Federasyon Duyuruları",
-      "url": "https://www.tsf.org.tr/federasyon/duyurular"
     }
   ],
   "ignore_line_patterns": [
     "^\\s*\\d+\\s*$",
     "(?i)ziyaret[çc]i",
-    "(?i)online",
     "(?i)son g[üu]ncelleme",
     "(?i)copyright|©|t[üu]m haklar"
   ],
@@ -95,9 +102,19 @@
     "tarih"
   ],
   "discover_prefixes": [
-    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/",
-    "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi"
+    "https://www.tsf.org.tr/turnuvalar/",
+    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/"
   ],
-  "discover_max": 40,
-  "workers": 6
+  "discover_max": 60,
+  "workers": 6,
+  "discover_rules": [
+    {
+      "prefix": "https://www.tsf.org.tr/turnuva-arsivi/",
+      "text_regex": "{Y}|{Y1}"
+    },
+    {
+      "prefix": "https://www.tsf.org.tr/turnuva/",
+      "text_regex": "{Y}|{Y1}"
+    }
+  ]
 }
