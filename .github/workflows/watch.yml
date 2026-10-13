@@ -81,7 +81,12 @@ jobs:
             [ "$rc" -ne 0 ] && echo "::warning::check exited with $rc"
             elapsed=$((SECONDS - start))
             [ "$elapsed" -ge "$LOOP_SECONDS" ] && break
-            sleep "$POLL_SECONDS"
+            # between page checks, answer bot commands instantly via long polling
+            python3 watcher/watch.py --listen "$POLL_SECONDS" || rc=$?
+            if [ "$rc" -eq 3 ]; then
+              echo "::notice::stopped via /stop"
+              break
+            fi
           done
           if [ "$rc" -ne 3 ]; then
             echo "re-dispatching the next run"
