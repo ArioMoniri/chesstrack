@@ -3,7 +3,7 @@ name: CI
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, main-clean]
     paths: ["watcher/**", "tests/**", "pyproject.toml", ".github/workflows/ci.yml"]
 
 permissions:
