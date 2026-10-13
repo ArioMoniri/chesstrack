@@ -99,15 +99,32 @@
     "yonerge",
     "kayıt",
     "kayit",
-    "tarih"
+    "tarih",
+    "açıklanacak",
+    "aciklanacak",
+    "belirtilmemiş",
+    "antalya",
+    "kemer",
+    "side",
+    "lara",
+    "alanya",
+    "manavgat",
+    "kuşadası",
+    "konaklama ücret"
   ],
   "discover_prefixes": [
-    "https://www.tsf.org.tr/turnuvalar/",
-    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/"
+    "https://www.tsf.org.tr/organizasyon/",
+    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/",
+    "https://www.tsf.org.tr/turnuvalar/"
   ],
-  "discover_max": 60,
-  "workers": 6,
+  "discover_max": 90,
+  "workers": 8,
   "discover_rules": [
+    {
+      "prefix": "https://www.tsf.org.tr/etkinlik/",
+      "text_regex": "{Y}|{Y1}",
+      "exclude_regex": "Bayram|Tatil|Günü|Sezon Başlangıç|Yarı Yıl|Yılı Bitişi"
+    },
     {
       "prefix": "https://www.tsf.org.tr/turnuva-arsivi/",
       "text_regex": "{Y}|{Y1}"
