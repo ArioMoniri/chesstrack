@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"7x9iekqxy81iq5\"",
-  "hash": "08786cc89de3d57c053c46a137bbee83eb3ac28d45660360256b7b701221487f",
+  "etag": "\"ve9sj9ew1s1ily\"",
+  "hash": "c83c0250defe8fa2dea7dd6a688624a0a23a30f4f92da372448ce180ac4c5f5a",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -22,7 +22,7 @@
    "Tüm etkinlikler",
    "16EYL",
    "2026 - 2027 TSF Sezon Başlangıç",
-   "16 Eylül 2026 – 15 Eylül 2027·Yer açıklanacak",
+   "16 Eylül 2026 – 15 Eylül 2027",
    "11EKİ",
    "36. Nato Satranç Şampiyonası",
    "11–17 Ekim 2026·Letonya - Jürmala",
@@ -111,7 +111,7 @@
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
    "https://www.tsf.org.tr/egitim/okulda-satranc": "SATRANÇ EĞİTİMİOkulda SatrançSatrançla tanış, yeni beceriler kazan. İlk hamleni birlikte atalım.Keşfetmeye başla",
    "https://www.tsf.org.tr/etkinlik/1071": "11EKİ36. Nato Satranç Şampiyonası11–17 Ekim 2026·Letonya - Jürmala",
-   "https://www.tsf.org.tr/etkinlik/1117": "16EYL2026 - 2027 TSF Sezon Başlangıç16 Eylül 2026 – 15 Eylül 2027·Yer açıklanacak",
+   "https://www.tsf.org.tr/etkinlik/1117": "16EYL2026 - 2027 TSF Sezon Başlangıç16 Eylül 2026 – 15 Eylül 2027",
    "https://www.tsf.org.tr/federasyon": "Hakkımızda",
    "https://www.tsf.org.tr/federasyon/il-temsilcilikleri/106-istanbul-il-ve-ilce-temsilcileri": "İl sayfası",
    "https://www.tsf.org.tr/federasyon/kisisel-verilerin-korunmasi-kanunu": "Kişisel Verilerin Korunması",
@@ -138,7 +138,7 @@
   }
  },
  "https://www.tsf.org.tr/belgeler": {
-  "etag": "\"1061u12kra0n81\"",
+  "etag": "\"8q37ixrjd9n81\"",
   "hash": "57baaf1ec859fb0a4d000cd0326f65d3b4ea83887c174c01e215ebe34f02fa41",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -241,7 +241,7 @@
   }
  },
  "https://www.tsf.org.tr/duyurular": {
-  "etag": "\"c21als2q3v341q\"",
+  "etag": "\"15q9llydpv3342x\"",
   "hash": "196ff577f3936380afbb0cea109c7825503b92db29d1a2416b443b246b84c026",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -346,8 +346,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1052": {
-  "etag": "\"1f29uh21alkl9\"",
-  "hash": "096e4b69d1378c666fe96641de1a0c78c3b85a2a35063eebb8063a7140d1f290",
+  "etag": "\"14vmowk203fjp0\"",
+  "hash": "ee486e42281c0ea01c2d00020ccc193367b3d8c3d78e8b15b69d13a4eb9f5b4f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -363,11 +363,7 @@
    "Ulusal",
    "2025 - 2026 Türkiye Kupası",
    "Tarih14–21 Kasım 2026",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2025 - 2026 Türkiye Kupası, 14–21 Kasım 2026 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -400,8 +396,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1062": {
-  "etag": "\"10206908ol8knp\"",
-  "hash": "e5d29bc9d9b643abeb4b7b7e660f43ffd3f1b150ddbfc03fb8624e9165f9a152",
+  "etag": "\"vs12wph25wk78\"",
+  "hash": "c333533562de53b35df99f78b963348aa4c8ef790d17ab63b3c1d2e99da82c0d",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -419,9 +415,6 @@
    "Tarih16–24 Ekim 2026",
    "YerKaradağ - Budva",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "2026 Avrupa Kulüpler Kupası, 16–24 Ekim 2026 tarihlerinde Karadağ - Budva konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -454,8 +447,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1064": {
-  "etag": "\"j2dk7ueojbkrf\"",
-  "hash": "df96a3321b21a36c5503f2dc81cae7acf9161449e3288d63b0f8f9e5b98ee400",
+  "etag": "\"6ljqekvk8gk9u\"",
+  "hash": "145b330f9334dc272feb1322329fd9c4afb8b3689208efcf9fd354da2304f8f4",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -473,9 +466,6 @@
    "Tarih2–13 Kasım 2026",
    "YerYunanistan - Girit",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "2026 Avrupa Yaş Grupları Satranç Şampiyonası, 2–13 Kasım 2026 tarihlerinde Yunanistan - Girit konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -508,8 +498,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1065": {
-  "etag": "\"8juaqg85rzkqp\"",
-  "hash": "b36658b1abcd0258944da8133f55057ac46fae1d98849478f04633bb1a161239",
+  "etag": "\"lgv1wxn4wzk9c\"",
+  "hash": "fb95ee8e9ff8f87ed20bc3f6a79b5a2b88e5b97f653a17915dc290815fd95541",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -527,9 +517,6 @@
    "Tarih2–15 Kasım 2026",
    "YerSırbistan - Banja",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "2026 Dünya Emektarlar Satranç Şampiyonası, 2–15 Kasım 2026 tarihlerinde Sırbistan - Banja konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -562,8 +549,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1066": {
-  "etag": "\"17vpv2sk43okup\"",
-  "hash": "a1bc7fea942454c9424866a054dede661dd7dd06c4ed1b88d1c662f896fd0321",
+  "etag": "\"1069bx9u8yokc6\"",
+  "hash": "6b6be7a7f021b1fc139212d353d874d3f2697a3aaf15b97ae62e6243b0e12a68",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -581,9 +568,6 @@
    "Tarih21–29 Kasım 2026",
    "YerGürcistan - Batum",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş), 21–29 Kasım 2026 tarihlerinde Gürcistan - Batum konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -616,8 +600,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1067": {
-  "etag": "\"mhzabrensul5m\"",
-  "hash": "db8b4485ba4f09fb45ab2f25babb8d8566b7705652c201681e67c83260523e8a",
+  "etag": "\"17ymhh1qj4zk9h\"",
+  "hash": "c7dacb4f3c9088f5ca6ef9646d9406e168b5e44d26ede13c287eef60a9240c6c",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -633,11 +617,7 @@
    "Ulusal",
    "2026 Türkiye Şampiyonası",
    "Tarih3–14 Aralık 2026",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 Türkiye Şampiyonası, 3–14 Aralık 2026 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyon sitesiOrganizasyonlarYönergeler ve belgeler",
@@ -671,8 +651,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1068": {
-  "etag": "\"vloa8pmb6pkqz\"",
-  "hash": "1489f50d7872ae3a97857ef7040a4d74b8c9a0c707cf13bc4d22cb57c064a242",
+  "etag": "\"4jfhe5xu0sk9g\"",
+  "hash": "75299b8b6e03cd1ef7dd5c001dcde2bcab3f9da6d4441b8565d59148517fe512",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -690,9 +670,6 @@
    "Tarih2–8 Kasım 2026",
    "YerMersin",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası, 2–8 Kasım 2026 tarihlerinde Mersin konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -725,8 +702,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1071": {
-  "etag": "\"mhlpwhj4yckn4\"",
-  "hash": "6546e1b0785d50ed7920c5a7740c20c23d929b03b0ba487093b8ac0a0d7c9d17",
+  "etag": "\"qkmma7f37bk6h\"",
+  "hash": "90eff648fb8573113d303301472331703f8a0af9336b00d1aa23a5aabf16f04b",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -744,9 +721,6 @@
    "Tarih11–17 Ekim 2026",
    "YerLetonya - Jürmala",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "36. Nato Satranç Şampiyonası, 11–17 Ekim 2026 tarihlerinde Letonya - Jürmala konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -833,8 +807,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1089": {
-  "etag": "\"e96ssbl026kq1\"",
-  "hash": "f9711680e27dba8a06d168f84f54e8202a160dec5e6ae6cfaaa7ea3f6eed760c",
+  "etag": "\"mkhk0x0lk4jsm\"",
+  "hash": "c068273912d5a9e1402d8155ad3655abbb0a512b1299e48acaf521ae5a39fa2c",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -850,11 +824,7 @@
    "Ulusal",
    "2026 - 2027 Türkiye Küçükler Satranç Şampiyonası",
    "Tarih23–30 Ocak 2027",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 - 2027 Türkiye Küçükler Satranç Şampiyonası, 23–30 Ocak 2027 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -887,8 +857,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1090": {
-  "etag": "\"10rsyos583hkq9\"",
-  "hash": "9b2ce80b919ed2182d6d21071f728184c8bb37a3cb72e2ac0136adc263a59580",
+  "etag": "\"9ktbbxhmcpjss\"",
+  "hash": "6b3c29e4200d8105e8c6002521aac7b43607b710f4dbbd3e8d92f34eff88ef67",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -904,11 +874,7 @@
    "Ulusal",
    "2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası",
    "Tarih23–30 Ocak 2027",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası, 23–30 Ocak 2027 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -941,8 +907,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1091": {
-  "etag": "\"57poj91oaskul\"",
-  "hash": "4ea180beb5249a04b148066f6719c09087e59dad2239cb9090ab4b3f5761a2b6",
+  "etag": "\"z4u4z0ostjjvg\"",
+  "hash": "ba171b24d204de8dbdd81f3ff1f06a53cdc239bc37ad204dd2c64876dd7a8a98",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -958,11 +924,7 @@
    "Ulusal",
    "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları",
    "Tarih13 Şubat 2027 – 4 Nisan 2027",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları, 13 Şubat 2027 – 4 Nisan 2027 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -995,8 +957,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1092": {
-  "etag": "\"p0rt74xe46ksh\"",
-  "hash": "576e57be41ff2e88b345900bbb1369422b579a0ab5b9d5475758959941c63d50",
+  "etag": "\"mtawni84t6jtw\"",
+  "hash": "fd06f8f6861f7d35d42c3fb80cc5eac5819c62a230de418a2ae4e2e5c0bc9324",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1012,11 +974,7 @@
    "Ulusal",
    "2026 - 2027 Kulüpler Şampiyonası İl - Yöre Yarışmaları",
    "Tarih13 Mart 2027 – 13 Haziran 2027",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 - 2027 Kulüpler Şampiyonası İl - Yöre Yarışmaları, 13 Mart 2027 – 13 Haziran 2027 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1049,8 +1007,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1096": {
-  "etag": "\"509qd14ncskou\"",
-  "hash": "a58ecdf20ac40524921e43a5593037136e8030f187fab7963440f0ac8793b943",
+  "etag": "\"vmyypuaf7jk87\"",
+  "hash": "db77144dbaac195427cfb571b619f37f23a6a749a9ed430cee587109b1e7d488",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1068,9 +1026,6 @@
    "Tarih15–28 Mart 2027",
    "YerMalta",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "2027 Avrupa Kadınlar Satranç Şampiyonası, 15–28 Mart 2027 tarihlerinde Malta konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1103,8 +1058,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1097": {
-  "etag": "\"11iysvov05gkox\"",
-  "hash": "3facb618136eee30278b96b72edc2824b0ace4dffca637e63102ee2b8900aa21",
+  "etag": "\"mdv12uop1xk88\"",
+  "hash": "f93cef9d23cbbac8a6ee37fc5724d1871996c2e28b1354ca0fd086302b0227a0",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1122,9 +1077,6 @@
    "Tarih21–31 Mart 2027",
    "YerAntalya",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "2027 Avrupa Okullar Satranç Şampiyonası, 21–31 Mart 2027 tarihlerinde Antalya konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1157,8 +1109,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1099": {
-  "etag": "\"ufdz4r4vqpkty\"",
-  "hash": "da8c0fc13b5a4a24ba3b532b52858e4c5ba3d042bb759041c82ed6699f4bf4ce",
+  "etag": "\"13b3ku1ct80jvh\"",
+  "hash": "fe340100782b5e7318205b0e1667d5d249e884ef65aaca5aa7a17d3132ab3d61",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1174,11 +1126,7 @@
    "Ulusal",
    "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası Türkiye Finali",
    "Tarih21–25 Nisan 2027",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası Türkiye Finali, 21–25 Nisan 2027 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1211,8 +1159,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1102": {
-  "etag": "\"s5qo9qahthkpx\"",
-  "hash": "93e70e8c853199a83e41f8c33fadcc30380a99770c050f6e814e159cac54fcff",
+  "etag": "\"7gna3bqkqqjsk\"",
+  "hash": "2524c73633cc2ad741a9b72d95a9889e3af9f1bf9b2a67c66bdcbe1b1445bbb7",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1228,11 +1176,7 @@
    "Ulusal",
    "2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası",
    "Tarih1–7 Mayıs 2027",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası, 1–7 Mayıs 2027 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1265,8 +1209,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1105": {
-  "etag": "\"qqorwbap7lkpx\"",
-  "hash": "5c41a1597056930cae92d875fb57736663a12c10f3507cbc68afd15b0f8d1f31",
+  "etag": "\"151auq362bujuf\"",
+  "hash": "bf5c6664a8b679589a76e33a10f7cefd1dd9222d5f70ec20c67c2b91c403ad0f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1282,11 +1226,7 @@
    "Ulusal",
    "2026 - 2027 Türkiye Gençler Satranç Şampiyonası",
    "Tarih24–30 Mayıs 2027",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 - 2027 Türkiye Gençler Satranç Şampiyonası, 24–30 Mayıs 2027 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1319,8 +1259,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1106": {
-  "etag": "\"kbtq9orofzkqd\"",
-  "hash": "cbe3793a04c0f082c075da822f53babb4a41f3f7f3902c575f9c618916226ef4",
+  "etag": "\"okaj2aa9hijv6\"",
+  "hash": "8f093171c93c66209443b9dac8ad987690e20ec6e830d823cbe55158a5fff834",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1336,11 +1276,7 @@
    "Ulusal",
    "2026 - 2027 Türkiye Emektarlar Satranç Şampiyonası",
    "Tarih24–30 Mayıs 2027",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 - 2027 Türkiye Emektarlar Satranç Şampiyonası, 24–30 Mayıs 2027 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1373,8 +1309,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1119": {
-  "etag": "\"xvc3f2qsm4kqb\"",
-  "hash": "e7c9f84300a79430a27607c0e36255268632e65f7789d0196d8e5d335f9457ca",
+  "etag": "\"7c9rgbmeunjsu\"",
+  "hash": "4a8f0dd41920897baec7b98e68e0b9cbbb22dd16dfaf0ec0aca00b5474c39d64",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1390,11 +1326,7 @@
    "Ulusal",
    "2026 Türkiye Hızlı Yıldırım Satranç Şampiyonası",
    "Tarih18–20 Aralık 2026",
-   "YerYer açıklanacak",
    "Etkinlik türüUlusal",
-   "Organizasyon Bilgileri",
-   "2026 Türkiye Hızlı Yıldırım Satranç Şampiyonası, 18–20 Aralık 2026 tarihlerinde konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1427,8 +1359,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1121": {
-  "etag": "\"25h2t8j38vkpn\"",
-  "hash": "733e8fbc17e6aa988340c4a0268d1b9ce833ccd43b8f9eaa69ef1a0e5ac7cb0b",
+  "etag": "\"i0io654kewkah\"",
+  "hash": "6d3ed7edcd147937651450f54e674d22758d2d1ee7a11baa9fe7f565987f27b8",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1446,9 +1378,6 @@
    "Tarih11–24 Mayıs 2027",
    "YerGürcistan - Batum",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "Avrupa Bireysel Satranç Şampiyonası, 11–24 Mayıs 2027 tarihlerinde Gürcistan - Batum konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1481,8 +1410,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1122": {
-  "etag": "\"bphb3pk9f2kt4\"",
-  "hash": "e968b5c407d1b6576b042804730556fe80a2508bbfdcbbb45e64dc77112c73d9",
+  "etag": "\"tcyfp9nkokkd3\"",
+  "hash": "d3311a1ad398f85730b6c8bf2b3c9a99f4f145e49306c3fa77992666e20fe401",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1500,9 +1429,6 @@
    "Tarih26 Haziran 2027 – 4 Temmuz 2027",
    "YerRomanya - Mamaia",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "2027 Avrupa Genç Takımlar Satranç Şampiyonası, 26 Haziran 2027 – 4 Temmuz 2027 tarihlerinde Romanya - Mamaia konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1535,8 +1461,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1123": {
-  "etag": "\"jp467yj2rakpa\"",
-  "hash": "772920b6854895406061baede7faebdf3d50ea0679ecbe26c564126373b2cd53",
+  "etag": "\"vvduokfu1xk8d\"",
+  "hash": "7e2b8d7a9bc9f7c4c40fc5522ee34ebaed1a827b1a996077b596de83ccb4653e",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1554,9 +1480,6 @@
    "Tarih1–12 Ekim 2027",
    "YerPortekiz - Lagos",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "Avrupa Takımlar Satranç Şampiyonası, 1–12 Ekim 2027 tarihlerinde Portekiz - Lagos konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1589,8 +1512,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1124": {
-  "etag": "\"1cp8ozi2bnkqu\"",
-  "hash": "b3874a8e780b0174cb4b8608acafc798ab23ed12f190e16fc850dd8b9b3eb921",
+  "etag": "\"k3rg365rok9b\"",
+  "hash": "23e7e633a20984011c44c328947c9c3b0a2d9c69228a6a8cc97860a6e0b6c88f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1608,9 +1531,6 @@
    "Tarih26 Ekim 2027 – 5 Kasım 2027",
    "YerAntalya",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "Dünya 13 - 17 Yaş Altı Satranç Şampiyonası, 26 Ekim 2027 – 5 Kasım 2027 tarihlerinde Antalya konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1643,8 +1563,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1125": {
-  "etag": "\"ggye32l5mjkqg\"",
-  "hash": "e191e0fb6fa4a1faacae7e1b99130f91eeb16d596948036c4dd2f5416fa3cc33",
+  "etag": "\"rx3zlv1kfnk95\"",
+  "hash": "4e81b38cee69191a9753249ff83c915bb7bec67c275c6b66a9c2c04377fd1946",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1662,9 +1582,6 @@
    "Tarih1–12 Kasım 2027",
    "YerYunanistan - Rodos",
    "Etkinlik türüUluslararası",
-   "Organizasyon Bilgileri",
-   "Avrupa Yaş Grupları Satranç Şampiyonası, 1–12 Kasım 2027 tarihlerinde Yunanistan - Rodos konumunda planlanıyor.",
-   "Organizasyona ait yönergeleri Belge Merkezi’nde, ilgili sezon kayıtlarını Turnuvalar ve Ligler bölümünde inceleyebilirsiniz.",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
    "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
@@ -1697,7 +1614,7 @@
   }
  },
  "https://www.tsf.org.tr/guncel-haberler": {
-  "etag": "\"zsqp6a813a8pbd\"",
+  "etag": "\"cartakbepy8pd5\"",
   "hash": "08ed33bd2def703a98574b873bf9ecbf7e44b80beb4be587d26c05399d0f0bd6",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1790,7 +1707,7 @@
   }
  },
  "https://www.tsf.org.tr/haberler/arsiv": {
-  "etag": "\"ikf0ssxkyeqpy\"",
+  "etag": "\"v9c3d7geocqnk\"",
   "hash": "841f924fa9386124e61f1deb286b9497ddd87de9838728ad427ea35cee302c0b",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1860,8 +1777,8 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi": {
-  "etag": "\"dcjcfu5tyi1dct\"",
-  "hash": "80a4e6bce6722be06ffbededf1a9d79c0921e654c0107d45af5435f4e066a38e",
+  "etag": "\"e0due7b4uy1cjf\"",
+  "hash": "0bbaf6928e8f920ad1175a80ac027962313d5a5c11d2dfd228d73536e362b3e9",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1879,7 +1796,7 @@
    "36 etkinlik2026 Etkinlik Takvimi",
    "16EYL",
    "2026 - 2027 TSF Sezon Başlangıç",
-   "16 Eylül 2026 – 15 Eylül 2027·Yer açıklanacak",
+   "16 Eylül 2026 – 15 Eylül 2027",
    "11EKİ",
    "36. Nato Satranç Şampiyonası",
    "11–17 Ekim 2026·Letonya - Jürmala",
@@ -1897,37 +1814,37 @@
    "2–15 Kasım 2026·Sırbistan - Banja",
    "14KAS",
    "2025 - 2026 Türkiye Kupası",
-   "14–21 Kasım 2026·Yer açıklanacak",
+   "14–21 Kasım 2026",
    "21KAS",
    "2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)",
    "21–29 Kasım 2026·Gürcistan - Batum",
    "3ARA",
    "2026 Türkiye Şampiyonası",
-   "3–14 Aralık 2026·Yer açıklanacak",
+   "3–14 Aralık 2026",
    "18ARA",
    "2026 Türkiye Hızlı Yıldırım Satranç Şampiyonası",
-   "18–20 Aralık 2026·Yer açıklanacak",
+   "18–20 Aralık 2026",
    "23OCA",
    "2026 - 2027 Türkiye Küçükler Satranç Şampiyonası",
-   "23–30 Ocak 2027·Yer açıklanacak",
+   "23–30 Ocak 2027",
    "23OCA",
    "2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası",
-   "23–30 Ocak 2027·Yer açıklanacak",
+   "23–30 Ocak 2027",
    "25OCA",
    "2026 - 2027 Eğitim - Öğretim Yarı Yıl Tatili",
-   "25 Ocak 2027 – 5 Şubat 2027·Yer açıklanacak",
+   "25 Ocak 2027 – 5 Şubat 2027",
    "13ŞUB",
    "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları",
-   "13 Şubat 2027 – 4 Nisan 2027·Yer açıklanacak",
+   "13 Şubat 2027 – 4 Nisan 2027",
    "8MAR",
    "2026 - 2027 Eğitim - Öğretim Yılı 2. Ara Tatili",
-   "8–12 Mart 2027·Yer açıklanacak",
+   "8–12 Mart 2027",
    "9MAR",
    "Ramazan Bayramı",
-   "9–11 Mart 2027·Yer açıklanacak",
+   "9–11 Mart 2027",
    "13MAR",
    "2026 - 2027 Kulüpler Şampiyonası İl - Yöre Yarışmaları",
-   "13 Mart 2027 – 13 Haziran 2027·Yer açıklanacak",
+   "13 Mart 2027 – 13 Haziran 2027",
    "15MAR",
    "2027 Avrupa Kadınlar Satranç Şampiyonası",
    "15–28 Mart 2027·Malta",
@@ -1936,46 +1853,46 @@
    "21–31 Mart 2027·Antalya",
    "21NİS",
    "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası Türkiye Finali",
-   "21–25 Nisan 2027·Yer açıklanacak",
+   "21–25 Nisan 2027",
    "23NİS",
    "Ulusal Egemenlik ve Çocuk Bayramı",
-   "23–23 Nisan 2027·Yer açıklanacak",
+   "23–23 Nisan 2027",
    "1MAY",
    "2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası",
-   "1–7 Mayıs 2027·Yer açıklanacak",
+   "1–7 Mayıs 2027",
    "1MAY",
    "Emek ve Dayanışma Günü",
-   "1–1 Mayıs 2027·Yer açıklanacak",
+   "1–1 Mayıs 2027",
    "11MAY",
    "Avrupa Bireysel Satranç Şampiyonası",
    "11–24 Mayıs 2027·Gürcistan - Batum",
    "15MAY",
    "Kurban Bayramı",
-   "15–19 Mayıs 2027·Yer açıklanacak",
+   "15–19 Mayıs 2027",
    "19MAY",
    "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
-   "19–19 Mayıs 2027·Yer açıklanacak",
+   "19–19 Mayıs 2027",
    "24MAY",
    "2026 - 2027 Türkiye Emektarlar Satranç Şampiyonası",
-   "24–30 Mayıs 2027·Yer açıklanacak",
+   "24–30 Mayıs 2027",
    "24MAY",
    "2026 - 2027 Türkiye Gençler Satranç Şampiyonası",
-   "24–30 Mayıs 2027·Yer açıklanacak",
+   "24–30 Mayıs 2027",
    "25HAZ",
    "2026 - 2027 Eğitim - Öğretim Yılı Bitişi",
-   "25–25 Haziran 2027·Yer açıklanacak",
+   "25–25 Haziran 2027",
    "26HAZ",
    "2027 Avrupa Genç Takımlar Satranç Şampiyonası",
    "26 Haziran 2027 – 4 Temmuz 2027·Romanya - Mamaia",
    "15TEM",
    "Demokrasi ve Milli Birlik Günü",
-   "15–15 Temmuz 2027·Yer açıklanacak",
+   "15–15 Temmuz 2027",
    "30AĞU",
    "30 Ağustos Zafer Bayramı",
-   "30–30 Ağustos 2027·Yer açıklanacak",
+   "30–30 Ağustos 2027",
    "16EYL",
    "2027 - 2028 TSF Sezon Başlangıç",
-   "16 Eylül 2027 – 15 Eylül 2028·Yer açıklanacak",
+   "16 Eylül 2027 – 15 Eylül 2028",
    "1EKİ",
    "Avrupa Takımlar Satranç Şampiyonası",
    "1–12 Ekim 2027·Portekiz - Lagos",
@@ -2001,37 +1918,37 @@
    "https://www.tsf.org.tr/": "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "https://www.tsf.org.tr/belgeler": "Belge Merkezi",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
-   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Yer açıklanacak",
+   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026",
    "https://www.tsf.org.tr/etkinlik/1062": "16EKİ2026 Avrupa Kulüpler Kupası16–24 Ekim 2026·Karadağ - Budva",
    "https://www.tsf.org.tr/etkinlik/1064": "2KAS2026 Avrupa Yaş Grupları Satranç Şampiyonası2–13 Kasım 2026·Yunanistan - Girit",
    "https://www.tsf.org.tr/etkinlik/1065": "2KAS2026 Dünya Emektarlar Satranç Şampiyonası2–15 Kasım 2026·Sırbistan - Banja",
    "https://www.tsf.org.tr/etkinlik/1066": "21KAS2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)21–29 Kasım 2026·Gürcistan - Batum",
-   "https://www.tsf.org.tr/etkinlik/1067": "3ARA2026 Türkiye Şampiyonası3–14 Aralık 2026·Yer açıklanacak",
+   "https://www.tsf.org.tr/etkinlik/1067": "3ARA2026 Türkiye Şampiyonası3–14 Aralık 2026",
    "https://www.tsf.org.tr/etkinlik/1068": "2KAS2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası2–8 Kasım 2026·Mersin",
    "https://www.tsf.org.tr/etkinlik/1071": "11EKİ36. Nato Satranç Şampiyonası11–17 Ekim 2026·Letonya - Jürmala",
-   "https://www.tsf.org.tr/etkinlik/1089": "23OCA2026 - 2027 Türkiye Küçükler Satranç Şampiyonası23–30 Ocak 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1090": "23OCA2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası23–30 Ocak 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1091": "13ŞUB2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları13 Şubat 2027 – 4 Nisan 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1092": "13MAR2026 - 2027 Kulüpler Şampiyonası İl - Yöre Yarışmaları13 Mart 2027 – 13 Haziran 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1093": "25OCA2026 - 2027 Eğitim - Öğretim Yarı Yıl Tatili25 Ocak 2027 – 5 Şubat 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1094": "9MARRamazan Bayramı9–11 Mart 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1095": "8MAR2026 - 2027 Eğitim - Öğretim Yılı 2. Ara Tatili8–12 Mart 2027·Yer açıklanacak",
+   "https://www.tsf.org.tr/etkinlik/1089": "23OCA2026 - 2027 Türkiye Küçükler Satranç Şampiyonası23–30 Ocak 2027",
+   "https://www.tsf.org.tr/etkinlik/1090": "23OCA2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası23–30 Ocak 2027",
+   "https://www.tsf.org.tr/etkinlik/1091": "13ŞUB2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları13 Şubat 2027 – 4 Nisan 2027",
+   "https://www.tsf.org.tr/etkinlik/1092": "13MAR2026 - 2027 Kulüpler Şampiyonası İl - Yöre Yarışmaları13 Mart 2027 – 13 Haziran 2027",
+   "https://www.tsf.org.tr/etkinlik/1093": "25OCA2026 - 2027 Eğitim - Öğretim Yarı Yıl Tatili25 Ocak 2027 – 5 Şubat 2027",
+   "https://www.tsf.org.tr/etkinlik/1094": "9MARRamazan Bayramı9–11 Mart 2027",
+   "https://www.tsf.org.tr/etkinlik/1095": "8MAR2026 - 2027 Eğitim - Öğretim Yılı 2. Ara Tatili8–12 Mart 2027",
    "https://www.tsf.org.tr/etkinlik/1096": "15MAR2027 Avrupa Kadınlar Satranç Şampiyonası15–28 Mart 2027·Malta",
    "https://www.tsf.org.tr/etkinlik/1097": "21MAR2027 Avrupa Okullar Satranç Şampiyonası21–31 Mart 2027·Antalya",
-   "https://www.tsf.org.tr/etkinlik/1099": "21NİS2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası Türkiye Finali21–25 Nisan 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1100": "23NİSUlusal Egemenlik ve Çocuk Bayramı23–23 Nisan 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1101": "1MAYEmek ve Dayanışma Günü1–1 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1102": "1MAY2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası1–7 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1103": "15MAYKurban Bayramı15–19 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1104": "19MAYAtatürk'ü Anma, Gençlik ve Spor Bayramı19–19 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1105": "24MAY2026 - 2027 Türkiye Gençler Satranç Şampiyonası24–30 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1106": "24MAY2026 - 2027 Türkiye Emektarlar Satranç Şampiyonası24–30 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1107": "25HAZ2026 - 2027 Eğitim - Öğretim Yılı Bitişi25–25 Haziran 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1108": "15TEMDemokrasi ve Milli Birlik Günü15–15 Temmuz 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1115": "30AĞU30 Ağustos Zafer Bayramı30–30 Ağustos 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1117": "16EYL2026 - 2027 TSF Sezon Başlangıç16 Eylül 2026 – 15 Eylül 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1118": "16EYL2027 - 2028 TSF Sezon Başlangıç16 Eylül 2027 – 15 Eylül 2028·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1119": "18ARA2026 Türkiye Hızlı Yıldırım Satranç Şampiyonası18–20 Aralık 2026·Yer açıklanacak",
+   "https://www.tsf.org.tr/etkinlik/1099": "21NİS2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası Türkiye Finali21–25 Nisan 2027",
+   "https://www.tsf.org.tr/etkinlik/1100": "23NİSUlusal Egemenlik ve Çocuk Bayramı23–23 Nisan 2027",
+   "https://www.tsf.org.tr/etkinlik/1101": "1MAYEmek ve Dayanışma Günü1–1 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1102": "1MAY2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası1–7 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1103": "15MAYKurban Bayramı15–19 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1104": "19MAYAtatürk'ü Anma, Gençlik ve Spor Bayramı19–19 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1105": "24MAY2026 - 2027 Türkiye Gençler Satranç Şampiyonası24–30 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1106": "24MAY2026 - 2027 Türkiye Emektarlar Satranç Şampiyonası24–30 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1107": "25HAZ2026 - 2027 Eğitim - Öğretim Yılı Bitişi25–25 Haziran 2027",
+   "https://www.tsf.org.tr/etkinlik/1108": "15TEMDemokrasi ve Milli Birlik Günü15–15 Temmuz 2027",
+   "https://www.tsf.org.tr/etkinlik/1115": "30AĞU30 Ağustos Zafer Bayramı30–30 Ağustos 2027",
+   "https://www.tsf.org.tr/etkinlik/1117": "16EYL2026 - 2027 TSF Sezon Başlangıç16 Eylül 2026 – 15 Eylül 2027",
+   "https://www.tsf.org.tr/etkinlik/1118": "16EYL2027 - 2028 TSF Sezon Başlangıç16 Eylül 2027 – 15 Eylül 2028",
+   "https://www.tsf.org.tr/etkinlik/1119": "18ARA2026 Türkiye Hızlı Yıldırım Satranç Şampiyonası18–20 Aralık 2026",
    "https://www.tsf.org.tr/etkinlik/1121": "11MAYAvrupa Bireysel Satranç Şampiyonası11–24 Mayıs 2027·Gürcistan - Batum",
    "https://www.tsf.org.tr/etkinlik/1122": "26HAZ2027 Avrupa Genç Takımlar Satranç Şampiyonası26 Haziran 2027 – 4 Temmuz 2027·Romanya - Mamaia",
    "https://www.tsf.org.tr/etkinlik/1123": "1EKİAvrupa Takımlar Satranç Şampiyonası1–12 Ekim 2027·Portekiz - Lagos",
@@ -2051,7 +1968,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/acik-turnuvalar": {
-  "etag": "\"iy3ijujxqn1nus\"",
+  "etag": "\"cln9vttgfe1nva\"",
   "hash": "9be15a468f2675939c6d207afeff6d65dac18684aff39690eab09836f23efae7",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2157,7 +2074,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/ani-turnuvalari": {
-  "etag": "\"ozmg0di1xguig\"",
+  "etag": "\"3hvb0ad5vxuiy\"",
   "hash": "b6a59dc47dbbcc26e66f14c8880afd3a8ed7c617fef9a91fd3358e52497bb106",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2263,7 +2180,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/diger-turnuvalar": {
-  "etag": "\"1ax845jx32qw9\"",
+  "etag": "\"s1m5ayruiiqwr\"",
   "hash": "8fb37f8b6258180fb6d57758f0ab7018a41b7af682ae14a5bb9d46a2ab5112e7",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2368,7 +2285,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-cocuk-ve-yildizlar-satranc-ligi": {
-  "etag": "\"lbuj3b885lsih\"",
+  "etag": "\"dense5ik11siz\"",
   "hash": "f13c70480801554e764506e0022d82fc02008870b24a1cf3425c37406381f070",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2474,7 +2391,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-emektarlar-satranc-sampiyonasi": {
-  "etag": "\"h1adhygzsirz9\"",
+  "etag": "\"dy6cqv3mturzr\"",
   "hash": "3b765c1115c2de627c298f2b955a03600ce29a0d854d5252c4b90b61fa7ce4b5",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2580,7 +2497,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-gencler-sampiyonasi": {
-  "etag": "\"6edxtc4vhcptv\"",
+  "etag": "\"13pg949d5pqpud\"",
   "hash": "9afe568a7cc984633f09da8bc85049dbc8fcb044548c429cc5f1fa61eba09599",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2677,7 +2594,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-hizli-ve-yildirim-satranc-sampiyonasi": {
-  "etag": "\"vrr00q4zocqjw\"",
+  "etag": "\"10rk9r8tpi2qke\"",
   "hash": "0bfe91f119343fb396bf5f08a05881b95c8c1574d6309daa4c075e0568b5250c",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2774,7 +2691,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-is-bankasi-minikler-senligi": {
-  "etag": "\"z3ediitp5jlip\"",
+  "etag": "\"14be8ra5o98lj7\"",
   "hash": "9f4d9f0db3870965a4786e58775bf3f83701a5b7c5408c7a9bee74607b49ab25",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2843,7 +2760,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-is-bankasi-super-satranc-ligi": {
-  "etag": "\"yvxtho2jkert5\"",
+  "etag": "\"caxwtsrr3nrw1\"",
   "hash": "383d017e9ef17dfc9efdc7c3741fa67814774cdae3206ec96bc4766e0560f862",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2949,7 +2866,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kadinlar-satranc-sampiyonasi": {
-  "etag": "\"m7hkhkwadjs5b\"",
+  "etag": "\"t4dtl134dks87\"",
   "hash": "ee1b73af10a755fb548d4c3cea9f6473fe7454dc114d44c3caf07fd4d334ee27",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3055,7 +2972,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kucukler-satranc-sampiyonasi": {
-  "etag": "\"13keoxyqi69rwy\"",
+  "etag": "\"efkau1f9r3rxg\"",
   "hash": "1e62aa6e82a1c7b457efa5b9cfb70ec3bfe90bc2006a16b29955f02eb1217429",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3161,7 +3078,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kulupler-satranc-sampiyonasi": {
-  "etag": "\"z3vknnsiq2sax\"",
+  "etag": "\"jwor5mbkwhsdt\"",
   "hash": "12ceb896006f31eeb6db3985b44440f93d8637b26c7d1cc669cfb45350b5ac7d",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3267,7 +3184,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kupasi": {
-  "etag": "\"zo6ys50uv1oji\"",
+  "etag": "\"9c4yc7v7mome\"",
   "hash": "fdd23b9f9f3ebc071119cda0b6db8f7983f73e86745636088f0e4d1997177701",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3360,7 +3277,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-sampiyonasi": {
-  "etag": "\"13nv2ivfqdmrmf\"",
+  "etag": "\"ntaw2a2uj8rpb\"",
   "hash": "663e5e23d5a0b538730b1637c8fa5b2f6e5070e7c1611f11d9706734bc24c0a3",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3466,7 +3383,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-satranc-birinci-ligi": {
-  "etag": "\"bvhq0769wiqe2\"",
+  "etag": "\"fx85tfpsitqgy\"",
   "hash": "39c3568c29194d1c16bf357c493ec612d6dba11aa93e8d1413665c7aba680f06",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3567,7 +3484,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-satranc-ikinci-ligi": {
-  "etag": "\"112lsf9xg01nv1\"",
+  "etag": "\"tjciooiaexnxx\"",
   "hash": "afefb220d2dc488dc7bdd670fb1929e7f4ae7e19babc80b62b95d0bafdfe0ea1",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3652,7 +3569,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-yildizlar-satranc-sampiyonasi": {
-  "etag": "\"pgfzuagmharxd\"",
+  "etag": "\"j5ohvon5vdrxv\"",
   "hash": "0fe90fad22333aa746e86d798348bf138f886d6b70148a3402fb0e846be2333a",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3758,7 +3675,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/birincilig": {
-  "etag": "\"ulph38t3f5l20\"",
+  "etag": "\"7s0nezgs0pl37\"",
   "hash": "828790fa528475e544eeea3c6c4cbb0c5dbe009a6ac96afef1037e74eac52887",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3825,7 +3742,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/ikincilig": {
-  "etag": "\"kh061d5s5qkrp\"",
+  "etag": "\"dg4hfatfc1krp\"",
   "hash": "5603d7014b14ab277cf79774d9c61546257af7f8c72b94d26770d70925ec856f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3892,7 +3809,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/kulupler": {
-  "etag": "\"zb1euxva1xlny\"",
+  "etag": "\"16xj53bn17mlp5\"",
   "hash": "4eb832eb3172d538b178ea9d3d7da096b8458cf9ad0d9990d976f499351e7073",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3959,7 +3876,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/superlig": {
-  "etag": "\"as2n2wezpllav\"",
+  "etag": "\"6k43vsmk3vlav\"",
   "hash": "ec42c5cb593f83a2af3e34dfc7381c3f49f179367b791189ee0b811af39ed7b5",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4026,7 +3943,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/tky": {
-  "etag": "\"p72g6r0udklx8\"",
+  "etag": "\"qimpz9p6w2lyf\"",
   "hash": "7eda27dec5d272244f3d648871dc561668915547e3da37840846b816117529ef",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4093,8 +4010,8 @@
   }
  },
  "https://www.tsf.org.tr/takvim": {
-  "etag": "\"dcjcfu5tyi1dct\"",
-  "hash": "80a4e6bce6722be06ffbededf1a9d79c0921e654c0107d45af5435f4e066a38e",
+  "etag": "\"e0due7b4uy1cjf\"",
+  "hash": "0bbaf6928e8f920ad1175a80ac027962313d5a5c11d2dfd228d73536e362b3e9",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4112,7 +4029,7 @@
    "36 etkinlik2026 Etkinlik Takvimi",
    "16EYL",
    "2026 - 2027 TSF Sezon Başlangıç",
-   "16 Eylül 2026 – 15 Eylül 2027·Yer açıklanacak",
+   "16 Eylül 2026 – 15 Eylül 2027",
    "11EKİ",
    "36. Nato Satranç Şampiyonası",
    "11–17 Ekim 2026·Letonya - Jürmala",
@@ -4130,37 +4047,37 @@
    "2–15 Kasım 2026·Sırbistan - Banja",
    "14KAS",
    "2025 - 2026 Türkiye Kupası",
-   "14–21 Kasım 2026·Yer açıklanacak",
+   "14–21 Kasım 2026",
    "21KAS",
    "2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)",
    "21–29 Kasım 2026·Gürcistan - Batum",
    "3ARA",
    "2026 Türkiye Şampiyonası",
-   "3–14 Aralık 2026·Yer açıklanacak",
+   "3–14 Aralık 2026",
    "18ARA",
    "2026 Türkiye Hızlı Yıldırım Satranç Şampiyonası",
-   "18–20 Aralık 2026·Yer açıklanacak",
+   "18–20 Aralık 2026",
    "23OCA",
    "2026 - 2027 Türkiye Küçükler Satranç Şampiyonası",
-   "23–30 Ocak 2027·Yer açıklanacak",
+   "23–30 Ocak 2027",
    "23OCA",
    "2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası",
-   "23–30 Ocak 2027·Yer açıklanacak",
+   "23–30 Ocak 2027",
    "25OCA",
    "2026 - 2027 Eğitim - Öğretim Yarı Yıl Tatili",
-   "25 Ocak 2027 – 5 Şubat 2027·Yer açıklanacak",
+   "25 Ocak 2027 – 5 Şubat 2027",
    "13ŞUB",
    "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları",
-   "13 Şubat 2027 – 4 Nisan 2027·Yer açıklanacak",
+   "13 Şubat 2027 – 4 Nisan 2027",
    "8MAR",
    "2026 - 2027 Eğitim - Öğretim Yılı 2. Ara Tatili",
-   "8–12 Mart 2027·Yer açıklanacak",
+   "8–12 Mart 2027",
    "9MAR",
    "Ramazan Bayramı",
-   "9–11 Mart 2027·Yer açıklanacak",
+   "9–11 Mart 2027",
    "13MAR",
    "2026 - 2027 Kulüpler Şampiyonası İl - Yöre Yarışmaları",
-   "13 Mart 2027 – 13 Haziran 2027·Yer açıklanacak",
+   "13 Mart 2027 – 13 Haziran 2027",
    "15MAR",
    "2027 Avrupa Kadınlar Satranç Şampiyonası",
    "15–28 Mart 2027·Malta",
@@ -4169,46 +4086,46 @@
    "21–31 Mart 2027·Antalya",
    "21NİS",
    "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası Türkiye Finali",
-   "21–25 Nisan 2027·Yer açıklanacak",
+   "21–25 Nisan 2027",
    "23NİS",
    "Ulusal Egemenlik ve Çocuk Bayramı",
-   "23–23 Nisan 2027·Yer açıklanacak",
+   "23–23 Nisan 2027",
    "1MAY",
    "2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası",
-   "1–7 Mayıs 2027·Yer açıklanacak",
+   "1–7 Mayıs 2027",
    "1MAY",
    "Emek ve Dayanışma Günü",
-   "1–1 Mayıs 2027·Yer açıklanacak",
+   "1–1 Mayıs 2027",
    "11MAY",
    "Avrupa Bireysel Satranç Şampiyonası",
    "11–24 Mayıs 2027·Gürcistan - Batum",
    "15MAY",
    "Kurban Bayramı",
-   "15–19 Mayıs 2027·Yer açıklanacak",
+   "15–19 Mayıs 2027",
    "19MAY",
    "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
-   "19–19 Mayıs 2027·Yer açıklanacak",
+   "19–19 Mayıs 2027",
    "24MAY",
    "2026 - 2027 Türkiye Emektarlar Satranç Şampiyonası",
-   "24–30 Mayıs 2027·Yer açıklanacak",
+   "24–30 Mayıs 2027",
    "24MAY",
    "2026 - 2027 Türkiye Gençler Satranç Şampiyonası",
-   "24–30 Mayıs 2027·Yer açıklanacak",
+   "24–30 Mayıs 2027",
    "25HAZ",
    "2026 - 2027 Eğitim - Öğretim Yılı Bitişi",
-   "25–25 Haziran 2027·Yer açıklanacak",
+   "25–25 Haziran 2027",
    "26HAZ",
    "2027 Avrupa Genç Takımlar Satranç Şampiyonası",
    "26 Haziran 2027 – 4 Temmuz 2027·Romanya - Mamaia",
    "15TEM",
    "Demokrasi ve Milli Birlik Günü",
-   "15–15 Temmuz 2027·Yer açıklanacak",
+   "15–15 Temmuz 2027",
    "30AĞU",
    "30 Ağustos Zafer Bayramı",
-   "30–30 Ağustos 2027·Yer açıklanacak",
+   "30–30 Ağustos 2027",
    "16EYL",
    "2027 - 2028 TSF Sezon Başlangıç",
-   "16 Eylül 2027 – 15 Eylül 2028·Yer açıklanacak",
+   "16 Eylül 2027 – 15 Eylül 2028",
    "1EKİ",
    "Avrupa Takımlar Satranç Şampiyonası",
    "1–12 Ekim 2027·Portekiz - Lagos",
@@ -4234,37 +4151,37 @@
    "https://www.tsf.org.tr/": "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "https://www.tsf.org.tr/belgeler": "Belge Merkezi",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
-   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Yer açıklanacak",
+   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026",
    "https://www.tsf.org.tr/etkinlik/1062": "16EKİ2026 Avrupa Kulüpler Kupası16–24 Ekim 2026·Karadağ - Budva",
    "https://www.tsf.org.tr/etkinlik/1064": "2KAS2026 Avrupa Yaş Grupları Satranç Şampiyonası2–13 Kasım 2026·Yunanistan - Girit",
    "https://www.tsf.org.tr/etkinlik/1065": "2KAS2026 Dünya Emektarlar Satranç Şampiyonası2–15 Kasım 2026·Sırbistan - Banja",
    "https://www.tsf.org.tr/etkinlik/1066": "21KAS2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)21–29 Kasım 2026·Gürcistan - Batum",
-   "https://www.tsf.org.tr/etkinlik/1067": "3ARA2026 Türkiye Şampiyonası3–14 Aralık 2026·Yer açıklanacak",
+   "https://www.tsf.org.tr/etkinlik/1067": "3ARA2026 Türkiye Şampiyonası3–14 Aralık 2026",
    "https://www.tsf.org.tr/etkinlik/1068": "2KAS2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası2–8 Kasım 2026·Mersin",
    "https://www.tsf.org.tr/etkinlik/1071": "11EKİ36. Nato Satranç Şampiyonası11–17 Ekim 2026·Letonya - Jürmala",
-   "https://www.tsf.org.tr/etkinlik/1089": "23OCA2026 - 2027 Türkiye Küçükler Satranç Şampiyonası23–30 Ocak 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1090": "23OCA2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası23–30 Ocak 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1091": "13ŞUB2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları13 Şubat 2027 – 4 Nisan 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1092": "13MAR2026 - 2027 Kulüpler Şampiyonası İl - Yöre Yarışmaları13 Mart 2027 – 13 Haziran 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1093": "25OCA2026 - 2027 Eğitim - Öğretim Yarı Yıl Tatili25 Ocak 2027 – 5 Şubat 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1094": "9MARRamazan Bayramı9–11 Mart 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1095": "8MAR2026 - 2027 Eğitim - Öğretim Yılı 2. Ara Tatili8–12 Mart 2027·Yer açıklanacak",
+   "https://www.tsf.org.tr/etkinlik/1089": "23OCA2026 - 2027 Türkiye Küçükler Satranç Şampiyonası23–30 Ocak 2027",
+   "https://www.tsf.org.tr/etkinlik/1090": "23OCA2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası23–30 Ocak 2027",
+   "https://www.tsf.org.tr/etkinlik/1091": "13ŞUB2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları13 Şubat 2027 – 4 Nisan 2027",
+   "https://www.tsf.org.tr/etkinlik/1092": "13MAR2026 - 2027 Kulüpler Şampiyonası İl - Yöre Yarışmaları13 Mart 2027 – 13 Haziran 2027",
+   "https://www.tsf.org.tr/etkinlik/1093": "25OCA2026 - 2027 Eğitim - Öğretim Yarı Yıl Tatili25 Ocak 2027 – 5 Şubat 2027",
+   "https://www.tsf.org.tr/etkinlik/1094": "9MARRamazan Bayramı9–11 Mart 2027",
+   "https://www.tsf.org.tr/etkinlik/1095": "8MAR2026 - 2027 Eğitim - Öğretim Yılı 2. Ara Tatili8–12 Mart 2027",
    "https://www.tsf.org.tr/etkinlik/1096": "15MAR2027 Avrupa Kadınlar Satranç Şampiyonası15–28 Mart 2027·Malta",
    "https://www.tsf.org.tr/etkinlik/1097": "21MAR2027 Avrupa Okullar Satranç Şampiyonası21–31 Mart 2027·Antalya",
-   "https://www.tsf.org.tr/etkinlik/1099": "21NİS2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası Türkiye Finali21–25 Nisan 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1100": "23NİSUlusal Egemenlik ve Çocuk Bayramı23–23 Nisan 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1101": "1MAYEmek ve Dayanışma Günü1–1 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1102": "1MAY2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası1–7 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1103": "15MAYKurban Bayramı15–19 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1104": "19MAYAtatürk'ü Anma, Gençlik ve Spor Bayramı19–19 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1105": "24MAY2026 - 2027 Türkiye Gençler Satranç Şampiyonası24–30 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1106": "24MAY2026 - 2027 Türkiye Emektarlar Satranç Şampiyonası24–30 Mayıs 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1107": "25HAZ2026 - 2027 Eğitim - Öğretim Yılı Bitişi25–25 Haziran 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1108": "15TEMDemokrasi ve Milli Birlik Günü15–15 Temmuz 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1115": "30AĞU30 Ağustos Zafer Bayramı30–30 Ağustos 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1117": "16EYL2026 - 2027 TSF Sezon Başlangıç16 Eylül 2026 – 15 Eylül 2027·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1118": "16EYL2027 - 2028 TSF Sezon Başlangıç16 Eylül 2027 – 15 Eylül 2028·Yer açıklanacak",
-   "https://www.tsf.org.tr/etkinlik/1119": "18ARA2026 Türkiye Hızlı Yıldırım Satranç Şampiyonası18–20 Aralık 2026·Yer açıklanacak",
+   "https://www.tsf.org.tr/etkinlik/1099": "21NİS2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası Türkiye Finali21–25 Nisan 2027",
+   "https://www.tsf.org.tr/etkinlik/1100": "23NİSUlusal Egemenlik ve Çocuk Bayramı23–23 Nisan 2027",
+   "https://www.tsf.org.tr/etkinlik/1101": "1MAYEmek ve Dayanışma Günü1–1 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1102": "1MAY2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası1–7 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1103": "15MAYKurban Bayramı15–19 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1104": "19MAYAtatürk'ü Anma, Gençlik ve Spor Bayramı19–19 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1105": "24MAY2026 - 2027 Türkiye Gençler Satranç Şampiyonası24–30 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1106": "24MAY2026 - 2027 Türkiye Emektarlar Satranç Şampiyonası24–30 Mayıs 2027",
+   "https://www.tsf.org.tr/etkinlik/1107": "25HAZ2026 - 2027 Eğitim - Öğretim Yılı Bitişi25–25 Haziran 2027",
+   "https://www.tsf.org.tr/etkinlik/1108": "15TEMDemokrasi ve Milli Birlik Günü15–15 Temmuz 2027",
+   "https://www.tsf.org.tr/etkinlik/1115": "30AĞU30 Ağustos Zafer Bayramı30–30 Ağustos 2027",
+   "https://www.tsf.org.tr/etkinlik/1117": "16EYL2026 - 2027 TSF Sezon Başlangıç16 Eylül 2026 – 15 Eylül 2027",
+   "https://www.tsf.org.tr/etkinlik/1118": "16EYL2027 - 2028 TSF Sezon Başlangıç16 Eylül 2027 – 15 Eylül 2028",
+   "https://www.tsf.org.tr/etkinlik/1119": "18ARA2026 Türkiye Hızlı Yıldırım Satranç Şampiyonası18–20 Aralık 2026",
    "https://www.tsf.org.tr/etkinlik/1121": "11MAYAvrupa Bireysel Satranç Şampiyonası11–24 Mayıs 2027·Gürcistan - Batum",
    "https://www.tsf.org.tr/etkinlik/1122": "26HAZ2027 Avrupa Genç Takımlar Satranç Şampiyonası26 Haziran 2027 – 4 Temmuz 2027·Romanya - Mamaia",
    "https://www.tsf.org.tr/etkinlik/1123": "1EKİAvrupa Takımlar Satranç Şampiyonası1–12 Ekim 2027·Portekiz - Lagos",
@@ -4284,7 +4201,7 @@
   }
  },
  "https://www.tsf.org.tr/tum-il-haberleri": {
-  "etag": "\"zsqp6a813a8pbd\"",
+  "etag": "\"cartakbepy8pd5\"",
   "hash": "08ed33bd2def703a98574b873bf9ecbf7e44b80beb4be587d26c05399d0f0bd6",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4377,7 +4294,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1041": {
-  "etag": "\"tkgkg9u8lpknh\"",
+  "etag": "\"qjtdymnbwpkoo\"",
   "hash": "582c106039c9d70e8f87d8f22c642260c3a0baeecde8a978b63ae1b814af05d8",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4432,7 +4349,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1054": {
-  "etag": "\"mk84cf1lu8kaf\"",
+  "etag": "\"qpx0fh1ww2kbm\"",
   "hash": "51e8d3eba42c8f3b2824462d9729ba36472047ab23271ef07cf1cf20f5b06143",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4487,7 +4404,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1055": {
-  "etag": "\"ojj2wb1q12k9n\"",
+  "etag": "\"5xdrjsevqmkau\"",
   "hash": "bfecce4652edb16e46d04831f4acbb22e2e49396158e94f0edb663a673ff5cdb",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4542,7 +4459,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1056": {
-  "etag": "\"bc4x37dy8okaj\"",
+  "etag": "\"16vvyreh2awkbq\"",
   "hash": "cf8dcd22ccf62d38cf4708bcfea91d7c5413424975f209c0c63e0f74793c8d15",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4597,7 +4514,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1057": {
-  "etag": "\"82ztmty3w4kfd\"",
+  "etag": "\"3uy5xj1j9dkgk\"",
   "hash": "4324a0c5b96eb31e977e9e3b63de44777858a356761f6cdf2bd9f82c30a387e9",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4652,7 +4569,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/arsiv-9ca43c355bd0": {
-  "etag": "\"bp73tvxrtik83\"",
+  "etag": "\"tdme220n0uk9a\"",
   "hash": "df5b997e6e01fce6dacd19207d67d7b2dc5480216a69453a0380732dadf5f387",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4707,7 +4624,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/arsiv-f2b638588ff3": {
-  "etag": "\"v3y49w7dlok7v\"",
+  "etag": "\"v5ey1zssx1k92\"",
   "hash": "a005f779870973df885b6bb03267a3c725b601b74b86b67a5f17dd9acb666f4d",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4762,8 +4679,8 @@
   }
  },
  "https://www.tsf.org.tr/turnuvalar": {
-  "etag": "\"emja3pbyfsmbk\"",
-  "hash": "75448ae22ff9912de44a6a5e3152cbf24915fcbfb37b814be6c792691976adc2",
+  "etag": "\"uktkgwhzq6lol\"",
+  "hash": "e89e68957dd9df1c20836c9670b650035394aa116933d99efb60b8e04bccea15",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4778,7 +4695,7 @@
    "Ulusal şampiyonalar, ligler ve turnuva arşivleri.",
    "Etkinlik takvimi",
    "TümüLiglerŞampiyonalar",
-   "18 organizasyon",
+   "16 organizasyon",
    "LİG",
    "Türkiye Satranç Süper Ligi",
    "Organizasyon ve arşivLİG",
@@ -4804,11 +4721,7 @@
    "Organizasyon ve arşivŞAMPİYONA VE TURNUVA",
    "Türkiye Küçükler Satranç Şampiyonası",
    "Organizasyon ve arşivŞAMPİYONA VE TURNUVA",
-   "Türkiye Çocuk ve Yıldızlar Satranç Ligi",
-   "Organizasyon ve arşivŞAMPİYONA VE TURNUVA",
    "Türkiye Hızlı ve Yıldırım Satranç Şampiyonası",
-   "Organizasyon ve arşivŞAMPİYONA VE TURNUVA",
-   "Türkiye Minikler Şenliği",
    "Organizasyon ve arşivŞAMPİYONA VE TURNUVA",
    "Anı Turnuvaları",
    "Organizasyon ve arşivŞAMPİYONA VE TURNUVA",
@@ -4840,11 +4753,9 @@
    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/acik-turnuvalar": "ŞAMPİYONA VE TURNUVAAçık TurnuvalarOrganizasyon ve arşiv",
    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/ani-turnuvalari": "ŞAMPİYONA VE TURNUVAAnı TurnuvalarıOrganizasyon ve arşiv",
    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/diger-turnuvalar": "ŞAMPİYONA VE TURNUVADiğer TurnuvalarOrganizasyon ve arşiv",
-   "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-cocuk-ve-yildizlar-satranc-ligi": "ŞAMPİYONA VE TURNUVATürkiye Çocuk ve Yıldızlar Satranç LigiOrganizasyon ve arşiv",
    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-emektarlar-satranc-sampiyonasi": "ŞAMPİYONA VE TURNUVATürkiye Emektarlar Satranç ŞampiyonasıOrganizasyon ve arşiv",
    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-gencler-sampiyonasi": "ŞAMPİYONA VE TURNUVATürkiye Gençler ŞampiyonasıOrganizasyon ve arşiv",
    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-hizli-ve-yildirim-satranc-sampiyonasi": "ŞAMPİYONA VE TURNUVATürkiye Hızlı ve Yıldırım Satranç ŞampiyonasıOrganizasyon ve arşiv",
-   "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-is-bankasi-minikler-senligi": "ŞAMPİYONA VE TURNUVATürkiye Minikler ŞenliğiOrganizasyon ve arşiv",
    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kadinlar-satranc-sampiyonasi": "ŞAMPİYONA VE TURNUVATürkiye Kadınlar Satranç ŞampiyonasıOrganizasyon ve arşiv",
    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kucukler-satranc-sampiyonasi": "ŞAMPİYONA VE TURNUVATürkiye Küçükler Satranç ŞampiyonasıOrganizasyon ve arşiv",
    "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kupasi": "ŞAMPİYONA VE TURNUVATürkiye KupasıOrganizasyon ve arşiv",
