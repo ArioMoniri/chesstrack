@@ -1,17 +1,6 @@
 [
  {
   "ai": null,
-  "hot": [
-   "kayıt"
-  ],
-  "new_links": [],
-  "page": "Haber Arşivi",
-  "snippet": "➖ 2026744 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026745 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
-  "time": "2026-10-14T18:41:00+00:00",
-  "url": "https://www.tsf.org.tr/haberler/arsiv"
- },
- {
-  "ai": null,
   "hot": [],
   "new_links": [],
   "page": "Ana Sayfa",
@@ -1266,5 +1255,25 @@
   "snippet": "➖ 2026761 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026762 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
   "time": "2026-10-26T10:53:45+00:00",
   "url": "https://www.tsf.org.tr/haberler/arsiv"
+ },
+ {
+  "ai": null,
+  "hot": [
+   "tarih"
+  ],
+  "new_links": [
+   [
+    "https://www.tsf.org.tr/haber/2025-2026-tuerkiye-kupasi-14-21-kasim-2026-tarihleri-arasinda-kayseri-de-duezenlenecek",
+    "Haberi oku"
+   ],
+   [
+    "https://www.tsf.org.tr/haber/milli-sporcumuz-gm-isik-can-south-dakota-governor-s-cup-i-5-te-5-ile-sampiyon-tamamladi",
+    "Haberi oku"
+   ]
+  ],
+  "page": "Ana Sayfa",
+  "snippet": "➖ WCM Handenur Şahin CM Oldu!2026 Avrupa Kulüpler Kupası Sona Erdi\n➕ GÜNCEL HABER\n➕ 2026 Avrupa Kulüpler Kupası Sona Erdi\n➕ 23 Ekim 2026\n➕ Haberi oku\n➕ GÜNCEL HABER\n➕ WCM Handenur Şahin CM Oldu!\n➕ 23 Ekim 2026\n➕ Haberi oku\n➕ GÜNCEL HABER\n➕ 2025-2026 Türkiye Kupası 14-21 Kasım 2026 tarihleri arasında Kayseri'de düzenlenecek\n➕ 19 Ekim 2026\n➕ Haberi oku\n➕ GÜNCEL HABER\n➕ Milli sporcumuz GM Işık Can, South Dakota Governor’s Cup’ı 5’te 5 ile şampiyon tamamladı!\n➕ 19 Ekim 2026\n➕ Haberi oku\n➕ 1Bayegan Pendik Satranç Spor Kulübü Avrupa Kulüpler Kupası Şampiyonu\n➕ 22026 Avrupa Kulüpler Kupası Sona Erdi\n➕ 3WCM Handenur Şahin CM Oldu!\n➕ 42025-2026 Türkiye Kupası 14-21 Kasım 2026 tarihleri arasında Kayseri'de düzenlenecek\n➕ 5Milli sporcumuz GM Işık Can, South Dakota Governor’s Cup’ı 5’te 5 ile şampiyon tamamladı!",
+  "time": "2026-10-26T13:30:48+00:00",
+  "url": "https://www.tsf.org.tr/"
  }
 ]
