@@ -1,20 +1,6 @@
 [
  {
   "ai": null,
-  "hot": [],
-  "new_links": [
-   [
-    "https://www.tsf.org.tr/haber/bergama-29-ekim-cumhuriyet-bayrami-satranc-turnuvasi",
-    "Bergama 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası"
-   ]
-  ],
-  "page": "Tüm İl Haberleri",
-  "snippet": "➖ 1109 haber\n➕ 1110 haber\n➕ Haber\n➕ 15 Ekim 2026\n➕ Bergama 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası\n➕ Haberi oku\n➖ Haber\n➖ 5 Ekim 2026\n➖ Disiplin Kurulumuz İlk Toplantısını Gerçekleştirdi\n➖ Haberi oku",
-  "time": "2026-10-15T08:29:09+00:00",
-  "url": "https://www.tsf.org.tr/tum-il-haberleri"
- },
- {
-  "ai": null,
   "hot": [
    "kayıt"
   ],
@@ -1298,6 +1284,18 @@
   "page": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Yer açıklanacak",
   "snippet": "➖ YerTalas Kapalı Spor Salonu\n➕ YerKayseri - Talas",
   "time": "2026-10-28T17:15:49+00:00",
+  "url": "https://www.tsf.org.tr/etkinlik/1052"
+ },
+ {
+  "ai": null,
+  "hot": [
+   "salon",
+   "tarih"
+  ],
+  "new_links": [],
+  "page": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Yer açıklanacak",
+  "snippet": "➕ Organizasyon Bilgileri\n➕ 2025-2026 Türkiye Kupası, 14 – 21 Kasım 2026 tarihleri arasında Kayseri Kocasinan Belediyesi ev sahipliğinde Talas Kapalı Spor Salonu’nda düzenlenecektir.\n➕ Şampiyonada dereceye giren sporcularımıza toplam 500.000 TL ödül verilecektir.\n➕ Şampiyonada hamle yapacak tüm sporcularımıza başarılar dileriz.",
+  "time": "2026-10-28T17:16:46+00:00",
   "url": "https://www.tsf.org.tr/etkinlik/1052"
  }
 ]
