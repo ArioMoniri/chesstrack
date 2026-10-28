@@ -1,6 +1,6 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"logw1pnv501l2z\"",
+  "etag": "\"pk434eutlg1l3l\"",
   "hash": "f39a3d9d32b9e4be8c5bf08b5d26fa1a7bf2aba4e822f7b7388bb49b89ab62bf",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -368,8 +368,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1052": {
-  "etag": "\"dv5b7496zojma\"",
-  "hash": "ee486e42281c0ea01c2d00020ccc193367b3d8c3d78e8b15b69d13a4eb9f5b4f",
+  "etag": "\"48b027rfrmkq9\"",
+  "hash": "ed0261ceed561a84a0dd488a9feac0fb11f686f0f0a0859bd76f97cacd23037f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -385,10 +385,11 @@
    "Ulusal",
    "2025 - 2026 Türkiye Kupası",
    "Tarih14–21 Kasım 2026",
+   "YerTalas Kapalı Spor Salonu",
    "Etkinlik türüUlusal",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
-   "Takvimime ekleOrganizasyonlarYönergeler ve belgeler",
+   "Takvimime ekleOrganizasyon sitesiOrganizasyonlarYönergeler ve belgeler",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "Mürsel Uluç Mahallesi, 931. Cadde No:14",
    "Çankaya / Ankara",
@@ -401,6 +402,7 @@
    "Gençlik ve Spor BakanlığıFIDEEuropean Chess UnionOnline İşlemlerTSF Market"
   ],
   "links": {
+   "https://tk2026.tsf.org.tr/": "Organizasyon sitesi",
    "https://www.tsf.org.tr/": "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "https://www.tsf.org.tr/belgeler": "Yönergeler ve belgeler",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
@@ -418,7 +420,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1062": {
-  "etag": "\"13xlqssfl57k4i\"",
+  "etag": "\"6twpwvcrfrk5p\"",
   "hash": "c333533562de53b35df99f78b963348aa4c8ef790d17ab63b3c1d2e99da82c0d",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -469,7 +471,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1064": {
-  "etag": "\"e1b0xu710fk74\"",
+  "etag": "\"2dkrivinakk8x\"",
   "hash": "145b330f9334dc272feb1322329fd9c4afb8b3689208efcf9fd354da2304f8f4",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -520,7 +522,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1065": {
-  "etag": "\"ll5sv07auck6m\"",
+  "etag": "\"mrddal0z9zk8f\"",
   "hash": "fb95ee8e9ff8f87ed20bc3f6a79b5a2b88e5b97f653a17915dc290815fd95541",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -571,7 +573,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1066": {
-  "etag": "\"53iz03jnywk9g\"",
+  "etag": "\"181uiom6e2bkb9\"",
   "hash": "6b6be7a7f021b1fc139212d353d874d3f2697a3aaf15b97ae62e6243b0e12a68",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -622,7 +624,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1067": {
-  "etag": "\"wkgntgndqlk6r\"",
+  "etag": "\"140f4aox4azk8k\"",
   "hash": "c7dacb4f3c9088f5ca6ef9646d9406e168b5e44d26ede13c287eef60a9240c6c",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -673,7 +675,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1068": {
-  "etag": "\"1717hcni7v6ks7\"",
+  "etag": "\"pvm8i51ccgku0\"",
   "hash": "6204cff4de0813209c2023d86485597e1308cf2114bb04e42f5c312722e2aacd",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -725,7 +727,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1071": {
-  "etag": "\"11ucssdz8pdk3r\"",
+  "etag": "\"72vi77wvv7k4y\"",
   "hash": "90eff648fb8573113d303301472331703f8a0af9336b00d1aa23a5aabf16f04b",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -830,7 +832,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1089": {
-  "etag": "\"d06p3rwid0jpw\"",
+  "etag": "\"lfacmgu07qjrp\"",
   "hash": "c068273912d5a9e1402d8155ad3655abbb0a512b1299e48acaf521ae5a39fa2c",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -880,7 +882,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1090": {
-  "etag": "\"o2s0kqsirtjq2\"",
+  "etag": "\"ylwoc7t4nwjrv\"",
   "hash": "6b3c29e4200d8105e8c6002521aac7b43607b710f4dbbd3e8d92f34eff88ef67",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -930,7 +932,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1091": {
-  "etag": "\"u1y8i4t4mqjsq\"",
+  "etag": "\"xkygke8kkajuj\"",
   "hash": "ba171b24d204de8dbdd81f3ff1f06a53cdc239bc37ad204dd2c64876dd7a8a98",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -980,7 +982,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1092": {
-  "etag": "\"14dg48v1xbvjr6\"",
+  "etag": "\"5qxnnd3g7mjsd\"",
   "hash": "fd06f8f6861f7d35d42c3fb80cc5eac5819c62a230de418a2ae4e2e5c0bc9324",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1030,7 +1032,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1096": {
-  "etag": "\"555oa1enbyk5h\"",
+  "etag": "\"jexgl3x8uk6o\"",
   "hash": "db77144dbaac195427cfb571b619f37f23a6a749a9ed430cee587109b1e7d488",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1081,7 +1083,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1097": {
-  "etag": "\"6tylqol06tk5i\"",
+  "etag": "\"4x4t1isdowk6p\"",
   "hash": "f93cef9d23cbbac8a6ee37fc5724d1871996c2e28b1354ca0fd086302b0227a0",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1132,7 +1134,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1099": {
-  "etag": "\"br4uah155ijsr\"",
+  "etag": "\"3tvko5cowdjty\"",
   "hash": "fe340100782b5e7318205b0e1667d5d249e884ef65aaca5aa7a17d3132ab3d61",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1182,7 +1184,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1102": {
-  "etag": "\"m52ug7sh37jpu\"",
+  "etag": "\"8shlx4p6kdjr1\"",
   "hash": "2524c73633cc2ad741a9b72d95a9889e3af9f1bf9b2a67c66bdcbe1b1445bbb7",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1232,7 +1234,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1105": {
-  "etag": "\"tyr8osqe9mjps\"",
+  "etag": "\"h3p8xlmkotjqz\"",
   "hash": "bf5c6664a8b679589a76e33a10f7cefd1dd9222d5f70ec20c67c2b91c403ad0f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1282,7 +1284,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1106": {
-  "etag": "\"xfkewknhihjq2\"",
+  "etag": "\"121xovnmgmyjr9\"",
   "hash": "8f093171c93c66209443b9dac8ad987690e20ec6e830d823cbe55158a5fff834",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1332,7 +1334,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1119": {
-  "etag": "\"17v2sozueh3jq4\"",
+  "etag": "\"zz6i344991jrx\"",
   "hash": "4a8f0dd41920897baec7b98e68e0b9cbbb22dd16dfaf0ec0aca00b5474c39d64",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1382,7 +1384,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1121": {
-  "etag": "\"60uzej994wk5u\"",
+  "etag": "\"y1d04bgffpk71\"",
   "hash": "6d3ed7edcd147937651450f54e674d22758d2d1ee7a11baa9fe7f565987f27b8",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1433,7 +1435,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1122": {
-  "etag": "\"8dnvijvddak7z\"",
+  "etag": "\"30ebks63nrk96\"",
   "hash": "d3311a1ad398f85730b6c8bf2b3c9a99f4f145e49306c3fa77992666e20fe401",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1484,7 +1486,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1123": {
-  "etag": "\"2u3mp7ly51k5n\"",
+  "etag": "\"xkjduwj4gik6u\"",
   "hash": "7e2b8d7a9bc9f7c4c40fc5522ee34ebaed1a827b1a996077b596de83ccb4653e",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1535,7 +1537,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1124": {
-  "etag": "\"2k0e0skgjvk6l\"",
+  "etag": "\"jghxid2wl9k7s\"",
   "hash": "23e7e633a20984011c44c328947c9c3b0a2d9c69228a6a8cc97860a6e0b6c88f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1586,7 +1588,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1125": {
-  "etag": "\"179ekh35p3wk6f\"",
+  "etag": "\"rcwl1qtqagk7m\"",
   "hash": "4e81b38cee69191a9753249ff83c915bb7bec67c275c6b66a9c2c04377fd1946",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1800,7 +1802,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi": {
-  "etag": "\"klmku7zznw1brb\"",
+  "etag": "\"213zbq9svr1bpq\"",
   "hash": "e160563a88ecc07ff9adde7feabb9c012b95f57e4296cc409ad0cef484d425b2",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3958,7 +3960,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/tky": {
-  "etag": "\"117kg4kzfylww\"",
+  "etag": "\"8n7xazxoftlvp\"",
   "hash": "7eda27dec5d272244f3d648871dc561668915547e3da37840846b816117529ef",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4025,7 +4027,7 @@
   }
  },
  "https://www.tsf.org.tr/takvim": {
-  "etag": "\"klmku7zznw1brb\"",
+  "etag": "\"213zbq9svr1bpq\"",
   "hash": "e160563a88ecc07ff9adde7feabb9c012b95f57e4296cc409ad0cef484d425b2",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4301,7 +4303,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1041": {
-  "etag": "\"turof15q5wkly\"",
+  "etag": "\"vx67vbbjlhkn5\"",
   "hash": "582c106039c9d70e8f87d8f22c642260c3a0baeecde8a978b63ae1b814af05d8",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4356,7 +4358,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1054": {
-  "etag": "\"uaur3ne9c3k8w\"",
+  "etag": "\"lbxcxzczl7ka3\"",
   "hash": "51e8d3eba42c8f3b2824462d9729ba36472047ab23271ef07cf1cf20f5b06143",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4411,7 +4413,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1055": {
-  "etag": "\"mh5mb5aqcpk84\"",
+  "etag": "\"d5boj4c83dk9b\"",
   "hash": "bfecce4652edb16e46d04831f4acbb22e2e49396158e94f0edb663a673ff5cdb",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4466,7 +4468,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1056": {
-  "etag": "\"12f5mw9sx7ek90\"",
+  "etag": "\"xbcbgbdf43ka7\"",
   "hash": "cf8dcd22ccf62d38cf4708bcfea91d7c5413424975f209c0c63e0f74793c8d15",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4521,7 +4523,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1057": {
-  "etag": "\"lwvm5z2sdtkdu\"",
+  "etag": "\"884s3j8ud3kf1\"",
   "hash": "4324a0c5b96eb31e977e9e3b63de44777858a356761f6cdf2bd9f82c30a387e9",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4576,7 +4578,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/arsiv-9ca43c355bd0": {
-  "etag": "\"845wbj4engk6k\"",
+  "etag": "\"xsiw0gx08k7r\"",
   "hash": "df5b997e6e01fce6dacd19207d67d7b2dc5480216a69453a0380732dadf5f387",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4631,7 +4633,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/arsiv-f2b638588ff3": {
-  "etag": "\"m5xcvrcsjjk6c\"",
+  "etag": "\"rvofwtx22sk7j\"",
   "hash": "a005f779870973df885b6bb03267a3c725b601b74b86b67a5f17dd9acb666f4d",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
