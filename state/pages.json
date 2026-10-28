@@ -1,6 +1,6 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"pk434eutlg1l3l\"",
+  "etag": "\"175kpc6rwdp1l3l\"",
   "hash": "f39a3d9d32b9e4be8c5bf08b5d26fa1a7bf2aba4e822f7b7388bb49b89ab62bf",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -160,7 +160,7 @@
   }
  },
  "https://www.tsf.org.tr/belgeler": {
-  "etag": "\"kfhb5b4g3sn6i\"",
+  "etag": "\"wc1tgup4xgn89\"",
   "hash": "aa39d0b25f4d00c323f65a1d9ce34080c17b2a0511e7daebb2db1624d6f75169",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -368,8 +368,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1052": {
-  "etag": "\"48b027rfrmkq9\"",
-  "hash": "ed0261ceed561a84a0dd488a9feac0fb11f686f0f0a0859bd76f97cacd23037f",
+  "etag": "\"15n5szfxmt0kpi\"",
+  "hash": "c58dcf9cacbd0c7935588d19f4384e9dd81a8ae9fd109eb226a2aad0b8818673",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -385,7 +385,7 @@
    "Ulusal",
    "2025 - 2026 Türkiye Kupası",
    "Tarih14–21 Kasım 2026",
-   "YerTalas Kapalı Spor Salonu",
+   "YerKayseri - Talas",
    "Etkinlik türüUlusal",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
@@ -471,7 +471,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1064": {
-  "etag": "\"2dkrivinakk8x\"",
+  "etag": "\"siuym0jcskk8x\"",
   "hash": "145b330f9334dc272feb1322329fd9c4afb8b3689208efcf9fd354da2304f8f4",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -522,7 +522,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1065": {
-  "etag": "\"mrddal0z9zk8f\"",
+  "etag": "\"vext2ro4buk8f\"",
   "hash": "fb95ee8e9ff8f87ed20bc3f6a79b5a2b88e5b97f653a17915dc290815fd95541",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -675,7 +675,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1068": {
-  "etag": "\"pvm8i51ccgku0\"",
+  "etag": "\"3jxltfhm9tku0\"",
   "hash": "6204cff4de0813209c2023d86485597e1308cf2114bb04e42f5c312722e2aacd",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1802,8 +1802,8 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi": {
-  "etag": "\"213zbq9svr1bpq\"",
-  "hash": "e160563a88ecc07ff9adde7feabb9c012b95f57e4296cc409ad0cef484d425b2",
+  "etag": "\"qlyq6jf2of1bt8\"",
+  "hash": "01c06a4b8f0a4141a2ef8a14356362260db0e274a2cabea59e8f5222a4705530",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1833,7 +1833,7 @@
    "2–15 Kasım 2026·Sırbistan - Banja",
    "14KAS",
    "2025 - 2026 Türkiye Kupası",
-   "14–21 Kasım 2026",
+   "14–21 Kasım 2026·Kayseri - Talas",
    "21KAS",
    "2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)",
    "21–29 Kasım 2026·Gürcistan - Batum",
@@ -1937,7 +1937,7 @@
    "https://www.tsf.org.tr/": "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "https://www.tsf.org.tr/belgeler": "Belge Merkezi",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
-   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026",
+   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Kayseri - Talas",
    "https://www.tsf.org.tr/etkinlik/1064": "2KAS2026 Avrupa Yaş Grupları Satranç Şampiyonası2–13 Kasım 2026·Yunanistan - Girit",
    "https://www.tsf.org.tr/etkinlik/1065": "2KAS2026 Dünya Emektarlar Satranç Şampiyonası2–15 Kasım 2026·Sırbistan - Banja",
    "https://www.tsf.org.tr/etkinlik/1066": "21KAS2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)21–29 Kasım 2026·Gürcistan - Batum",
@@ -2611,7 +2611,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-hizli-ve-yildirim-satranc-sampiyonasi": {
-  "etag": "\"q2gv3irhtaqid\"",
+  "etag": "\"iyjlqocpcwqh6\"",
   "hash": "0bfe91f119343fb396bf5f08a05881b95c8c1574d6309daa4c075e0568b5250c",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -2777,7 +2777,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-is-bankasi-super-satranc-ligi": {
-  "etag": "\"10lj9im2n35rrm\"",
+  "etag": "\"8imrxz37e9rp8\"",
   "hash": "383d017e9ef17dfc9efdc7c3741fa67814774cdae3206ec96bc4766e0560f862",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3095,7 +3095,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kulupler-satranc-sampiyonasi": {
-  "etag": "\"g5bb15quyns9e\"",
+  "etag": "\"5ykmrjrvuls70\"",
   "hash": "12ceb896006f31eeb6db3985b44440f93d8637b26c7d1cc669cfb45350b5ac7d",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3400,7 +3400,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-satranc-birinci-ligi": {
-  "etag": "\"1wsvfihbx7qcj\"",
+  "etag": "\"sc1xlky4lwqa5\"",
   "hash": "39c3568c29194d1c16bf357c493ec612d6dba11aa93e8d1413665c7aba680f06",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3692,7 +3692,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/birincilig": {
-  "etag": "\"lo3zmir41hl0h\"",
+  "etag": "\"e6vy81o9jql2a\"",
   "hash": "828790fa528475e544eeea3c6c4cbb0c5dbe009a6ac96afef1037e74eac52887",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3759,7 +3759,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/ikincilig": {
-  "etag": "\"ws27mpvxw3kq6\"",
+  "etag": "\"gywz0mmn6jkqs\"",
   "hash": "5603d7014b14ab277cf79774d9c61546257af7f8c72b94d26770d70925ec856f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3826,7 +3826,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/kulupler": {
-  "etag": "\"a06lrfq8w7lmf\"",
+  "etag": "\"ynkygv5tjulo8\"",
   "hash": "4eb832eb3172d538b178ea9d3d7da096b8458cf9ad0d9990d976f499351e7073",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3960,7 +3960,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/tky": {
-  "etag": "\"8n7xazxoftlvp\"",
+  "etag": "\"117kg4kzfylww\"",
   "hash": "7eda27dec5d272244f3d648871dc561668915547e3da37840846b816117529ef",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4027,8 +4027,8 @@
   }
  },
  "https://www.tsf.org.tr/takvim": {
-  "etag": "\"213zbq9svr1bpq\"",
-  "hash": "e160563a88ecc07ff9adde7feabb9c012b95f57e4296cc409ad0cef484d425b2",
+  "etag": "\"qlyq6jf2of1bt8\"",
+  "hash": "01c06a4b8f0a4141a2ef8a14356362260db0e274a2cabea59e8f5222a4705530",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4058,7 +4058,7 @@
    "2–15 Kasım 2026·Sırbistan - Banja",
    "14KAS",
    "2025 - 2026 Türkiye Kupası",
-   "14–21 Kasım 2026",
+   "14–21 Kasım 2026·Kayseri - Talas",
    "21KAS",
    "2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)",
    "21–29 Kasım 2026·Gürcistan - Batum",
@@ -4162,7 +4162,7 @@
    "https://www.tsf.org.tr/": "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "https://www.tsf.org.tr/belgeler": "Belge Merkezi",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
-   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026",
+   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Kayseri - Talas",
    "https://www.tsf.org.tr/etkinlik/1064": "2KAS2026 Avrupa Yaş Grupları Satranç Şampiyonası2–13 Kasım 2026·Yunanistan - Girit",
    "https://www.tsf.org.tr/etkinlik/1065": "2KAS2026 Dünya Emektarlar Satranç Şampiyonası2–15 Kasım 2026·Sırbistan - Banja",
    "https://www.tsf.org.tr/etkinlik/1066": "21KAS2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)21–29 Kasım 2026·Gürcistan - Batum",

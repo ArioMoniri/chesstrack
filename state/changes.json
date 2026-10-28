@@ -1,45 +1,6 @@
 [
  {
   "ai": null,
-  "hot": [
-   "kayıt"
-  ],
-  "new_links": [],
-  "page": "Haber Arşivi",
-  "snippet": "➖ 2026745 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026746 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
-  "time": "2026-10-15T08:20:25+00:00",
-  "url": "https://www.tsf.org.tr/haberler/arsiv"
- },
- {
-  "ai": null,
-  "hot": [],
-  "new_links": [
-   [
-    "https://www.tsf.org.tr/haber/bergama-29-ekim-cumhuriyet-bayrami-satranc-turnuvasi",
-    "Haberi oku"
-   ]
-  ],
-  "page": "Ana Sayfa",
-  "snippet": "➖ Türkiye Görme Engelliler Satranç Şampiyonası 2-8 Kasım’da Mersin’de\n➖ 14 Ekim 2026\n➕ Bergama 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası\n➕ 15 Ekim 2026\n➖ Yönetim Kurulumuz Ankara'da ToplandıSporcularımızdan Ünvan Başarısı\n➕ Sporcularımızdan Ünvan BaşarısıTürkiye Görme Engelliler Satranç Şampiyonası 2-8 Kasım’da Mersin’de\n➕ 15 Ekim 2026\n➕ Bergama 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası\n➕ Haberi oku\n➕ Haber\n➖ Haberi oku\n➖ Haber\n➖ 14 Ekim 2026\n➖ Yönetim Kurulumuz Ankara'da Toplandı",
-  "time": "2026-10-15T08:29:08+00:00",
-  "url": "https://www.tsf.org.tr/"
- },
- {
-  "ai": null,
-  "hot": [],
-  "new_links": [
-   [
-    "https://www.tsf.org.tr/haber/bergama-29-ekim-cumhuriyet-bayrami-satranc-turnuvasi",
-    "Bergama 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası"
-   ]
-  ],
-  "page": "Güncel Haberler",
-  "snippet": "➖ 1109 haber\n➕ 1110 haber\n➕ Haber\n➕ 15 Ekim 2026\n➕ Bergama 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası\n➕ Haberi oku\n➖ Haber\n➖ 5 Ekim 2026\n➖ Disiplin Kurulumuz İlk Toplantısını Gerçekleştirdi\n➖ Haberi oku",
-  "time": "2026-10-15T08:29:09+00:00",
-  "url": "https://www.tsf.org.tr/guncel-haberler"
- },
- {
-  "ai": null,
   "hot": [],
   "new_links": [
    [
@@ -1308,6 +1269,35 @@
   "page": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Yer açıklanacak",
   "snippet": "➕ YerTalas Kapalı Spor Salonu\n➖ Takvimime ekleOrganizasyonlarYönergeler ve belgeler\n➕ Takvimime ekleOrganizasyon sitesiOrganizasyonlarYönergeler ve belgeler",
   "time": "2026-10-28T17:14:54+00:00",
+  "url": "https://www.tsf.org.tr/etkinlik/1052"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [],
+  "page": "Etkinlik Takvimi",
+  "snippet": "➖ 14–21 Kasım 2026\n➕ 14–21 Kasım 2026·Kayseri - Talas",
+  "time": "2026-10-28T17:15:48+00:00",
+  "url": "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [],
+  "page": "Takvim",
+  "snippet": "➖ 14–21 Kasım 2026\n➕ 14–21 Kasım 2026·Kayseri - Talas",
+  "time": "2026-10-28T17:15:48+00:00",
+  "url": "https://www.tsf.org.tr/takvim"
+ },
+ {
+  "ai": null,
+  "hot": [
+   "salon"
+  ],
+  "new_links": [],
+  "page": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Yer açıklanacak",
+  "snippet": "➖ YerTalas Kapalı Spor Salonu\n➕ YerKayseri - Talas",
+  "time": "2026-10-28T17:15:49+00:00",
   "url": "https://www.tsf.org.tr/etkinlik/1052"
  }
 ]
