@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"3ivvfingfi1lk2\"",
-  "hash": "2bec99c74351d9f2e1a7072c43ddde9eb1b010d89cf74f840ebda39c2ac55ea2",
+  "etag": "\"wa3icggi3c1lk2\"",
+  "hash": "aaa5e36381357732bd691341c3b488bfe555c1e848904f8b383e027a07cd3d47",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -12,11 +12,11 @@
    "Kaynaklar",
    "Online İşlemler",
    "GÜNCEL HABER",
-   "1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
+   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
    "29 Ekim 2026",
    "Haberi oku",
    "GÜNCEL HABER",
-   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
    "29 Ekim 2026",
    "Haberi oku",
    "GÜNCEL HABER",
@@ -31,8 +31,8 @@
    "2026 Avrupa Kulüpler Kupası Sona Erdi",
    "23 Ekim 2026",
    "Haberi oku",
-   "11. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
-   "22. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "12. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "21. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
    "32026 Türkiye Görme Engelliler Satranç Şampiyonası Mersin'de",
    "4Bayegan Pendik Satranç Spor Kulübü Avrupa Kulüpler Kupası Şampiyonu",
    "52026 Avrupa Kulüpler Kupası Sona Erdi",
@@ -51,11 +51,11 @@
    "Tüm haberler",
    "Haber",
    "29 Ekim 2026",
-   "1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
+   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
    "Haberi oku",
    "Haber",
    "29 Ekim 2026",
-   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
    "Haberi oku",
    "Haber",
    "28 Ekim 2026",
@@ -1643,8 +1643,8 @@
   }
  },
  "https://www.tsf.org.tr/guncel-haberler": {
-  "etag": "\"6owt03vgkp8rxf\"",
-  "hash": "9a4cc50dd7ffe743a9bacd8003c1cc40bb37a74454859d6051da21ff9e0bbd97",
+  "etag": "\"ft1kbppypi8rxf\"",
+  "hash": "f63f55d2f0448e489357c59e8d4c7ccc0892cb7020d21b6c355b4f4aa49237e2",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1661,11 +1661,11 @@
    "1123 haber",
    "Haber",
    "29 Ekim 2026",
-   "1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
+   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
    "Haberi oku",
    "Haber",
    "29 Ekim 2026",
-   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
    "Haberi oku",
    "Haber",
    "28 Ekim 2026",
@@ -1736,7 +1736,7 @@
   }
  },
  "https://www.tsf.org.tr/haberler/arsiv": {
-  "etag": "\"1056mde16g4qm1\"",
+  "etag": "\"10i3z2v20o7qof\"",
   "hash": "2726661294c9dae7d6d9a4f031f790c20401f22225cd64ef6b5565aff109f510",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4214,8 +4214,8 @@
   }
  },
  "https://www.tsf.org.tr/tum-il-haberleri": {
-  "etag": "\"6owt03vgkp8rxf\"",
-  "hash": "9a4cc50dd7ffe743a9bacd8003c1cc40bb37a74454859d6051da21ff9e0bbd97",
+  "etag": "\"ft1kbppypi8rxf\"",
+  "hash": "f63f55d2f0448e489357c59e8d4c7ccc0892cb7020d21b6c355b4f4aa49237e2",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4232,11 +4232,11 @@
    "1123 haber",
    "Haber",
    "29 Ekim 2026",
-   "1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
+   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
    "Haberi oku",
    "Haber",
    "29 Ekim 2026",
-   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
    "Haberi oku",
    "Haber",
    "28 Ekim 2026",
