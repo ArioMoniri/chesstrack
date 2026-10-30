@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"vfqp0jfv1lkt\"",
-  "hash": "b40d5ff18045abe1c0d88b7951fcd9ec9472e7420968c292dec7289b86ce87ce",
+  "etag": "\"11jvbptz82j1llf\"",
+  "hash": "e6def0a47fb0504679dbccd5573de01f5b5012e031e487a9878b4fe76d632165",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -12,7 +12,7 @@
    "Kaynaklar",
    "Online İşlemler",
    "GÜNCEL HABER",
-   "Organizasyon Genel Kuralları görüşe sunuldu",
+   "Organizasyon Genel Kuralları Görüşe Sunuldu",
    "30 Ekim 2026",
    "Haberi oku",
    "GÜNCEL HABER",
@@ -31,7 +31,7 @@
    "1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu",
    "29 Ekim 2026",
    "Haberi oku",
-   "1Organizasyon Genel Kuralları görüşe sunuldu",
+   "1Organizasyon Genel Kuralları Görüşe Sunuldu",
    "2Dünya Hızlı ve Yıldırım Satranç Şampiyonası Türkiye'de düzenlenecek",
    "3Erişilebilir Satranç Rehberi görüşe sunuldu",
    "42. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
@@ -51,7 +51,7 @@
    "Tüm haberler",
    "Haber",
    "30 Ekim 2026",
-   "Organizasyon Genel Kuralları görüşe sunuldu",
+   "Organizasyon Genel Kuralları Görüşe Sunuldu",
    "Haberi oku",
    "Haber",
    "29 Ekim 2026",
@@ -263,7 +263,7 @@
   }
  },
  "https://www.tsf.org.tr/duyurular": {
-  "etag": "\"deyz2o5hfy34bb\"",
+  "etag": "\"hblr0ay0c234d1\"",
   "hash": "196ff577f3936380afbb0cea109c7825503b92db29d1a2416b443b246b84c026",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1643,8 +1643,8 @@
   }
  },
  "https://www.tsf.org.tr/guncel-haberler": {
-  "etag": "\"z33c4oh0s28scg\"",
-  "hash": "ea2e55d5f73d22233745a8992541c18191302bbd559e2dd3e78678be6569929c",
+  "etag": "\"mosig05c978sbk\"",
+  "hash": "c750aa368a80bcd9861e083bd8165dae2af33d0eb0c80e1887bbb0756dac036e",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1661,7 +1661,7 @@
    "1126 haber",
    "Haber",
    "30 Ekim 2026",
-   "Organizasyon Genel Kuralları görüşe sunuldu",
+   "Organizasyon Genel Kuralları Görüşe Sunuldu",
    "Haberi oku",
    "Haber",
    "29 Ekim 2026",
@@ -1724,7 +1724,7 @@
    "https://www.tsf.org.tr/haber/article-1": "2026 Avrupa Kulüpler Kupası Sona Erdi",
    "https://www.tsf.org.tr/haber/duenya-hizli-ve-yildirim-satranc-sampiyonasi-tuerkiye-de-duezenlenecek": "Dünya Hızlı ve Yıldırım Satranç Şampiyonası Türkiye'de düzenlenecek",
    "https://www.tsf.org.tr/haber/erisilebilir-satranc-rehberi-goeruese-sunuldu": "Erişilebilir Satranç Rehberi görüşe sunuldu",
-   "https://www.tsf.org.tr/haber/organizasyon-genel-kurallari-goeruese-sunuldu": "Organizasyon Genel Kuralları görüşe sunuldu",
+   "https://www.tsf.org.tr/haber/organizasyon-genel-kurallari-goeruese-sunuldu": "Organizasyon Genel Kuralları Görüşe Sunuldu",
    "https://www.tsf.org.tr/haber/wcm-handenur-sahin-cm-oldu": "WCM Handenur Şahin CM Oldu!",
    "https://www.tsf.org.tr/haberler/arsiv": "Haber arşivi",
    "https://www.tsf.org.tr/iletisim": "İletişim",
@@ -4214,8 +4214,8 @@
   }
  },
  "https://www.tsf.org.tr/tum-il-haberleri": {
-  "etag": "\"z33c4oh0s28scg\"",
-  "hash": "ea2e55d5f73d22233745a8992541c18191302bbd559e2dd3e78678be6569929c",
+  "etag": "\"mosig05c978sbk\"",
+  "hash": "c750aa368a80bcd9861e083bd8165dae2af33d0eb0c80e1887bbb0756dac036e",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4232,7 +4232,7 @@
    "1126 haber",
    "Haber",
    "30 Ekim 2026",
-   "Organizasyon Genel Kuralları görüşe sunuldu",
+   "Organizasyon Genel Kuralları Görüşe Sunuldu",
    "Haberi oku",
    "Haber",
    "29 Ekim 2026",
@@ -4295,7 +4295,7 @@
    "https://www.tsf.org.tr/haber/article-1": "2026 Avrupa Kulüpler Kupası Sona Erdi",
    "https://www.tsf.org.tr/haber/duenya-hizli-ve-yildirim-satranc-sampiyonasi-tuerkiye-de-duezenlenecek": "Dünya Hızlı ve Yıldırım Satranç Şampiyonası Türkiye'de düzenlenecek",
    "https://www.tsf.org.tr/haber/erisilebilir-satranc-rehberi-goeruese-sunuldu": "Erişilebilir Satranç Rehberi görüşe sunuldu",
-   "https://www.tsf.org.tr/haber/organizasyon-genel-kurallari-goeruese-sunuldu": "Organizasyon Genel Kuralları görüşe sunuldu",
+   "https://www.tsf.org.tr/haber/organizasyon-genel-kurallari-goeruese-sunuldu": "Organizasyon Genel Kuralları Görüşe Sunuldu",
    "https://www.tsf.org.tr/haber/wcm-handenur-sahin-cm-oldu": "WCM Handenur Şahin CM Oldu!",
    "https://www.tsf.org.tr/haberler/arsiv": "Haber arşivi",
    "https://www.tsf.org.tr/iletisim": "İletişim",
