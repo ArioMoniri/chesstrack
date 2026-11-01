@@ -1,16 +1,8 @@
 {
  "discovered": [
   {
-   "name": "2026SEZON36. Nato Satranç Şampiyonası11 Ekim 2026 – 17 Ekim 2026Jürmala - Letony",
-   "url": "https://www.tsf.org.tr/turnuva-arsivi/arsiv-9ca43c355bd0"
-  },
-  {
    "name": "—SEZON2025 - 2026 Türkiye KupasıBelirtilmemişYer belirtilmemiş",
    "url": "https://www.tsf.org.tr/turnuva-arsivi/arsiv-f2b638588ff3"
-  },
-  {
-   "name": "11EKİ36. Nato Satranç Şampiyonası11–17 Ekim 2026·Letonya - Jürmala",
-   "url": "https://www.tsf.org.tr/etkinlik/1071"
   },
   {
    "name": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Yer açıklanacak",
@@ -177,7 +169,7 @@
    "url": "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-satranc-ikinci-ligi"
   }
  ],
- "heartbeat": "2026-10-31",
+ "heartbeat": "2026-11-01",
  "last_change_at": "2026-10-30T11:56:03+00:00",
  "paused": false,
  "started_at": "2026-10-13T21:11:13+00:00",
