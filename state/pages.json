@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"x5s4kk68k21l5y\"",
-  "hash": "38d1e3eaef8db564089be4854bcfd306679a4e3d6430eecdcb94c6b559d2dd52",
+  "etag": "\"byvtrxdxu31l6i\"",
+  "hash": "ddc61c8bdbfa95c2f5d09f9f6c7af9e67918bbbb5cfdc1273e3c400d1bdffbaa",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -45,7 +45,7 @@
    "16 Eylül 2026 – 15 Eylül 2027",
    "2KAS",
    "2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası",
-   "2–8 Kasım 2026·Mersin",
+   "2–8 Kasım 2026·Mersin - Silifke",
    "SATRANÇ DÜNYASINDAN",
    "Güncel Haberler",
    "Tüm haberler",
@@ -130,7 +130,7 @@
    "https://www.tsf.org.tr/duyurular?kurul=egitim-kurulu": "Antrenörlük",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
    "https://www.tsf.org.tr/egitim/okulda-satranc": "SATRANÇ EĞİTİMİOkulda SatrançSatrançla tanış, yeni beceriler kazan. İlk hamleni birlikte atalım.Keşfetmeye başla",
-   "https://www.tsf.org.tr/etkinlik/1068": "2KAS2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası2–8 Kasım 2026·Mersin",
+   "https://www.tsf.org.tr/etkinlik/1068": "2KAS2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası2–8 Kasım 2026·Mersin - Silifke",
    "https://www.tsf.org.tr/etkinlik/1117": "16EYL2026 - 2027 TSF Sezon Başlangıç16 Eylül 2026 – 15 Eylül 2027",
    "https://www.tsf.org.tr/federasyon": "Hakkımızda",
    "https://www.tsf.org.tr/federasyon/il-temsilcilikleri/106-istanbul-il-ve-ilce-temsilcileri": "İl sayfası",
@@ -368,7 +368,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1052": {
-  "etag": "\"1395bgr9rd9lol\"",
+  "etag": "\"dvur5s7ab4lps\"",
   "hash": "1a050026a7c0bd65fb9bdac0c6a807643afbe6bc0fb54556c6a75a7bb152cfb4",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -424,7 +424,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1062": {
-  "etag": "\"h4nxqzl3nsk4i\"",
+  "etag": "\"eh60cxabl0k5p\"",
   "hash": "c333533562de53b35df99f78b963348aa4c8ef790d17ab63b3c1d2e99da82c0d",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -475,7 +475,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1064": {
-  "etag": "\"scgveodrrgk74\"",
+  "etag": "\"10b09e9tjoqk8b\"",
   "hash": "145b330f9334dc272feb1322329fd9c4afb8b3689208efcf9fd354da2304f8f4",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -526,7 +526,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1065": {
-  "etag": "\"drlom20t4zk6m\"",
+  "etag": "\"of614lv3dok7t\"",
   "hash": "fb95ee8e9ff8f87ed20bc3f6a79b5a2b88e5b97f653a17915dc290815fd95541",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -577,7 +577,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1066": {
-  "etag": "\"5vi4a6xajtk9g\"",
+  "etag": "\"cwt72fw19hkan\"",
   "hash": "6b6be7a7f021b1fc139212d353d874d3f2697a3aaf15b97ae62e6243b0e12a68",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -628,7 +628,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1067": {
-  "etag": "\"gcifngly34k6r\"",
+  "etag": "\"y7l64ddc4ek7y\"",
   "hash": "c7dacb4f3c9088f5ca6ef9646d9406e168b5e44d26ede13c287eef60a9240c6c",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -679,8 +679,8 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1068": {
-  "etag": "\"122dvzubmepks7\"",
-  "hash": "6204cff4de0813209c2023d86485597e1308cf2114bb04e42f5c312722e2aacd",
+  "etag": "\"ltkjy63zrqku8\"",
+  "hash": "aeac6eb2251e4a91f8a6156e865a6610693f86d194e381f8bec5ed6ca2a97880",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -696,7 +696,7 @@
    "Ulusal",
    "2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası",
    "Tarih2–8 Kasım 2026",
-   "YerMersin",
+   "YerMersin - Silifke",
    "Etkinlik türüUlusal",
    "Etkinliği takip et",
    "Tarihleri takvimine ekle, organizasyon ve belgelerini incele.",
@@ -785,7 +785,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1089": {
-  "etag": "\"5i7l76voxujpw\"",
+  "etag": "\"2on22rg7xxjr3\"",
   "hash": "c068273912d5a9e1402d8155ad3655abbb0a512b1299e48acaf521ae5a39fa2c",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -835,7 +835,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1090": {
-  "etag": "\"x6o3edg51ljq2\"",
+  "etag": "\"119mkwy5fx7jr9\"",
   "hash": "6b3c29e4200d8105e8c6002521aac7b43607b710f4dbbd3e8d92f34eff88ef67",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -885,7 +885,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1091": {
-  "etag": "\"dztd3kxcw7jsq\"",
+  "etag": "\"78pcb4f8svjtx\"",
   "hash": "ba171b24d204de8dbdd81f3ff1f06a53cdc239bc37ad204dd2c64876dd7a8a98",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -935,7 +935,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1092": {
-  "etag": "\"uprfdd7jm5jr6\"",
+  "etag": "\"1436l7eilrxjsd\"",
   "hash": "fd06f8f6861f7d35d42c3fb80cc5eac5819c62a230de418a2ae4e2e5c0bc9324",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -985,7 +985,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1096": {
-  "etag": "\"zzx9ae3rnqk5h\"",
+  "etag": "\"h1zx9sk496k6o\"",
   "hash": "db77144dbaac195427cfb571b619f37f23a6a749a9ed430cee587109b1e7d488",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1036,7 +1036,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1097": {
-  "etag": "\"qq94yc9iodk5i\"",
+  "etag": "\"o1fk49etw7k6p\"",
   "hash": "f93cef9d23cbbac8a6ee37fc5724d1871996c2e28b1354ca0fd086302b0227a0",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1087,7 +1087,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1099": {
-  "etag": "\"14urpjdmwm9jsr\"",
+  "etag": "\"hbh0x87i57jty\"",
   "hash": "fe340100782b5e7318205b0e1667d5d249e884ef65aaca5aa7a17d3132ab3d61",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1137,7 +1137,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1102": {
-  "etag": "\"b2hpvz8tqbjpu\"",
+  "etag": "\"s4ev9d8p48jr1\"",
   "hash": "2524c73633cc2ad741a9b72d95a9889e3af9f1bf9b2a67c66bdcbe1b1445bbb7",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1187,7 +1187,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1105": {
-  "etag": "\"lvrdcgbbgpjps\"",
+  "etag": "\"8xqlg6zyf9jqz\"",
   "hash": "bf5c6664a8b679589a76e33a10f7cefd1dd9222d5f70ec20c67c2b91c403ad0f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1237,7 +1237,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1106": {
-  "etag": "\"uyaxtztccojq2\"",
+  "etag": "\"xkl7jxqdpmjr9\"",
   "hash": "8f093171c93c66209443b9dac8ad987690e20ec6e830d823cbe55158a5fff834",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1287,7 +1287,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1119": {
-  "etag": "\"tbbc0asjdsjq4\"",
+  "etag": "\"7jzgtqmbsbjrb\"",
   "hash": "4a8f0dd41920897baec7b98e68e0b9cbbb22dd16dfaf0ec0aca00b5474c39d64",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1337,7 +1337,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1121": {
-  "etag": "\"spc2lan2edk5u\"",
+  "etag": "\"c7ptd9o85tk71\"",
   "hash": "6d3ed7edcd147937651450f54e674d22758d2d1ee7a11baa9fe7f565987f27b8",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1388,7 +1388,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1122": {
-  "etag": "\"l4uwh8ek43k7z\"",
+  "etag": "\"qgr54fp6elk96\"",
   "hash": "d3311a1ad398f85730b6c8bf2b3c9a99f4f145e49306c3fa77992666e20fe401",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1439,7 +1439,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1123": {
-  "etag": "\"104dzux9y0kk5n\"",
+  "etag": "\"va58pkwca2k6u\"",
   "hash": "7e2b8d7a9bc9f7c4c40fc5522ee34ebaed1a827b1a996077b596de83ccb4653e",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1490,7 +1490,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1124": {
-  "etag": "\"31wxd4m1lek6l\"",
+  "etag": "\"ftmvch0cmbk7s\"",
   "hash": "23e7e633a20984011c44c328947c9c3b0a2d9c69228a6a8cc97860a6e0b6c88f",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1541,7 +1541,7 @@
   }
  },
  "https://www.tsf.org.tr/etkinlik/1125": {
-  "etag": "\"6p1kju6vsrk6f\"",
+  "etag": "\"x61hsoo8ntk7m\"",
   "hash": "4e81b38cee69191a9753249ff83c915bb7bec67c275c6b66a9c2c04377fd1946",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1755,8 +1755,8 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi": {
-  "etag": "\"o97skap5fr1bsm\"",
-  "hash": "01c06a4b8f0a4141a2ef8a14356362260db0e274a2cabea59e8f5222a4705530",
+  "etag": "\"aa7z1sjyaq1bt6\"",
+  "hash": "ad56ffcda33bce0b247fec798a7ac89b87e76e3d602d8c8d50c6b428ff63361b",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1777,7 +1777,7 @@
    "16 Eylül 2026 – 15 Eylül 2027",
    "2KAS",
    "2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası",
-   "2–8 Kasım 2026·Mersin",
+   "2–8 Kasım 2026·Mersin - Silifke",
    "2KAS",
    "2026 Avrupa Yaş Grupları Satranç Şampiyonası",
    "2–13 Kasım 2026·Yunanistan - Girit",
@@ -1895,7 +1895,7 @@
    "https://www.tsf.org.tr/etkinlik/1065": "2KAS2026 Dünya Emektarlar Satranç Şampiyonası2–15 Kasım 2026·Sırbistan - Banja",
    "https://www.tsf.org.tr/etkinlik/1066": "21KAS2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)21–29 Kasım 2026·Gürcistan - Batum",
    "https://www.tsf.org.tr/etkinlik/1067": "3ARA2026 Türkiye Şampiyonası3–14 Aralık 2026",
-   "https://www.tsf.org.tr/etkinlik/1068": "2KAS2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası2–8 Kasım 2026·Mersin",
+   "https://www.tsf.org.tr/etkinlik/1068": "2KAS2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası2–8 Kasım 2026·Mersin - Silifke",
    "https://www.tsf.org.tr/etkinlik/1089": "23OCA2026 - 2027 Türkiye Küçükler Satranç Şampiyonası23–30 Ocak 2027",
    "https://www.tsf.org.tr/etkinlik/1090": "23OCA2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası23–30 Ocak 2027",
    "https://www.tsf.org.tr/etkinlik/1091": "13ŞUB2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları13 Şubat 2027 – 4 Nisan 2027",
@@ -3980,8 +3980,8 @@
   }
  },
  "https://www.tsf.org.tr/takvim": {
-  "etag": "\"o97skap5fr1bsm\"",
-  "hash": "01c06a4b8f0a4141a2ef8a14356362260db0e274a2cabea59e8f5222a4705530",
+  "etag": "\"aa7z1sjyaq1bt6\"",
+  "hash": "ad56ffcda33bce0b247fec798a7ac89b87e76e3d602d8c8d50c6b428ff63361b",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4002,7 +4002,7 @@
    "16 Eylül 2026 – 15 Eylül 2027",
    "2KAS",
    "2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası",
-   "2–8 Kasım 2026·Mersin",
+   "2–8 Kasım 2026·Mersin - Silifke",
    "2KAS",
    "2026 Avrupa Yaş Grupları Satranç Şampiyonası",
    "2–13 Kasım 2026·Yunanistan - Girit",
@@ -4120,7 +4120,7 @@
    "https://www.tsf.org.tr/etkinlik/1065": "2KAS2026 Dünya Emektarlar Satranç Şampiyonası2–15 Kasım 2026·Sırbistan - Banja",
    "https://www.tsf.org.tr/etkinlik/1066": "21KAS2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)21–29 Kasım 2026·Gürcistan - Batum",
    "https://www.tsf.org.tr/etkinlik/1067": "3ARA2026 Türkiye Şampiyonası3–14 Aralık 2026",
-   "https://www.tsf.org.tr/etkinlik/1068": "2KAS2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası2–8 Kasım 2026·Mersin",
+   "https://www.tsf.org.tr/etkinlik/1068": "2KAS2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası2–8 Kasım 2026·Mersin - Silifke",
    "https://www.tsf.org.tr/etkinlik/1089": "23OCA2026 - 2027 Türkiye Küçükler Satranç Şampiyonası23–30 Ocak 2027",
    "https://www.tsf.org.tr/etkinlik/1090": "23OCA2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası23–30 Ocak 2027",
    "https://www.tsf.org.tr/etkinlik/1091": "13ŞUB2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları13 Şubat 2027 – 4 Nisan 2027",
@@ -4256,7 +4256,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1041": {
-  "etag": "\"15ltto2ycsxkly\"",
+  "etag": "\"3d20xjrq2ckn5\"",
   "hash": "582c106039c9d70e8f87d8f22c642260c3a0baeecde8a978b63ae1b814af05d8",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4311,7 +4311,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1054": {
-  "etag": "\"3uowf7isxbk8w\"",
+  "etag": "\"fah6f93063ka3\"",
   "hash": "51e8d3eba42c8f3b2824462d9729ba36472047ab23271ef07cf1cf20f5b06143",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4366,7 +4366,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1055": {
-  "etag": "\"85j226q3mbk84\"",
+  "etag": "\"dd8hthnto5k9b\"",
   "hash": "bfecce4652edb16e46d04831f4acbb22e2e49396158e94f0edb663a673ff5cdb",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4421,7 +4421,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1056": {
-  "etag": "\"1x2w10ei9ck90\"",
+  "etag": "\"ocdi4o34a9ka7\"",
   "hash": "cf8dcd22ccf62d38cf4708bcfea91d7c5413424975f209c0c63e0f74793c8d15",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4476,7 +4476,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/1057": {
-  "etag": "\"14sgkcftzykdu\"",
+  "etag": "\"36ea3tqq0fkf1\"",
   "hash": "4324a0c5b96eb31e977e9e3b63de44777858a356761f6cdf2bd9f82c30a387e9",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4531,7 +4531,7 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/arsiv-f2b638588ff3": {
-  "etag": "\"wp7xwh68zqk6c\"",
+  "etag": "\"8guiup90zak7j\"",
   "hash": "a005f779870973df885b6bb03267a3c725b601b74b86b67a5f17dd9acb666f4d",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
