@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"10o8wv9d8971q7w\"",
-  "hash": "c409a6f655c2dfcc56986b28886b19b71c8bd1d47d77bfa44f707eeb5800f4d6",
+  "etag": "\"euar5ug6ql1pci\"",
+  "hash": "2f19d9ffb01a149c4f267670e97fa09a6921030615a9b6c7010e933b66900242",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -12,7 +12,7 @@
    "Kaynaklar",
    "Online İşlemler",
    "GÜNCEL HABER",
-   "Hacı Saffet Çam Vakfı tarafından düzenlenen Cumhuriyet Kupası ELO Satranç Turnuvası Yalova'da Düzenlendi",
+   "Hacı Saffet Çam Vakfı Cumhuriyet Kupası Yalova'da",
    "3 Kasım 2026",
    "Haberi oku",
    "GÜNCEL HABER",
@@ -31,7 +31,7 @@
    "Dünya Hızlı ve Yıldırım Satranç Şampiyonası Türkiye'de düzenlenecek",
    "29 Ekim 2026",
    "Haberi oku",
-   "1Hacı Saffet Çam Vakfı tarafından düzenlenen Cumhuriyet Kupası ELO Satranç Turnuvası Yalova'da Düzenlendi",
+   "1 Hacı Saffet Çam Vakfı Cumhuriyet Kupası Yalova'da",
    "22. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
    "32026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor",
    "4Organizasyon Genel Kuralları Görüşe Sunuldu",
@@ -51,7 +51,7 @@
    "Tüm haberler",
    "Haber",
    "3 Kasım 2026",
-   "Hacı Saffet Çam Vakfı tarafından düzenlenen Cumhuriyet Kupası ELO Satranç Turnuvası Yalova'da Düzenlendi",
+   "Hacı Saffet Çam Vakfı Cumhuriyet Kupası Yalova'da",
    "Haberi oku",
    "Haber",
    "30 Ekim 2026",
@@ -144,7 +144,7 @@
    "https://www.tsf.org.tr/haber/2026-avrupa-yas-gruplari-satranc-sampiyonasi-basliyor": "Haberi oku",
    "https://www.tsf.org.tr/haber/article-5": "Haberi oku",
    "https://www.tsf.org.tr/haber/duenya-hizli-ve-yildirim-satranc-sampiyonasi-tuerkiye-de-duezenlenecek": "Haberi oku",
-   "https://www.tsf.org.tr/haber/haci-saffet-cam-vakfi-tarafindan-duezenlenen-cumhuriyet-kupasi-elo-satranc-turnuvasi-yalova-da-duezenlendi": "Haberi oku",
+   "https://www.tsf.org.tr/haber/haci-saffet-cam-vakfi-cumhuriyet-kupasi-yalova-da": "Haberi oku",
    "https://www.tsf.org.tr/haber/organizasyon-genel-kurallari-goeruese-sunuldu": "Haberi oku",
    "https://www.tsf.org.tr/haberler": "Tüm haberler",
    "https://www.tsf.org.tr/iletisim": "İletişim",
@@ -263,7 +263,7 @@
   }
  },
  "https://www.tsf.org.tr/duyurular": {
-  "etag": "\"um184rkrfp34f4\"",
+  "etag": "\"8gnzxgisrb34i1\"",
   "hash": "196ff577f3936380afbb0cea109c7825503b92db29d1a2416b443b246b84c026",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1592,8 +1592,8 @@
   }
  },
  "https://www.tsf.org.tr/guncel-haberler": {
-  "etag": "\"h6m9xd1mj28uhz\"",
-  "hash": "f00c59c4e14f9b4475f2298782f83aca82206a31b458b57c5d2841d28e475003",
+  "etag": "\"tf0k36i4w38u5i\"",
+  "hash": "b4e880f712336a9b5841d3f3dced0aefb2b5bf4fd4110c33b47846c88169dbd8",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1610,7 +1610,7 @@
    "1129 haber",
    "Haber",
    "3 Kasım 2026",
-   "Hacı Saffet Çam Vakfı tarafından düzenlenen Cumhuriyet Kupası ELO Satranç Turnuvası Yalova'da Düzenlendi",
+   "Hacı Saffet Çam Vakfı Cumhuriyet Kupası Yalova'da",
    "Haberi oku",
    "Haber",
    "30 Ekim 2026",
@@ -1673,7 +1673,7 @@
    "https://www.tsf.org.tr/haber/article-5": "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
    "https://www.tsf.org.tr/haber/duenya-hizli-ve-yildirim-satranc-sampiyonasi-tuerkiye-de-duezenlenecek": "Dünya Hızlı ve Yıldırım Satranç Şampiyonası Türkiye'de düzenlenecek",
    "https://www.tsf.org.tr/haber/erisilebilir-satranc-rehberi-goeruese-sunuldu": "Erişilebilir Satranç Rehberi görüşe sunuldu",
-   "https://www.tsf.org.tr/haber/haci-saffet-cam-vakfi-tarafindan-duezenlenen-cumhuriyet-kupasi-elo-satranc-turnuvasi-yalova-da-duezenlendi": "Hacı Saffet Çam Vakfı tarafından düzenlenen Cumhuriyet Kupası ELO Satranç Turnuvası Yalova'da Düzenlendi",
+   "https://www.tsf.org.tr/haber/haci-saffet-cam-vakfi-cumhuriyet-kupasi-yalova-da": "Hacı Saffet Çam Vakfı Cumhuriyet Kupası Yalova'da",
    "https://www.tsf.org.tr/haber/organizasyon-genel-kurallari-goeruese-sunuldu": "Organizasyon Genel Kuralları Görüşe Sunuldu",
    "https://www.tsf.org.tr/haberler/arsiv": "Haber arşivi",
    "https://www.tsf.org.tr/iletisim": "İletişim",
@@ -1685,7 +1685,7 @@
   }
  },
  "https://www.tsf.org.tr/haberler/arsiv": {
-  "etag": "\"11nynckocx2qp1\"",
+  "etag": "\"n89ovi95wcqof\"",
   "hash": "13de69222fd0f31e6f939559d8e5444a869741be28cfeb86dee5cd4fdfe0b9d7",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4163,8 +4163,8 @@
   }
  },
  "https://www.tsf.org.tr/tum-il-haberleri": {
-  "etag": "\"h6m9xd1mj28uhz\"",
-  "hash": "f00c59c4e14f9b4475f2298782f83aca82206a31b458b57c5d2841d28e475003",
+  "etag": "\"tf0k36i4w38u5i\"",
+  "hash": "b4e880f712336a9b5841d3f3dced0aefb2b5bf4fd4110c33b47846c88169dbd8",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4181,7 +4181,7 @@
    "1129 haber",
    "Haber",
    "3 Kasım 2026",
-   "Hacı Saffet Çam Vakfı tarafından düzenlenen Cumhuriyet Kupası ELO Satranç Turnuvası Yalova'da Düzenlendi",
+   "Hacı Saffet Çam Vakfı Cumhuriyet Kupası Yalova'da",
    "Haberi oku",
    "Haber",
    "30 Ekim 2026",
@@ -4244,7 +4244,7 @@
    "https://www.tsf.org.tr/haber/article-5": "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
    "https://www.tsf.org.tr/haber/duenya-hizli-ve-yildirim-satranc-sampiyonasi-tuerkiye-de-duezenlenecek": "Dünya Hızlı ve Yıldırım Satranç Şampiyonası Türkiye'de düzenlenecek",
    "https://www.tsf.org.tr/haber/erisilebilir-satranc-rehberi-goeruese-sunuldu": "Erişilebilir Satranç Rehberi görüşe sunuldu",
-   "https://www.tsf.org.tr/haber/haci-saffet-cam-vakfi-tarafindan-duezenlenen-cumhuriyet-kupasi-elo-satranc-turnuvasi-yalova-da-duezenlendi": "Hacı Saffet Çam Vakfı tarafından düzenlenen Cumhuriyet Kupası ELO Satranç Turnuvası Yalova'da Düzenlendi",
+   "https://www.tsf.org.tr/haber/haci-saffet-cam-vakfi-cumhuriyet-kupasi-yalova-da": "Hacı Saffet Çam Vakfı Cumhuriyet Kupası Yalova'da",
    "https://www.tsf.org.tr/haber/organizasyon-genel-kurallari-goeruese-sunuldu": "Organizasyon Genel Kuralları Görüşe Sunuldu",
    "https://www.tsf.org.tr/haberler/arsiv": "Haber arşivi",
    "https://www.tsf.org.tr/iletisim": "İletişim",
