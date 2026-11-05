@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"7vty482iae1our\"",
-  "hash": "01491c9158b8e275de66ffd75b672d18d140899ea72aa59e23aa3d8d7a304315",
+  "etag": "\"tzidgesaw41owj\"",
+  "hash": "0d5904b13221e97e2b55d48b092cc82d929bd3b5491cbe11044867e6f62db5f5",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -28,14 +28,14 @@
    "3 Kasım 2026",
    "Haberi oku",
    "GÜNCEL HABER",
-   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "2026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor",
    "30 Ekim 2026",
    "Haberi oku",
    "1Dijital Sporcu Vize Yenileme Kılavuzu Yayımlandı",
    "2Dijital Sporcu Lisansı Çıkarma Kılavuzu Yayımlandı",
    "32026 Türkiye Görme Engelliler Satranç Şampiyonası Mersin'de başladı",
    "4 Hacı Saffet Çam Vakfı Cumhuriyet Kupası Yalova'da",
-   "52. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "52026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor",
    "Lisans İşlemleriUKD SorgulamaCanlı İzlemeELO ListeleriHakemlikAntrenörlük",
    "Takvimde Sıradaki",
    "Önemli turnuva ve etkinlikler",
@@ -141,8 +141,8 @@
    "https://www.tsf.org.tr/haber/17916": "Lisans İşlemleriGüncelleme - Sporcu Lisans Tescil ve Vize İşlemleri Hakkında",
    "https://www.tsf.org.tr/haber/18761": "SporcularUluslararası Turnuvalara Katılım Kriterleri Hakkında Duyuru",
    "https://www.tsf.org.tr/haber/19359": "Lisans İşlemleriSPORCU LİSANS VE VİZE İŞLEMLERİNE İLİŞKİN DEĞİŞİKLİKLER İLE HAKEM, ANTRENÖR VE KULÜP VİZE ÜCRETLERİNE İLİŞKİN BİLGİLENDİRME",
+   "https://www.tsf.org.tr/haber/2026-avrupa-yas-gruplari-satranc-sampiyonasi-basliyor": "Haberi oku",
    "https://www.tsf.org.tr/haber/2026-tuerkiye-goerme-engelliler-satranc-sampiyonasi-mersin-de-basladi": "Haberi oku",
-   "https://www.tsf.org.tr/haber/article-5": "Haberi oku",
    "https://www.tsf.org.tr/haber/article-6": "Haberi oku",
    "https://www.tsf.org.tr/haber/article-7": "Haberi oku",
    "https://www.tsf.org.tr/haber/haci-saffet-cam-vakfi-cumhuriyet-kupasi-yalova-da": "Haberi oku",
@@ -263,7 +263,7 @@
   }
  },
  "https://www.tsf.org.tr/duyurular": {
-  "etag": "\"10izyu0c8d734i1\"",
+  "etag": "\"shk84r4wp634f4\"",
   "hash": "196ff577f3936380afbb0cea109c7825503b92db29d1a2416b443b246b84c026",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1592,8 +1592,8 @@
   }
  },
  "https://www.tsf.org.tr/guncel-haberler": {
-  "etag": "\"b5da5itxkq8ux6\"",
-  "hash": "2de217bf2ad1515d5d9e194a802ac38d5ece191f651d4ee81a2ef4d6d039832b",
+  "etag": "\"m5tvie8pml8uwk\"",
+  "hash": "9ca88e85595a19fa0cc5bd9a25490cc445e57a054fec74f7a383a3168caa0098",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1626,11 +1626,11 @@
    "Haberi oku",
    "Haber",
    "30 Ekim 2026",
-   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "2026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor",
    "Haberi oku",
    "Haber",
    "30 Ekim 2026",
-   "2026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor",
+   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
    "Haberi oku",
    "Haber",
    "30 Ekim 2026",
@@ -4163,8 +4163,8 @@
   }
  },
  "https://www.tsf.org.tr/tum-il-haberleri": {
-  "etag": "\"b5da5itxkq8ux6\"",
-  "hash": "2de217bf2ad1515d5d9e194a802ac38d5ece191f651d4ee81a2ef4d6d039832b",
+  "etag": "\"m5tvie8pml8uwk\"",
+  "hash": "9ca88e85595a19fa0cc5bd9a25490cc445e57a054fec74f7a383a3168caa0098",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4197,11 +4197,11 @@
    "Haberi oku",
    "Haber",
    "30 Ekim 2026",
-   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
+   "2026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor",
    "Haberi oku",
    "Haber",
    "30 Ekim 2026",
-   "2026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor",
+   "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
    "Haberi oku",
    "Haber",
    "30 Ekim 2026",
