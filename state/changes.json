@@ -8,20 +8,6 @@
     "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu"
    ]
   ],
-  "page": "Güncel Haberler",
-  "snippet": "➖ 1122 haber\n➕ 1123 haber\n➕ Haber\n➕ 29 Ekim 2026\n➕ 2. Kademe Temel Antrenör Uygulama Eğitimi Kursu\n➕ Haberi oku\n➖ Haber\n➖ 18 Ekim 2026\n➖ 2026 Avrupa Kulüpler Kupası\n➖ Haberi oku",
-  "time": "2026-10-29T08:38:03+00:00",
-  "url": "https://www.tsf.org.tr/guncel-haberler"
- },
- {
-  "ai": null,
-  "hot": [],
-  "new_links": [
-   [
-    "https://www.tsf.org.tr/haber/2-kademe-temel-antrenoer-uygulama-egitimi-kursu",
-    "2. Kademe Temel Antrenör Uygulama Eğitimi Kursu"
-   ]
-  ],
   "page": "Tüm İl Haberleri",
   "snippet": "➖ 1122 haber\n➕ 1123 haber\n➕ Haber\n➕ 29 Ekim 2026\n➕ 2. Kademe Temel Antrenör Uygulama Eğitimi Kursu\n➕ Haberi oku\n➖ Haber\n➖ 18 Ekim 2026\n➖ 2026 Avrupa Kulüpler Kupası\n➖ Haberi oku",
   "time": "2026-10-29T08:38:03+00:00",
@@ -1225,5 +1211,19 @@
   "snippet": "➖ 34 etkinlik2026 Etkinlik Takvimi\n➕ 33 etkinlik2026 Etkinlik Takvimi\n➖ 2KAS\n➖ 2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası\n➖ 2–8 Kasım 2026·Mersin - Silifke",
   "time": "2026-11-08T21:49:40+00:00",
   "url": "https://www.tsf.org.tr/takvim"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [
+   [
+    "https://www.tsf.org.tr/etkinlik/1064",
+    "2KAS2026 Avrupa Yaş Grupları Satranç Şampiyonası2–13 Kasım 2026·Yunanistan - Girit"
+   ]
+  ],
+  "page": "Ana Sayfa",
+  "snippet": "➖ 2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası\n➖ 2–8 Kasım 2026·Mersin - Silifke\n➕ 2026 Avrupa Yaş Grupları Satranç Şampiyonası\n➕ 2–13 Kasım 2026·Yunanistan - Girit",
+  "time": "2026-11-08T21:57:01+00:00",
+  "url": "https://www.tsf.org.tr/"
  }
 ]
