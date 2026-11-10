@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"6y32dmh8ki1r3y\"",
-  "hash": "6f3bd13b95000a4a9a60a518d3b4d63f3ff84599df6a3cf47d53b67e50b96e63",
+  "etag": "\"162xrac4x3q1qo9\"",
+  "hash": "91518631864a1c60b3c4f7a497f0b42dd3b04ea3245050ca3cc75cf722cd410c",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -12,7 +12,7 @@
    "Kaynaklar",
    "Online İşlemler",
    "GÜNCEL HABER",
-   "Cumhuriyetimizin kurucusu Gazi Mustafa Kemal Atatürk’ü, aramızdan ayrılışının 88. yılında saygı ve özlemle anıyoruz.",
+   "Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "10 Kasım 2026",
    "Haberi oku",
    "GÜNCEL HABER",
@@ -31,7 +31,7 @@
    "2026 Avrupa Yaş Grupları Satranç Şampiyonası'nda dördüncü tur tamamlandı",
    "7 Kasım 2026",
    "Haberi oku",
-   "1Cumhuriyetimizin kurucusu Gazi Mustafa Kemal Atatürk’ü, aramızdan ayrılışının 88. yılında saygı ve özlemle anıyoruz.",
+   "1 Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "22026 Türkiye Görme Engelliler Satranç Şampiyonası sona erdi",
    "32026 Avrupa Yaş Grupları Satranç Şampiyonası’nda 5. tur tamamlandı!",
    "42026 Dünya Emektarlar Satranç Şampiyonası'nda dördüncü tur tamamlandı",
@@ -51,7 +51,7 @@
    "Tüm haberler",
    "Haber",
    "10 Kasım 2026",
-   "Cumhuriyetimizin kurucusu Gazi Mustafa Kemal Atatürk’ü, aramızdan ayrılışının 88. yılında saygı ve özlemle anıyoruz.",
+   "Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "Haberi oku",
    "Haber",
    "8 Kasım 2026",
@@ -263,7 +263,7 @@
   }
  },
  "https://www.tsf.org.tr/duyurular": {
-  "etag": "\"lnb31p24g34i1\"",
+  "etag": "\"15b4bmndiuw34j8\"",
   "hash": "196ff577f3936380afbb0cea109c7825503b92db29d1a2416b443b246b84c026",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1541,8 +1541,8 @@
   }
  },
  "https://www.tsf.org.tr/guncel-haberler": {
-  "etag": "\"17d3idn1ued8x1c\"",
-  "hash": "c916e1360ea7994d746b66e9f73d15f7c0693dd53288f6540932d6222b6da6be",
+  "etag": "\"110tmas2g4n8ww9\"",
+  "hash": "14a6789a3c94e54ea7cddaef29b6244f977f02e01d511b57b2ddeef8f7ea1f61",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1559,7 +1559,7 @@
    "1138 haber",
    "Haber",
    "10 Kasım 2026",
-   "Cumhuriyetimizin kurucusu Gazi Mustafa Kemal Atatürk’ü, aramızdan ayrılışının 88. yılında saygı ve özlemle anıyoruz.",
+   "Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "Haberi oku",
    "Haber",
    "8 Kasım 2026",
@@ -1623,7 +1623,7 @@
    "https://www.tsf.org.tr/haber/2026-tuerkiye-goerme-engelliler-satranc-sampiyonasi-sona-erdi": "2026 Türkiye Görme Engelliler Satranç Şampiyonası sona erdi",
    "https://www.tsf.org.tr/haber/article-6": "Dijital Sporcu Lisansı Çıkarma Kılavuzu Yayımlandı",
    "https://www.tsf.org.tr/haber/article-7": "Dijital Sporcu Vize Yenileme Kılavuzu Yayımlandı",
-   "https://www.tsf.org.tr/haber/cumhuriyetimizin-kurucusu-gazi-mustafa-kemal-atatuerk-ue-aramizdan-ayrilisinin-88-yilinda-saygi-ve-oezlemle-aniyoruz": "Cumhuriyetimizin kurucusu Gazi Mustafa Kemal Atatürk’ü, aramızdan ayrılışının 88. yılında saygı ve özlemle anıyoruz.",
+   "https://www.tsf.org.tr/haber/cumhuriyetimizin-kurucusu-gazi-mustafa-kemal-atatuerk-ue-aramizdan-ayrilisinin-88-yilinda-saygi-ve-oezlemle-aniyoruz": "Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "https://www.tsf.org.tr/haberler/arsiv": "Haber arşivi",
    "https://www.tsf.org.tr/iletisim": "İletişim",
    "https://www.tsf.org.tr/kaynaklar/dopingle-mucadele/anti-doping": "Dopingle Mücadele",
@@ -1634,7 +1634,7 @@
   }
  },
  "https://www.tsf.org.tr/haberler/arsiv": {
-  "etag": "\"11bu92ojghvqof\"",
+  "etag": "\"yzli9ujb8nqp1\"",
   "hash": "d49f771842766ba164454e5ffc11646011500aba47176c382e2ca1c922a36ca2",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4104,8 +4104,8 @@
   }
  },
  "https://www.tsf.org.tr/tum-il-haberleri": {
-  "etag": "\"17d3idn1ued8x1c\"",
-  "hash": "c916e1360ea7994d746b66e9f73d15f7c0693dd53288f6540932d6222b6da6be",
+  "etag": "\"110tmas2g4n8ww9\"",
+  "hash": "14a6789a3c94e54ea7cddaef29b6244f977f02e01d511b57b2ddeef8f7ea1f61",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4122,7 +4122,7 @@
    "1138 haber",
    "Haber",
    "10 Kasım 2026",
-   "Cumhuriyetimizin kurucusu Gazi Mustafa Kemal Atatürk’ü, aramızdan ayrılışının 88. yılında saygı ve özlemle anıyoruz.",
+   "Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "Haberi oku",
    "Haber",
    "8 Kasım 2026",
@@ -4186,7 +4186,7 @@
    "https://www.tsf.org.tr/haber/2026-tuerkiye-goerme-engelliler-satranc-sampiyonasi-sona-erdi": "2026 Türkiye Görme Engelliler Satranç Şampiyonası sona erdi",
    "https://www.tsf.org.tr/haber/article-6": "Dijital Sporcu Lisansı Çıkarma Kılavuzu Yayımlandı",
    "https://www.tsf.org.tr/haber/article-7": "Dijital Sporcu Vize Yenileme Kılavuzu Yayımlandı",
-   "https://www.tsf.org.tr/haber/cumhuriyetimizin-kurucusu-gazi-mustafa-kemal-atatuerk-ue-aramizdan-ayrilisinin-88-yilinda-saygi-ve-oezlemle-aniyoruz": "Cumhuriyetimizin kurucusu Gazi Mustafa Kemal Atatürk’ü, aramızdan ayrılışının 88. yılında saygı ve özlemle anıyoruz.",
+   "https://www.tsf.org.tr/haber/cumhuriyetimizin-kurucusu-gazi-mustafa-kemal-atatuerk-ue-aramizdan-ayrilisinin-88-yilinda-saygi-ve-oezlemle-aniyoruz": "Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "https://www.tsf.org.tr/haberler/arsiv": "Haber arşivi",
    "https://www.tsf.org.tr/iletisim": "İletişim",
    "https://www.tsf.org.tr/kaynaklar/dopingle-mucadele/anti-doping": "Dopingle Mücadele",
