@@ -3,15 +3,6 @@
   "ai": null,
   "hot": [],
   "new_links": [],
-  "page": "Ana Sayfa",
-  "snippet": "➖ Organizasyon Genel Kuralları görüşe sunuldu\n➕ Organizasyon Genel Kuralları Görüşe Sunuldu\n➖ 1Organizasyon Genel Kuralları görüşe sunuldu\n➕ 1Organizasyon Genel Kuralları Görüşe Sunuldu\n➖ Organizasyon Genel Kuralları görüşe sunuldu\n➕ Organizasyon Genel Kuralları Görüşe Sunuldu",
-  "time": "2026-10-30T07:04:10+00:00",
-  "url": "https://www.tsf.org.tr/"
- },
- {
-  "ai": null,
-  "hot": [],
-  "new_links": [],
   "page": "Güncel Haberler",
   "snippet": "➖ Organizasyon Genel Kuralları görüşe sunuldu\n➕ Organizasyon Genel Kuralları Görüşe Sunuldu",
   "time": "2026-10-30T07:04:11+00:00",
@@ -1223,6 +1214,15 @@
   "page": "Belge Merkezi",
   "snippet": "➖ 23 belge\n➕ 22 belge",
   "time": "2026-11-12T15:33:31+00:00",
+  "url": "https://www.tsf.org.tr/belgeler"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [],
+  "page": "Belge Merkezi",
+  "snippet": "➖ 22 belge\n➕ 23 belge",
+  "time": "2026-11-12T15:35:22+00:00",
   "url": "https://www.tsf.org.tr/belgeler"
  }
 ]
