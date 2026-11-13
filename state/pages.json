@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"hf1t6zp6r91qua\"",
-  "hash": "cc2a8e9136a33a1e560a019c44fa1cef86291984f0c68c53fdde78f4162e6f47",
+  "etag": "\"bocnadpjfo1qu2\"",
+  "hash": "d0a16bcd31289bb9f8c0f8ef50ebd543060d0c7c6e49aec3ed2c1516d7f3c8b9",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -44,8 +44,8 @@
    "2026 - 2027 TSF Sezon Başlangıç",
    "16 Eylül 2026 – 15 Eylül 2027",
    "2KAS",
-   "2026 Avrupa Yaş Grupları Satranç Şampiyonası",
-   "2–13 Kasım 2026·Yunanistan - Girit",
+   "2026 Dünya Emektarlar Satranç Şampiyonası",
+   "2–15 Kasım 2026·Sırbistan - Banja",
    "SATRANÇ DÜNYASINDAN",
    "Güncel Haberler",
    "Tüm haberler",
@@ -130,7 +130,7 @@
    "https://www.tsf.org.tr/duyurular?kurul=egitim-kurulu": "Antrenörlük",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
    "https://www.tsf.org.tr/egitim/okulda-satranc": "SATRANÇ EĞİTİMİOkulda SatrançSatrançla tanış, yeni beceriler kazan. İlk hamleni birlikte atalım.Keşfetmeye başla",
-   "https://www.tsf.org.tr/etkinlik/1064": "2KAS2026 Avrupa Yaş Grupları Satranç Şampiyonası2–13 Kasım 2026·Yunanistan - Girit",
+   "https://www.tsf.org.tr/etkinlik/1065": "2KAS2026 Dünya Emektarlar Satranç Şampiyonası2–15 Kasım 2026·Sırbistan - Banja",
    "https://www.tsf.org.tr/etkinlik/1117": "16EYL2026 - 2027 TSF Sezon Başlangıç16 Eylül 2026 – 15 Eylül 2027",
    "https://www.tsf.org.tr/federasyon": "Hakkımızda",
    "https://www.tsf.org.tr/federasyon/il-temsilcilikleri/106-istanbul-il-ve-ilce-temsilcileri": "İl sayfası",
@@ -3854,7 +3854,7 @@
   }
  },
  "https://www.tsf.org.tr/organizasyon/tky": {
-  "etag": "\"17d00nui6oylx0\"",
+  "etag": "\"jb95ad0t6nlvt\"",
   "hash": "7eda27dec5d272244f3d648871dc561668915547e3da37840846b816117529ef",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
