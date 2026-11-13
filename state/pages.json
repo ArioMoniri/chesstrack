@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"yv0dgr4sss1qwg\"",
-  "hash": "e493b2a8c82c505150c4e38ea6b8739070d1a9ce1868febf2cf322f55daeb07c",
+  "etag": "\"17dj2yv9ey1qyi\"",
+  "hash": "aa2af8d725e1e282844320798b2bfe17d71691dbe2981cb03c9a0a8d8b386634",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -12,7 +12,7 @@
    "Kaynaklar",
    "Online İşlemler",
    "GÜNCEL HABER",
-   "Sporcularımızdan Avrupa Derecesi",
+   "Sporcularımızdan Gururlandıran Avrupa Dereceleri!",
    "13 Kasım 2026",
    "Haberi oku",
    "GÜNCEL HABER",
@@ -31,7 +31,7 @@
    "Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "10 Kasım 2026",
    "Haberi oku",
-   "1Sporcularımızdan Avrupa Derecesi",
+   "1Sporcularımızdan Gururlandıran Avrupa Dereceleri!",
    "2Sporcu Eğitim ve Milli Takım Hazırlık Kampları Talimatı Yayımlandı",
    "3Teşkilat ve İl Temsilcilikleri Kurulu ile Kadın ve Engelli Satranç Sorumluları Atamaları Gerçekleştirildi",
    "42026 Avrupa Yaş Grupları Satranç Şampiyonası’nda 7. tur tamamlandı",
@@ -51,7 +51,7 @@
    "Tüm haberler",
    "Haber",
    "13 Kasım 2026",
-   "Sporcularımızdan Avrupa Derecesi",
+   "Sporcularımızdan Gururlandıran Avrupa Dereceleri!",
    "Haberi oku",
    "Haber",
    "12 Kasım 2026",
@@ -144,7 +144,7 @@
    "https://www.tsf.org.tr/haber/2026-avrupa-yas-gruplari-satranc-sampiyonasi-nda-7-tur-tamamlandi": "Haberi oku",
    "https://www.tsf.org.tr/haber/cumhuriyetimizin-kurucusu-gazi-mustafa-kemal-atatuerk-ue-aramizdan-ayrilisinin-88-yilinda-saygi-ve-oezlemle-aniyoruz": "Haberi oku",
    "https://www.tsf.org.tr/haber/sporcu-egitim-ve-milli-takim-hazirlik-kamplari-talimati-yayimlandi": "Haberi oku",
-   "https://www.tsf.org.tr/haber/sporcularimizdan-avrupa-derecesi": "Haberi oku",
+   "https://www.tsf.org.tr/haber/sporcularimizdan-gururlandiran-avrupa-dereceleri": "Haberi oku",
    "https://www.tsf.org.tr/haber/teskilat-ve-il-temsilcilikleri-kurulu-ile-kadin-ve-engelli-satranc-sorumlulari-atamalari-gerceklestirildi": "Haberi oku",
    "https://www.tsf.org.tr/haberler": "Tüm haberler",
    "https://www.tsf.org.tr/iletisim": "İletişim",
@@ -1541,8 +1541,8 @@
   }
  },
  "https://www.tsf.org.tr/guncel-haberler": {
-  "etag": "\"10z9cp3usng8yf0\"",
-  "hash": "bbb60ef80aa95586b1303fc53acbbf6be676f50cf4947037ccbddbffde5923c9",
+  "etag": "\"1263mx94p878ydw\"",
+  "hash": "017fe8ab71ac70292408c3cf0a72ff3dd8d492af792b7c41b93a83dde8aa706a",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1559,7 +1559,7 @@
    "1142 haber",
    "Haber",
    "13 Kasım 2026",
-   "Sporcularımızdan Avrupa Derecesi",
+   "Sporcularımızdan Gururlandıran Avrupa Dereceleri!",
    "Haberi oku",
    "Haber",
    "12 Kasım 2026",
@@ -1622,7 +1622,7 @@
    "https://www.tsf.org.tr/haber/2026-tuerkiye-goerme-engelliler-satranc-sampiyonasi-sona-erdi": "2026 Türkiye Görme Engelliler Satranç Şampiyonası sona erdi",
    "https://www.tsf.org.tr/haber/cumhuriyetimizin-kurucusu-gazi-mustafa-kemal-atatuerk-ue-aramizdan-ayrilisinin-88-yilinda-saygi-ve-oezlemle-aniyoruz": "Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "https://www.tsf.org.tr/haber/sporcu-egitim-ve-milli-takim-hazirlik-kamplari-talimati-yayimlandi": "Sporcu Eğitim ve Milli Takım Hazırlık Kampları Talimatı Yayımlandı",
-   "https://www.tsf.org.tr/haber/sporcularimizdan-avrupa-derecesi": "Sporcularımızdan Avrupa Derecesi",
+   "https://www.tsf.org.tr/haber/sporcularimizdan-gururlandiran-avrupa-dereceleri": "Sporcularımızdan Gururlandıran Avrupa Dereceleri!",
    "https://www.tsf.org.tr/haber/teskilat-ve-il-temsilcilikleri-kurulu-ile-kadin-ve-engelli-satranc-sorumlulari-atamalari-gerceklestirildi": "Teşkilat ve İl Temsilcilikleri Kurulu ile Kadın ve Engelli Satranç Sorumluları Atamaları Gerçekleştirildi",
    "https://www.tsf.org.tr/haberler/arsiv": "Haber arşivi",
    "https://www.tsf.org.tr/iletisim": "İletişim",
@@ -4104,8 +4104,8 @@
   }
  },
  "https://www.tsf.org.tr/tum-il-haberleri": {
-  "etag": "\"10z9cp3usng8yf0\"",
-  "hash": "bbb60ef80aa95586b1303fc53acbbf6be676f50cf4947037ccbddbffde5923c9",
+  "etag": "\"1263mx94p878ydw\"",
+  "hash": "017fe8ab71ac70292408c3cf0a72ff3dd8d492af792b7c41b93a83dde8aa706a",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4122,7 +4122,7 @@
    "1142 haber",
    "Haber",
    "13 Kasım 2026",
-   "Sporcularımızdan Avrupa Derecesi",
+   "Sporcularımızdan Gururlandıran Avrupa Dereceleri!",
    "Haberi oku",
    "Haber",
    "12 Kasım 2026",
@@ -4185,7 +4185,7 @@
    "https://www.tsf.org.tr/haber/2026-tuerkiye-goerme-engelliler-satranc-sampiyonasi-sona-erdi": "2026 Türkiye Görme Engelliler Satranç Şampiyonası sona erdi",
    "https://www.tsf.org.tr/haber/cumhuriyetimizin-kurucusu-gazi-mustafa-kemal-atatuerk-ue-aramizdan-ayrilisinin-88-yilinda-saygi-ve-oezlemle-aniyoruz": "Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz",
    "https://www.tsf.org.tr/haber/sporcu-egitim-ve-milli-takim-hazirlik-kamplari-talimati-yayimlandi": "Sporcu Eğitim ve Milli Takım Hazırlık Kampları Talimatı Yayımlandı",
-   "https://www.tsf.org.tr/haber/sporcularimizdan-avrupa-derecesi": "Sporcularımızdan Avrupa Derecesi",
+   "https://www.tsf.org.tr/haber/sporcularimizdan-gururlandiran-avrupa-dereceleri": "Sporcularımızdan Gururlandıran Avrupa Dereceleri!",
    "https://www.tsf.org.tr/haber/teskilat-ve-il-temsilcilikleri-kurulu-ile-kadin-ve-engelli-satranc-sorumlulari-atamalari-gerceklestirildi": "Teşkilat ve İl Temsilcilikleri Kurulu ile Kadın ve Engelli Satranç Sorumluları Atamaları Gerçekleştirildi",
    "https://www.tsf.org.tr/haberler/arsiv": "Haber arşivi",
    "https://www.tsf.org.tr/iletisim": "İletişim",
