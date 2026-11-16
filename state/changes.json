@@ -1,34 +1,6 @@
 [
  {
   "ai": null,
-  "hot": [],
-  "new_links": [
-   [
-    "https://www.tsf.org.tr/haber/article-6",
-    "Dijital Sporcu Lisansı Çıkarma Kılavuzu"
-   ]
-  ],
-  "page": "Güncel Haberler",
-  "snippet": "➖ 1130 haber\n➕ 1131 haber\n➕ Haber\n➕ 4 Kasım 2026\n➕ Dijital Sporcu Lisansı Çıkarma Kılavuzu\n➕ Haberi oku\n➖ Haber\n➖ 29 Ekim 2026\n➖ 1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu\n➖ Haberi oku",
-  "time": "2026-11-04T08:30:36+00:00",
-  "url": "https://www.tsf.org.tr/guncel-haberler"
- },
- {
-  "ai": null,
-  "hot": [],
-  "new_links": [
-   [
-    "https://www.tsf.org.tr/haber/article-6",
-    "Dijital Sporcu Lisansı Çıkarma Kılavuzu"
-   ]
-  ],
-  "page": "Tüm İl Haberleri",
-  "snippet": "➖ 1130 haber\n➕ 1131 haber\n➕ Haber\n➕ 4 Kasım 2026\n➕ Dijital Sporcu Lisansı Çıkarma Kılavuzu\n➕ Haberi oku\n➖ Haber\n➖ 29 Ekim 2026\n➖ 1. Kademe Yardımcı Antrenör Uygulama Eğitimi Kursu\n➖ Haberi oku",
-  "time": "2026-11-04T08:30:36+00:00",
-  "url": "https://www.tsf.org.tr/tum-il-haberleri"
- },
- {
-  "ai": null,
   "hot": [
    "kayıt"
   ],
@@ -1240,5 +1212,33 @@
   "snippet": "➖ Ana SayfaOrganizasyon Arşivi2025 - 2026 Türkiye Kupası\n➖ Organizasyon Arşivi\n➖ 2025 - 2026 Türkiye Kupası\n➖ Türkiye Kupası arşivine dön\n➖ ORGANİZASYON KAYDI\n➖ 2025 - 2026 Türkiye Kupası\n➖ BaşlangıçBelirtilmemiş\n➖ BitişBelirtilmemiş\n➖ YerKaynak kayıtta belirtilmemiş\n➖ Organizasyon Bilgileri\n➖ 2025 - 2026 Türkiye Kupası, federasyonun organizasyon arşivinde yer almaktadır.\n➖ Bu sayfada federasyon takvimindeki arşiv bilgileri yer alır. İlgili kategoriye dönerek diğer sezonları inceleyebilirsiniz.\n➖ Organizasyon arşivi\n➖ Türkiye Kupası\n➖ Diğer sezonlarYönergeler ve belgeler\n➕ Organizasyon kaydı bulunamadı\n➕ Organizasyonlara dön",
   "time": "2026-11-16T12:08:04+00:00",
   "url": "https://www.tsf.org.tr/turnuva-arsivi/arsiv-f2b638588ff3"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [
+   [
+    "https://www.tsf.org.tr/etkinlik/1087",
+    "25ARA2026 Dünya Hızlı Yıldırım Satranç Şampiyonası25–31 Aralık 2026·İstanbul"
+   ]
+  ],
+  "page": "Etkinlik Takvimi",
+  "snippet": "➖ 2026 Dünya Hızlı ve Yıldırım Satranç Şampiyonası\n➕ 2026 Dünya Hızlı Yıldırım Satranç Şampiyonası",
+  "time": "2026-11-16T12:09:53+00:00",
+  "url": "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [
+   [
+    "https://www.tsf.org.tr/etkinlik/1087",
+    "25ARA2026 Dünya Hızlı Yıldırım Satranç Şampiyonası25–31 Aralık 2026·İstanbul"
+   ]
+  ],
+  "page": "Takvim",
+  "snippet": "➖ 2026 Dünya Hızlı ve Yıldırım Satranç Şampiyonası\n➕ 2026 Dünya Hızlı Yıldırım Satranç Şampiyonası",
+  "time": "2026-11-16T12:09:53+00:00",
+  "url": "https://www.tsf.org.tr/takvim"
  }
 ]
