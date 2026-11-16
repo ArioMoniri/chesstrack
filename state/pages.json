@@ -1756,7 +1756,7 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi": {
-  "etag": "\"5jzdz5d5fu1bkw\"",
+  "etag": "\"14jy6lmjei41bjb\"",
   "hash": "48dbfe72c4af28a212e94276dc2da42f152bdd27a550719af3e6238578a0c81a",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -3147,8 +3147,8 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kupasi": {
-  "etag": "\"lvwzju8hjpoi3\"",
-  "hash": "fdd23b9f9f3ebc071119cda0b6db8f7983f73e86745636088f0e4d1997177701",
+  "etag": "\"jk82ji7wygnxc\"",
+  "hash": "e71b6a6fd0cc632fb96ba7299ad45fb0dced87e26784931b250c1f40eac9d8bc",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -3162,7 +3162,7 @@
    "Turnuvalar ve Ligler",
    "Türkiye Kupası",
    "Tüm organizasyonlar",
-   "Tüm yıllar202420232022202020192018201720162015201412 organizasyon",
+   "Tüm yıllar202420232022202020192018201720162015201411 organizasyon",
    "2024SEZON",
    "2023 - 2024 Türkiye Kupası",
    "29 Temmuz 2024 – 6 Ağustos 2024DENİZLİ",
@@ -3193,9 +3193,6 @@
    "2014SEZON",
    "2013 - 2014 Türkiye Kupası",
    "31 Ocak 2014 – 8 Şubat 2014Antalya",
-   "—SEZON",
-   "2025 - 2026 Türkiye Kupası",
-   "BelirtilmemişYer belirtilmemiş",
    "—SEZON",
    "2021 Türkiye Kupası (düzenlenmedi)",
    "BelirtilmemişYer belirtilmemiş",
@@ -3235,7 +3232,6 @@
    "https://www.tsf.org.tr/turnuva-arsivi/806": "2023SEZON2022 - 2023 Türkiye Kupası23 Temmuz 2023 – 31 Temmuz 2023Denizli",
    "https://www.tsf.org.tr/turnuva-arsivi/913": "2024SEZON2023 - 2024 Türkiye Kupası29 Temmuz 2024 – 6 Ağustos 2024DENİZLİ",
    "https://www.tsf.org.tr/turnuva-arsivi/arsiv-805a7d34929d": "—SEZON2021 Türkiye Kupası (düzenlenmedi)BelirtilmemişYer belirtilmemiş",
-   "https://www.tsf.org.tr/turnuva-arsivi/arsiv-f2b638588ff3": "—SEZON2025 - 2026 Türkiye KupasıBelirtilmemişYer belirtilmemiş",
    "https://www.tsf.org.tr/turnuvalar": "Turnuvalar ve Ligler"
   }
  },
@@ -3973,7 +3969,7 @@
   }
  },
  "https://www.tsf.org.tr/takvim": {
-  "etag": "\"5jzdz5d5fu1bkw\"",
+  "etag": "\"14jy6lmjei41bjb\"",
   "hash": "48dbfe72c4af28a212e94276dc2da42f152bdd27a550719af3e6238578a0c81a",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -4516,8 +4512,8 @@
   }
  },
  "https://www.tsf.org.tr/turnuva-arsivi/arsiv-f2b638588ff3": {
-  "etag": "\"e7ms8iul75k7n\"",
-  "hash": "a005f779870973df885b6bb03267a3c725b601b74b86b67a5f17dd9acb666f4d",
+  "etag": "\"s1zc22aarwfdb\"",
+  "hash": "5bd7760ce969abf20c7432bc8a25f9c01050640c8ad7818ca462eb7da4c10c42",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4527,21 +4523,8 @@
    "Eğitim ve Satranç",
    "Kaynaklar",
    "Online İşlemler",
-   "Ana SayfaOrganizasyon Arşivi2025 - 2026 Türkiye Kupası",
-   "Organizasyon Arşivi",
-   "2025 - 2026 Türkiye Kupası",
-   "Türkiye Kupası arşivine dön",
-   "ORGANİZASYON KAYDI",
-   "2025 - 2026 Türkiye Kupası",
-   "BaşlangıçBelirtilmemiş",
-   "BitişBelirtilmemiş",
-   "YerKaynak kayıtta belirtilmemiş",
-   "Organizasyon Bilgileri",
-   "2025 - 2026 Türkiye Kupası, federasyonun organizasyon arşivinde yer almaktadır.",
-   "Bu sayfada federasyon takvimindeki arşiv bilgileri yer alır. İlgili kategoriye dönerek diğer sezonları inceleyebilirsiniz.",
-   "Organizasyon arşivi",
-   "Türkiye Kupası",
-   "Diğer sezonlarYönergeler ve belgeler",
+   "Organizasyon kaydı bulunamadı",
+   "Organizasyonlara dön",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "Mürsel Uluç Mahallesi, 931. Cadde No:14",
    "Çankaya / Ankara",
@@ -4555,7 +4538,7 @@
   ],
   "links": {
    "https://www.tsf.org.tr/": "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
-   "https://www.tsf.org.tr/belgeler": "Yönergeler ve belgeler",
+   "https://www.tsf.org.tr/belgeler": "Belge Merkezi",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
    "https://www.tsf.org.tr/federasyon": "Hakkımızda",
    "https://www.tsf.org.tr/federasyon/kisisel-verilerin-korunmasi-kanunu": "Kişisel Verilerin Korunması",
@@ -4563,11 +4546,11 @@
    "https://www.tsf.org.tr/federasyon/yonetim-kurulu": "Yönetim Kurulu",
    "https://www.tsf.org.tr/iletisim": "İletişim",
    "https://www.tsf.org.tr/kaynaklar/dopingle-mucadele/anti-doping": "Dopingle Mücadele",
-   "https://www.tsf.org.tr/kaynaklar/sampiyonalar/turkiye-kupasi": "Organizasyon Arşivi",
    "https://www.tsf.org.tr/online-islemler": "Online İşlemler",
    "https://www.tsf.org.tr/sss": "Sıkça Sorulan Sorular",
    "https://www.tsf.org.tr/takvim": "Etkinlik Takvimi",
-   "https://www.tsf.org.tr/temsilcilikler": "İl Temsilcilikleri"
+   "https://www.tsf.org.tr/temsilcilikler": "İl Temsilcilikleri",
+   "https://www.tsf.org.tr/turnuvalar": "Organizasyonlara dön"
   }
  },
  "https://www.tsf.org.tr/turnuvalar": {
