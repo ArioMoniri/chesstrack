@@ -1,51 +1,6 @@
 [
  {
   "ai": null,
-  "hot": [
-   "kayıt"
-  ],
-  "new_links": [],
-  "page": "Haber Arşivi",
-  "snippet": "➖ 2026781 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026782 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
-  "time": "2026-11-05T06:28:04+00:00",
-  "url": "https://www.tsf.org.tr/haberler/arsiv"
- },
- {
-  "ai": null,
-  "hot": [
-   "kayıt"
-  ],
-  "new_links": [],
-  "page": "Haber Arşivi",
-  "snippet": "➖ 2026782 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026783 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
-  "time": "2026-11-05T06:29:55+00:00",
-  "url": "https://www.tsf.org.tr/haberler/arsiv"
- },
- {
-  "ai": null,
-  "hot": [],
-  "new_links": [
-   [
-    "https://www.tsf.org.tr/haber/2026-avrupa-yas-gruplari-satranc-sampiyonasi-basliyor",
-    "Haberi oku"
-   ]
-  ],
-  "page": "Ana Sayfa",
-  "snippet": "➖ 2. Kademe Temel Antrenör Uygulama Eğitimi Kursu\n➕ 2026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor\n➖ 52. Kademe Temel Antrenör Uygulama Eğitimi Kursu\n➕ 52026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor",
-  "time": "2026-11-05T08:58:00+00:00",
-  "url": "https://www.tsf.org.tr/"
- },
- {
-  "ai": null,
-  "hot": [],
-  "new_links": [],
-  "page": "Güncel Haberler",
-  "snippet": "➖ 2. Kademe Temel Antrenör Uygulama Eğitimi Kursu\n➕ 2026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor\n➖ 2026 Avrupa Yaş Grupları Satranç Şampiyonası başlıyor\n➕ 2. Kademe Temel Antrenör Uygulama Eğitimi Kursu",
-  "time": "2026-11-05T08:58:01+00:00",
-  "url": "https://www.tsf.org.tr/guncel-haberler"
- },
- {
-  "ai": null,
   "hot": [],
   "new_links": [],
   "page": "Tüm İl Haberleri",
@@ -1243,6 +1198,61 @@
   "page": "Haber Arşivi",
   "snippet": "➖ 2026801 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026802 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
   "time": "2026-11-18T17:45:32+00:00",
+  "url": "https://www.tsf.org.tr/haberler/arsiv"
+ },
+ {
+  "ai": null,
+  "hot": [
+   "tarih"
+  ],
+  "new_links": [
+   [
+    "https://www.tsf.org.tr/haber/duenya-yas-gruplari-satranc-sampiyonasi-basliyor",
+    "Haberi oku"
+   ]
+  ],
+  "page": "Ana Sayfa",
+  "snippet": "➕ GÜNCEL HABER\n➕ Dünya Yaş Grupları Satranç Şampiyonası başlıyor!\n➕ 19 Kasım 2026\n➕ Haberi oku\n➖ GÜNCEL HABER\n➖ Sporcularımızdan Gururlandıran Avrupa Dereceleri!\n➖ 13 Kasım 2026\n➖ Haberi oku\n➖ 1Tuana Abak WFM Oldu!\n➖ 22026 Dünya Emektarlar Satranç Şampiyonası sona erdi\n➖ 32025-2026 Türkiye Kupası Kayseri'de Başladı\n➖ 4Türkiye Satranç Şampiyonası 3-14 Aralık 2026 tarihleri arasında Gaziantep'te Yapılacak\n➖ 5Sporcularımızdan Gururlandıran Avrupa Dereceleri!\n➕ 1Dünya Yaş Grupları Satranç Şampiyonası başlıyor!\n➕ 2Tuana Abak WFM Oldu!\n➕ 32026 Dünya Emektarlar Satranç Şampiyonası sona erdi\n➕ 42025-2026 Türkiye Kupası Kayseri'de Başladı\n➕ 5Türkiye Satranç Şampiyonası 3-14 Aralık 2026 tarihleri arasında Gaziantep'te Yapılacak\n➕ 19 Kasım 2026\n➕ Dünya Yaş Grupları Satranç Şampiyonası başlıyor!\n➕ Haberi oku\n➕ Haber\n➖ Haberi oku\n➖ Haber\n➖ 14 Kasım 2026\n➖ 2025-2026 Türkiye Kupası Kayseri'de Başladı",
+  "time": "2026-11-19T14:46:56+00:00",
+  "url": "https://www.tsf.org.tr/"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [
+   [
+    "https://www.tsf.org.tr/haber/duenya-yas-gruplari-satranc-sampiyonasi-basliyor",
+    "Dünya Yaş Grupları Satranç Şampiyonası başlıyor!"
+   ]
+  ],
+  "page": "Güncel Haberler",
+  "snippet": "➖ 1146 haber\n➕ 1147 haber\n➕ Haber\n➕ 19 Kasım 2026\n➕ Dünya Yaş Grupları Satranç Şampiyonası başlıyor!\n➕ Haberi oku\n➖ Haber\n➖ 10 Kasım 2026\n➖ Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz\n➖ Haberi oku",
+  "time": "2026-11-19T14:46:58+00:00",
+  "url": "https://www.tsf.org.tr/guncel-haberler"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [
+   [
+    "https://www.tsf.org.tr/haber/duenya-yas-gruplari-satranc-sampiyonasi-basliyor",
+    "Dünya Yaş Grupları Satranç Şampiyonası başlıyor!"
+   ]
+  ],
+  "page": "Tüm İl Haberleri",
+  "snippet": "➖ 1146 haber\n➕ 1147 haber\n➕ Haber\n➕ 19 Kasım 2026\n➕ Dünya Yaş Grupları Satranç Şampiyonası başlıyor!\n➕ Haberi oku\n➖ Haber\n➖ 10 Kasım 2026\n➖ Gazi Mustafa Kemal Atatürk’ü saygı ve özlemle anıyoruz\n➖ Haberi oku",
+  "time": "2026-11-19T14:46:58+00:00",
+  "url": "https://www.tsf.org.tr/tum-il-haberleri"
+ },
+ {
+  "ai": null,
+  "hot": [
+   "kayıt"
+  ],
+  "new_links": [],
+  "page": "Haber Arşivi",
+  "snippet": "➖ 2026802 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026803 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
+  "time": "2026-11-19T14:46:59+00:00",
   "url": "https://www.tsf.org.tr/haberler/arsiv"
  }
 ]
