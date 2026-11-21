@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"obbdm944c71ot3\"",
-  "hash": "c572a9818545e3ff44853aa7562614eeac39f496c4ddc373c2ab5e061951c4bd",
+  "etag": "\"zz32j9p2r21ov5\"",
+  "hash": "da7d1e50d3862d2032a7fbb2c0d0f338dcf60c9b78382b689424b552d2d39c91",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -43,9 +43,9 @@
    "16EYL",
    "2026 - 2027 TSF Sezon Başlangıç",
    "16 Eylül 2026 – 15 Eylül 2027",
-   "14KAS",
-   "2025 - 2026 Türkiye Kupası",
-   "14–21 Kasım 2026·Kayseri - Talas",
+   "21KAS",
+   "2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)",
+   "21–29 Kasım 2026·Gürcistan - Batum",
    "SATRANÇ DÜNYASINDAN",
    "Güncel Haberler",
    "Tüm haberler",
@@ -130,7 +130,7 @@
    "https://www.tsf.org.tr/duyurular?kurul=egitim-kurulu": "Antrenörlük",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
    "https://www.tsf.org.tr/egitim/okulda-satranc": "SATRANÇ EĞİTİMİOkulda SatrançSatrançla tanış, yeni beceriler kazan. İlk hamleni birlikte atalım.Keşfetmeye başla",
-   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Kayseri - Talas",
+   "https://www.tsf.org.tr/etkinlik/1066": "21KAS2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)21–29 Kasım 2026·Gürcistan - Batum",
    "https://www.tsf.org.tr/etkinlik/1117": "16EYL2026 - 2027 TSF Sezon Başlangıç16 Eylül 2026 – 15 Eylül 2027",
    "https://www.tsf.org.tr/federasyon": "Hakkımızda",
    "https://www.tsf.org.tr/federasyon/il-temsilcilikleri/106-istanbul-il-ve-ilce-temsilcileri": "İl sayfası",
@@ -1651,7 +1651,7 @@
   }
  },
  "https://www.tsf.org.tr/guncel-haberler": {
-  "etag": "\"vi4zmyy57790d3\"",
+  "etag": "\"17bt5axoptr90bm\"",
   "hash": "cc89bb7109c08e0c75d0ced50ee71246d5c562ba5afce90ca96221529d35ce16",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1814,8 +1814,8 @@
   }
  },
  "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi": {
-  "etag": "\"sj8atfsv6q1bau\"",
-  "hash": "fa31eafce3450e9e037cac3892168b4134aa627966d6bd4a6dd59c156e610140",
+  "etag": "\"13dqv0yzwwh1b2t\"",
+  "hash": "2c7e32fd485ca18cbf8c02313e2829ac3fecb5dbecc8d7673adfe7b44bfd7dfb",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1830,13 +1830,10 @@
    "Ulusal ve uluslararası turnuvalar, şampiyonalar ve ligler.",
    "YaklaşanTümüTamamlananTarihi açıklanacak",
    "Tüm aylarOcakŞubatMartNisanMayısHaziranTemmuzAğustosEylülEkimKasımAralıkTümüUlusalUluslararası",
-   "32 etkinlik2026 Etkinlik Takvimi",
+   "31 etkinlik2026 Etkinlik Takvimi",
    "16EYL",
    "2026 - 2027 TSF Sezon Başlangıç",
    "16 Eylül 2026 – 15 Eylül 2027",
-   "14KAS",
-   "2025 - 2026 Türkiye Kupası",
-   "14–21 Kasım 2026·Kayseri - Talas",
    "21KAS",
    "2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)",
    "21–29 Kasım 2026·Gürcistan - Batum",
@@ -1943,7 +1940,6 @@
    "https://www.tsf.org.tr/": "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "https://www.tsf.org.tr/belgeler": "Belge Merkezi",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
-   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Kayseri - Talas",
    "https://www.tsf.org.tr/etkinlik/1066": "21KAS2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)21–29 Kasım 2026·Gürcistan - Batum",
    "https://www.tsf.org.tr/etkinlik/1067": "3ARA2026 Türkiye Şampiyonası3–14 Aralık 2026·Gaziantep",
    "https://www.tsf.org.tr/etkinlik/1087": "25ARA2026 Dünya Hızlı Yıldırım Satranç Şampiyonası25–31 Aralık 2026·İstanbul",
@@ -4027,8 +4023,8 @@
   }
  },
  "https://www.tsf.org.tr/takvim": {
-  "etag": "\"sj8atfsv6q1bau\"",
-  "hash": "fa31eafce3450e9e037cac3892168b4134aa627966d6bd4a6dd59c156e610140",
+  "etag": "\"13dqv0yzwwh1b2t\"",
+  "hash": "2c7e32fd485ca18cbf8c02313e2829ac3fecb5dbecc8d7673adfe7b44bfd7dfb",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -4043,13 +4039,10 @@
    "Ulusal ve uluslararası turnuvalar, şampiyonalar ve ligler.",
    "YaklaşanTümüTamamlananTarihi açıklanacak",
    "Tüm aylarOcakŞubatMartNisanMayısHaziranTemmuzAğustosEylülEkimKasımAralıkTümüUlusalUluslararası",
-   "32 etkinlik2026 Etkinlik Takvimi",
+   "31 etkinlik2026 Etkinlik Takvimi",
    "16EYL",
    "2026 - 2027 TSF Sezon Başlangıç",
    "16 Eylül 2026 – 15 Eylül 2027",
-   "14KAS",
-   "2025 - 2026 Türkiye Kupası",
-   "14–21 Kasım 2026·Kayseri - Talas",
    "21KAS",
    "2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)",
    "21–29 Kasım 2026·Gürcistan - Batum",
@@ -4156,7 +4149,6 @@
    "https://www.tsf.org.tr/": "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "https://www.tsf.org.tr/belgeler": "Belge Merkezi",
    "https://www.tsf.org.tr/egitim": "Eğitim ve Yayınlar",
-   "https://www.tsf.org.tr/etkinlik/1052": "14KAS2025 - 2026 Türkiye Kupası14–21 Kasım 2026·Kayseri - Talas",
    "https://www.tsf.org.tr/etkinlik/1066": "21KAS2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)21–29 Kasım 2026·Gürcistan - Batum",
    "https://www.tsf.org.tr/etkinlik/1067": "3ARA2026 Türkiye Şampiyonası3–14 Aralık 2026·Gaziantep",
    "https://www.tsf.org.tr/etkinlik/1087": "25ARA2026 Dünya Hızlı Yıldırım Satranç Şampiyonası25–31 Aralık 2026·İstanbul",
@@ -4202,7 +4194,7 @@
   }
  },
  "https://www.tsf.org.tr/tum-il-haberleri": {
-  "etag": "\"vi4zmyy57790d3\"",
+  "etag": "\"17bt5axoptr90bm\"",
   "hash": "cc89bb7109c08e0c75d0ced50ee71246d5c562ba5afce90ca96221529d35ce16",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
