@@ -1,35 +1,6 @@
 [
  {
   "ai": null,
-  "hot": [
-   "kayıt"
-  ],
-  "new_links": [],
-  "page": "Haber Arşivi",
-  "snippet": "➖ 2026793 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026794 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
-  "time": "2026-11-13T12:23:53+00:00",
-  "url": "https://www.tsf.org.tr/haberler/arsiv"
- },
- {
-  "ai": null,
-  "hot": [],
-  "new_links": [],
-  "page": "Etkinlik Takvimi",
-  "snippet": "➖ 33 etkinlik2026 Etkinlik Takvimi\n➕ 32 etkinlik2026 Etkinlik Takvimi\n➖ 2KAS\n➖ 2026 Avrupa Yaş Grupları Satranç Şampiyonası\n➖ 2–13 Kasım 2026·Yunanistan - Girit",
-  "time": "2026-11-13T21:12:40+00:00",
-  "url": "https://www.tsf.org.tr/kaynaklar/etkinlik-takvimi"
- },
- {
-  "ai": null,
-  "hot": [],
-  "new_links": [],
-  "page": "Takvim",
-  "snippet": "➖ 33 etkinlik2026 Etkinlik Takvimi\n➕ 32 etkinlik2026 Etkinlik Takvimi\n➖ 2KAS\n➖ 2026 Avrupa Yaş Grupları Satranç Şampiyonası\n➖ 2–13 Kasım 2026·Yunanistan - Girit",
-  "time": "2026-11-13T21:13:36+00:00",
-  "url": "https://www.tsf.org.tr/takvim"
- },
- {
-  "ai": null,
   "hot": [],
   "new_links": [
    [
@@ -1226,6 +1197,45 @@
   "page": "Haber Arşivi",
   "snippet": "➖ 2026820 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026821 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
   "time": "2026-11-25T06:53:38+00:00",
+  "url": "https://www.tsf.org.tr/haberler/arsiv"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [
+   [
+    "https://www.tsf.org.tr/haber/17892",
+    "Lisans İşlemleriSporcu Lisans Tescil İşlemleri Hakkında"
+   ]
+  ],
+  "page": "Ana Sayfa",
+  "snippet": "➖ Güncelleme - Sporcu Lisans Tescil ve Vize İşlemleri Hakkında\n➕ Sporcu Lisans Tescil İşlemleri Hakkında",
+  "time": "2026-11-26T13:38:40+00:00",
+  "url": "https://www.tsf.org.tr/"
+ },
+ {
+  "ai": null,
+  "hot": [],
+  "new_links": [
+   [
+    "https://www.tsf.org.tr/haber/12472",
+    "Milli Takımlar · 30 Ocak 20182018 Milli Takım Havuzu Ulusal Kamplarına Doğrudan Katılım Hakkı Kazanan Sporcu Listesi"
+   ]
+  ],
+  "page": "Duyurular",
+  "snippet": "➖ TümüLisans İşlemleriSporcularMilli TakımlarKulüplerDopingle MücadeleHakemlikFederasyonAntrenörlük29 duyuru\n➕ TümüLisans İşlemleriSporcularMilli TakımlarKulüplerDopingle MücadeleHakemlikFederasyonAntrenörlük28 duyuru\n➖ Lisans İşlemleri · 25 Şubat 2025\n➖ Güncelleme - Sporcu Lisans Tescil ve Vize İşlemleri Hakkında\n➕ Milli Takımlar · 30 Ocak 2018\n➕ 2018 Milli Takım Havuzu Ulusal Kamplarına Doğrudan Katılım Hakkı Kazanan Sporcu Listesi",
+  "time": "2026-11-26T13:38:40+00:00",
+  "url": "https://www.tsf.org.tr/duyurular"
+ },
+ {
+  "ai": null,
+  "hot": [
+   "kayıt"
+  ],
+  "new_links": [],
+  "page": "Haber Arşivi",
+  "snippet": "➖ 2026821 kayıt2025790 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt\n➕ 2026821 kayıt2025789 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
+  "time": "2026-11-26T13:38:42+00:00",
   "url": "https://www.tsf.org.tr/haberler/arsiv"
  }
 ]
