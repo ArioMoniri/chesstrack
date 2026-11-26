@@ -1,7 +1,7 @@
 {
  "https://www.tsf.org.tr/": {
-  "etag": "\"897azbjs7q1phh\"",
-  "hash": "ebaf9cc98808857bba0a619d2aba9871c1da71c464ba9b68120aa24735627867",
+  "etag": "\"wty8lei4s11pj3\"",
+  "hash": "6d625c663d5848406865ab823e9d1f7e1c2d48db5daffff09e5545b4a71627f8",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -69,8 +69,8 @@
    "SPORCU LİSANS VE VİZE İŞLEMLERİNE İLİŞKİN DEĞİŞİKLİKLER İLE HAKEM, ANTRENÖR VE KULÜP VİZE ÜCRETLERİNE İLİŞKİN BİLGİLENDİRME",
    "Sporcular",
    "Uluslararası Turnuvalara Katılım Kriterleri Hakkında Duyuru",
-   "Lisans İşlemleri",
-   "Sporcu Lisans Tescil İşlemleri Hakkında",
+   "Milli Takımlar",
+   "Türkiye Satranç Federasyonu Milli Takımlar Seçme Kriterleri",
    "HAMLE HAMLE SATRANÇ",
    "Canlı İzleme",
    "Lichess’te aç",
@@ -138,7 +138,7 @@
    "https://www.tsf.org.tr/federasyon/tarihce": "GEÇMİŞTEN BUGÜNESatranç TarihiSatrancın geçmişine bir yolculuk. Oyunu ve ustalarını tanı.Hikâyeyi keşfet",
    "https://www.tsf.org.tr/federasyon/tsf-hesap-numaralari": "Hesap Numaraları",
    "https://www.tsf.org.tr/federasyon/yonetim-kurulu": "Yönetim Kurulu",
-   "https://www.tsf.org.tr/haber/17892": "Lisans İşlemleriSporcu Lisans Tescil İşlemleri Hakkında",
+   "https://www.tsf.org.tr/haber/17856": "Milli TakımlarTürkiye Satranç Federasyonu Milli Takımlar Seçme Kriterleri",
    "https://www.tsf.org.tr/haber/18761": "SporcularUluslararası Turnuvalara Katılım Kriterleri Hakkında Duyuru",
    "https://www.tsf.org.tr/haber/19359": "Lisans İşlemleriSPORCU LİSANS VE VİZE İŞLEMLERİNE İLİŞKİN DEĞİŞİKLİKLER İLE HAKEM, ANTRENÖR VE KULÜP VİZE ÜCRETLERİNE İLİŞKİN BİLGİLENDİRME",
    "https://www.tsf.org.tr/haber/2-kademe-temel-antrenoerluek-kurslarimiz-tamamlandi": "Haberi oku",
@@ -263,8 +263,8 @@
   }
  },
  "https://www.tsf.org.tr/duyurular": {
-  "etag": "\"8t7bx988n534gu\"",
-  "hash": "30f4de7930ca2ceb9d3d138ceb21464c08b161f36f93ce9b70972fd66d3bde76",
+  "etag": "\"51v81lacct34be\"",
+  "hash": "b24dd7d76fb19a92cc69cd13bb30337db8ef1806cfcfbe830dc1a3527b4b5153",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -278,13 +278,11 @@
    "Duyurular",
    "Federasyondan ve kurullardan güncel bilgilendirmeler ve resmi duyurular.",
    "FederasyonEğitim KuruluMerkez Hakem KuruluTeşkilat ve İl Temsilcilikleri",
-   "TümüLisans İşlemleriSporcularMilli TakımlarKulüplerDopingle MücadeleHakemlikFederasyonAntrenörlük28 duyuru",
+   "TümüLisans İşlemleriSporcularMilli TakımlarKulüplerDopingle MücadeleHakemlikFederasyonAntrenörlük27 duyuru",
    "Lisans İşlemleri · 15 Eylül 2026",
    "SPORCU LİSANS VE VİZE İŞLEMLERİNE İLİŞKİN DEĞİŞİKLİKLER İLE HAKEM, ANTRENÖR VE KULÜP VİZE ÜCRETLERİNE İLİŞKİN BİLGİLENDİRME",
    "Sporcular · 4 Mart 2026",
    "Uluslararası Turnuvalara Katılım Kriterleri Hakkında Duyuru",
-   "Lisans İşlemleri · 10 Şubat 2025",
-   "Sporcu Lisans Tescil İşlemleri Hakkında",
    "Milli Takımlar · 14 Ocak 2025",
    "Türkiye Satranç Federasyonu Milli Takımlar Seçme Kriterleri",
    "Kulüpler · 27 Aralık 2024",
@@ -319,6 +317,8 @@
    "WADA 2019 Yılı Yasaklılar Listesi",
    "Milli Takımlar · 30 Ocak 2018",
    "2018 Milli Takım Havuzu Ulusal Kamplarına Doğrudan Katılım Hakkı Kazanan Sporcu Listesi",
+   "Sporcular · 30 Ocak 2018",
+   "2018 Özel Grup Seçme Kriterleri ve Hak Kazanan Sporcu Listesi",
    "Daha fazla duyuru göster",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "Mürsel Uluç Mahallesi, 931. Cadde No:14",
@@ -339,6 +339,7 @@
    "https://www.tsf.org.tr/federasyon/kisisel-verilerin-korunmasi-kanunu": "Kişisel Verilerin Korunması",
    "https://www.tsf.org.tr/federasyon/tsf-hesap-numaralari": "Hesap Numaraları",
    "https://www.tsf.org.tr/federasyon/yonetim-kurulu": "Yönetim Kurulu",
+   "https://www.tsf.org.tr/haber/12471": "Sporcular · 30 Ocak 20182018 Özel Grup Seçme Kriterleri ve Hak Kazanan Sporcu Listesi",
    "https://www.tsf.org.tr/haber/12472": "Milli Takımlar · 30 Ocak 20182018 Milli Takım Havuzu Ulusal Kamplarına Doğrudan Katılım Hakkı Kazanan Sporcu Listesi",
    "https://www.tsf.org.tr/haber/13463": "Dopingle Mücadele · 31 Aralık 2018WADA 2019 Yılı Yasaklılar Listesi",
    "https://www.tsf.org.tr/haber/14211": "Kulüpler · 14 Ekim 20192018-2019 sezonu Türkiye Kulüpler Satranç Şampiyonası ile ilgili duyuru",
@@ -355,7 +356,6 @@
    "https://www.tsf.org.tr/haber/17838": "Lisans İşlemleri · 27 Aralık 2024Spor Dalı Tescil İşlemleri Hakkında Duyuru",
    "https://www.tsf.org.tr/haber/17839": "Kulüpler · 27 Aralık 2024Spor Kulüplerinin Genel Kurulları İle İlgili Önemli Duyuru",
    "https://www.tsf.org.tr/haber/17856": "Milli Takımlar · 14 Ocak 2025Türkiye Satranç Federasyonu Milli Takımlar Seçme Kriterleri",
-   "https://www.tsf.org.tr/haber/17892": "Lisans İşlemleri · 10 Şubat 2025Sporcu Lisans Tescil İşlemleri Hakkında",
    "https://www.tsf.org.tr/haber/18639": "Dopingle Mücadele · 25 Ekim 2023WADA 2026 Yılı Yasaklılar Listesi",
    "https://www.tsf.org.tr/haber/18761": "Sporcular · 4 Mart 2026Uluslararası Turnuvalara Katılım Kriterleri Hakkında Duyuru",
    "https://www.tsf.org.tr/haber/19359": "Lisans İşlemleri · 15 Eylül 2026SPORCU LİSANS VE VİZE İŞLEMLERİNE İLİŞKİN DEĞİŞİKLİKLER İLE HAKEM, ANTRENÖR VE KULÜP VİZE ÜCRETLERİNE İLİŞKİN BİLGİLENDİRME",
@@ -1599,7 +1599,7 @@
   }
  },
  "https://www.tsf.org.tr/guncel-haberler": {
-  "etag": "\"9qmxl3e4je93jq\"",
+  "etag": "\"9tnwx8b4f493kc\"",
   "hash": "fb4a77c654c3bba387fc264dce26838c246cc3004b5081eb4ebbb7abfa108207",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
@@ -1692,8 +1692,8 @@
   }
  },
  "https://www.tsf.org.tr/haberler/arsiv": {
-  "etag": "\"islx7ct8fkqoj\"",
-  "hash": "4c04d3e95d70d11023122a04ced3b194ebbae4784d6d45835a500274b0319162",
+  "etag": "\"341nr918vgqoj\"",
+  "hash": "4c324f6cc405c75a4aed305bbb2a1ee43fca31e3e349df5c7fadc7e8fc3a080b",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
@@ -1707,7 +1707,7 @@
    "Haber Arşivi",
    "Federasyonun yayımladığı tüm haber, il haberi ve duyurular, yıllara göre.",
    "Güncel haberlere dön",
-   "2026821 kayıt2025789 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
+   "2026821 kayıt2025788 kayıt2024546 kayıt2023610 kayıt2022713 kayıt2021745 kayıt2020748 kayıt2019960 kayıt20181030 kayıt20171759 kayıt20161599 kayıt20151038 kayıt2014656 kayıt2013853 kayıt2012785 kayıt2011651 kayıt2010529 kayıt2009438 kayıt2008543 kayıt2007525 kayıt2006507 kayıt2005276 kayıt19931 kayıt19922 kayıt19541 kayıt",
    "TÜRKİYE SATRANÇ FEDERASYONUTURKISH CHESS FEDERATION",
    "Mürsel Uluç Mahallesi, 931. Cadde No:14",
    "Çankaya / Ankara",
@@ -1751,7 +1751,7 @@
    "https://www.tsf.org.tr/haberler/arsiv/2022": "2022713 kayıt",
    "https://www.tsf.org.tr/haberler/arsiv/2023": "2023610 kayıt",
    "https://www.tsf.org.tr/haberler/arsiv/2024": "2024546 kayıt",
-   "https://www.tsf.org.tr/haberler/arsiv/2025": "2025789 kayıt",
+   "https://www.tsf.org.tr/haberler/arsiv/2025": "2025788 kayıt",
    "https://www.tsf.org.tr/haberler/arsiv/2026": "2026821 kayıt",
    "https://www.tsf.org.tr/iletisim": "İletişim",
    "https://www.tsf.org.tr/kaynaklar/dopingle-mucadele/anti-doping": "Dopingle Mücadele",
@@ -4142,7 +4142,7 @@
   }
  },
  "https://www.tsf.org.tr/tum-il-haberleri": {
-  "etag": "\"9qmxl3e4je93jq\"",
+  "etag": "\"9tnwx8b4f493kc\"",
   "hash": "fb4a77c654c3bba387fc264dce26838c246cc3004b5081eb4ebbb7abfa108207",
   "lines": [
    "İl TemsilcilikleriİletişimTSF Market",
